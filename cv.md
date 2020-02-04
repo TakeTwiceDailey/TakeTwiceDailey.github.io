@@ -3,7 +3,7 @@ layout: page
 title: Curriculum Vitae
 ---
 
-
+Download the [PDF](\CV\Curriculum_Vitae-2020-02-04.pdf).
 ___
 ## Education
 ___
