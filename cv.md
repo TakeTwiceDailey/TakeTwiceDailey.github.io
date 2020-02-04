@@ -2,11 +2,16 @@
 layout: page
 title: Curriculum Vitae
 ---
+___
 
-Download the [PDF](\CV\Curriculum_Vitae-2020-02-04.pdf).
+Download the [PDF](\CV\Curriculum_Vitae-2020-02-04.pdf).  
+
 ___
+
 ## Education
+
 ___
+
 ### Master of Science in Physics
 <p style="text-align:left;">
     University of Nevada, Reno
