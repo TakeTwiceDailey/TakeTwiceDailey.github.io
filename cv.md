@@ -4,7 +4,7 @@ title: Curriculum Vitae
 ---
 ___
 
-Download the PDF [here](\CV\Curriculum_Vitae-2020-02-04.pdf).  
+Download the full PDF [here](\CV\Curriculum_Vitae-2020-02-04.pdf).  
 
 ___
 
@@ -152,3 +152,41 @@ San Francisco, California, USA
 Session ID: S1 - 54  
 Type:  Poster Presentation  
 Title:  "Preliminary steps in detecting Dark Matter with the GPS Satellite Constellation"   
+
+____
+
+## Affiliated Collaborations
+
+____
+
+The Global Positioning System as a Dark Matter observatory (GPS.DM)
+
+The Global Network of Optical Magnetometers for Exotic physics (GNOME)
+
+
+____
+
+## Honors and Awards
+
+____
+
+<p style="text-align:left;">
+    <b>UNR College of Science Dean’s List</b>
+    <span style="float:right;">
+        2015, 2016, 2017, 2018
+    </span>
+</p>
+
+<p style="text-align:left;">
+    <b>Nevada Undergraduate Research Award</b>
+    <span style="float:right;">
+       2016
+    </span>
+</p>
+
+<p style="text-align:left;">
+    <b>2013 UNR Physics Exam Award</b>
+    <span style="float:right;">
+        2013
+    </span>
+</p>
