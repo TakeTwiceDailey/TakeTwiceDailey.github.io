@@ -3,6 +3,7 @@ layout: page
 title: Curriculum Vitae
 ---
 
+
 ___
 ## Education
 ___
