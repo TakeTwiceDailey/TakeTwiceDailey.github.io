@@ -3,6 +3,7 @@ layout: page
 title: Curriculum Vitae
 ---
 
+___
 ## Education
 ___
 ### Master of Science in Physics
@@ -46,6 +47,8 @@ ___
     </span>
 </p>
 
+___
+
 ## Publications
 
 ___
@@ -54,12 +57,15 @@ ___
 and A. Derevianko. Search for domain wall dark matter with atomic clocks on board global positioning
 system satellites.
 Nature Communications, 8, October 2017.  
+
 * B.  M.  Roberts,  G.  Blewitt,  C.  Dailey,  and  A.  Derevianko.   Search  for  transient  ultralight  dark
 matter signatures with networks of precision measurement devices using a bayesian statistics method.
 Physical Review D
 , 97:083009, April 2018.  
+
 * E.  Savalle,  B.  M.  Roberts,  F.  Frank,  P.  Pottie,  B.  T.  McAllister,  C.  Dailey,  A.  Derevianko,  and
 P.  Wolf.   Novel  approaches  to  dark-matter  detection  using  space-time  separated  clocks,  February 2019.  
+
 * S. Heck, A. Gatton, K. A. Larsen, W. Iskandar, E. G. Champenois, R. Strom, A. Landers, D. Reedy,
 C. Dailey,  et. al. Symmetry  breaking  in  the  body-fixed  electron  emission  pattern  due to electron-retroaction in the photodissociation of H+2 and D+2 close to threshold.
 Physical Review
