@@ -82,3 +82,14 @@ Research
 , 1:033140, December 2019.  [Article link](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.1.033140)
 
 ___
+
+## Professional Research Experience
+
+___
+
+<p style="text-align:left;">
+    **Graduate Research Assistant**
+    <span style="float:right;">
+        January 2018 - December 2019
+    </span>
+</p>
