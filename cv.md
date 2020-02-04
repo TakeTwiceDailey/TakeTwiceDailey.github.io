@@ -73,7 +73,7 @@ Physical Review D
 , 97:083009, April 2018. [Article link](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.97.083009)
 
 * E.  Savalle,  B.  M.  Roberts,  F.  Frank,  P.  Pottie,  B.  T.  McAllister,  C.  Dailey,  A.  Derevianko,  and
-P.  Wolf.   "Novel  approaches  to  dark-matter  detection  using  space-time  separated  clocks",  February 2019.  [Article link](https://arxiv.org/abs/1902.07192)
+P.  Wolf.   "Novel  approaches  to  dark-matter  detection  using  space-time  separated  clocks".  February 2019.  [Article link](https://arxiv.org/abs/1902.07192)
 
 * S. Heck, A. Gatton, K. A. Larsen, W. Iskandar, E. G. Champenois, R. Strom, A. Landers, D. Reedy,
 C. Dailey,  et. al. "Symmetry  breaking  in  the  body-fixed  electron  emission  pattern  due to electron-retroaction in the photodissociation of H+2 and D+2 close to threshold".
@@ -218,3 +218,15 @@ ____
         2015, 2016
     </span>
 </p>
+
+____
+
+## Skills
+
+____
+
+**Computer Languages:** Mathematica, C++, Python, R, HTML
+
+**Software Tools:** LaTeX, Bash, Adobe Lightroom, MS Office
+
+**Subject Proficiencies:** Bayesian statistics, special and general relativity,  fundamental interactions
