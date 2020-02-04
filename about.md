@@ -13,4 +13,6 @@ I am a graduate student researching physics. Some of my interests are
   * black hole and neutron star mergers
   * quantum gravity
 * Bayesian statistics
+  * statistical modeling
+  * Monte-Carlo simulations
 * machine learning
