@@ -4,7 +4,7 @@ title: Curriculum Vitae
 ---
 ___
 
-Download the [PDF](\CV\Curriculum_Vitae-2020-02-04.pdf).  
+Download the PDF [here](\CV\Curriculum_Vitae-2020-02-04.pdf).  
 
 ___
 
