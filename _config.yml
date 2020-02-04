@@ -9,7 +9,7 @@ title:               Conner Dailey
 tagline:             'Physics graduate student, hobby photographer'
 description:         'test description'
 url:                 http://lanyon.getpoole.com
-baseurl:             '/About'
+baseurl:             ''
 paginate:            5
 
 # About/contact
