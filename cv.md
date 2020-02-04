@@ -59,24 +59,24 @@ ___
 
 ___
 
-* C. Dailey. Probing exotic fields with networks of atomic clocks. Master's thesis, University of Nevada, Reno. August 2019 [Article link](http://hdl.handle.net/11714/6029)
+* C. Dailey. "Probing exotic fields with networks of atomic clocks". Master's thesis, University of Nevada, Reno. August 2019 [Article link](http://hdl.handle.net/11714/6029)
 
 
 * B. M. Roberts, G. Blewitt, C. Dailey, M. Murphy, M. Pospelov, A. Rollings, J. Sherman, W. Williams,
-and A. Derevianko. Search for domain wall dark matter with atomic clocks on board global positioning
-system satellites.
+and A. Derevianko. "Search for domain wall dark matter with atomic clocks on board global positioning
+system satellites".
 Nature Communications, 8, October 2017. [Article link](https://www.nature.com/articles/s41467-017-01440-4)
 
-* B.  M.  Roberts,  G.  Blewitt,  C.  Dailey,  and  A.  Derevianko.   Search  for  transient  ultralight  dark
-matter signatures with networks of precision measurement devices using a bayesian statistics method.
+* B.  M.  Roberts,  G.  Blewitt,  C.  Dailey,  and  A.  Derevianko.   "Search  for  transient  ultralight  dark
+matter signatures with networks of precision measurement devices using a bayesian statistics method".
 Physical Review D
 , 97:083009, April 2018. [Article link](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.97.083009)
 
 * E.  Savalle,  B.  M.  Roberts,  F.  Frank,  P.  Pottie,  B.  T.  McAllister,  C.  Dailey,  A.  Derevianko,  and
-P.  Wolf.   Novel  approaches  to  dark-matter  detection  using  space-time  separated  clocks,  February 2019.  [Article link](https://arxiv.org/abs/1902.07192)
+P.  Wolf.   "Novel  approaches  to  dark-matter  detection  using  space-time  separated  clocks",  February 2019.  [Article link](https://arxiv.org/abs/1902.07192)
 
 * S. Heck, A. Gatton, K. A. Larsen, W. Iskandar, E. G. Champenois, R. Strom, A. Landers, D. Reedy,
-C. Dailey,  et. al. Symmetry  breaking  in  the  body-fixed  electron  emission  pattern  due to electron-retroaction in the photodissociation of H+2 and D+2 close to threshold.
+C. Dailey,  et. al. "Symmetry  breaking  in  the  body-fixed  electron  emission  pattern  due to electron-retroaction in the photodissociation of H+2 and D+2 close to threshold".
 Physical Review
 Research
 , 1:033140, December 2019.  [Article link](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.1.033140)
@@ -188,5 +188,33 @@ ____
     <b>2013 UNR Physics Exam Award</b>
     <span style="float:right;">
         2013
+    </span>
+</p>
+
+
+____
+
+## Scholarships
+
+____
+
+<p style="text-align:left;">
+    <b>Governor Guinn Millennium Scholarship</b>
+    <span style="float:right;">
+        2014, 2015, 2016, 2017
+    </span>
+</p>
+
+<p style="text-align:left;">
+    <b>TMCC/UNR Thompson Scholarship</b>
+    <span style="float:right;">
+       2014, 2015
+    </span>
+</p>
+
+<p style="text-align:left;">
+    <b>ASUN Academic Scholarship</b>
+    <span style="float:right;">
+        2015, 2016
     </span>
 </p>
