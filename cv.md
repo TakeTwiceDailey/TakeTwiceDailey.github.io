@@ -93,7 +93,7 @@ ___
         January 2020 - Present
     </span>
 </p>
-Johannes Gutenberg University, Mainz, Germany
+Johannes Gutenberg University, Mainz, Germany  
 Advisor: Dr. Dmitry Budker
 
 <p style="text-align:left;">
@@ -102,7 +102,7 @@ Advisor: Dr. Dmitry Budker
         January 2018 - December 2019
     </span>
 </p>
-University of Nevada, Reno
+University of Nevada, Reno  
 Advisor: Dr. Andrei Derevianko
 
 <p style="text-align:left;">
@@ -111,5 +111,21 @@ Advisor: Dr. Andrei Derevianko
         January 2016 - May 2017
     </span>
 </p>
-University of Nevada, Reno
+University of Nevada, Reno  
 Advisor: Dr. Andrei Derevianko
+
+___
+
+First-Author Conference Presentations
+___
+
+<p style="text-align:left;">
+    <b>APS April Meeting 2019 "Quarks 2 Cosmos"</b>
+    <span style="float:right;">
+        April 2019
+    </span>
+</p>
+Denver, Colorado, USA  
+Session ID: L09.00006  
+Type:  Invited Talk  
+Title:  "Progress in dark matter search with the global positioning system"  
