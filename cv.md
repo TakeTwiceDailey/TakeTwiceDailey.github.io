@@ -116,7 +116,8 @@ Advisor: Dr. Andrei Derevianko
 
 ___
 
-First-Author Conference Presentations
+## First-Author Conference Presentations
+
 ___
 
 <p style="text-align:left;">
@@ -129,3 +130,25 @@ Denver, Colorado, USA
 Session ID: L09.00006  
 Type:  Invited Talk  
 Title:  "Progress in dark matter search with the global positioning system"  
+
+<p style="text-align:left;">
+    <b>APS Division of Atomic and Molecular Physics Meeting 2018</b>
+    <span style="float:right;">
+        June 2018
+    </span>
+</p>
+Fort Lauderdale, Florida, USA  
+Session ID: M01.00081  
+Type:  Poster Presentation  
+Title:  "Searching for Dark Matter and Exotic Physics with Atomic Clocks and the GPS Constellation"  
+
+<p style="text-align:left;">
+    <b>PhysCon 2016</b>
+    <span style="float:right;">
+        November 2016
+    </span>
+</p>
+San Francisco, California, USA  
+Session ID: S1 - 54  
+Type:  Poster Presentation  
+Title:  "Preliminary steps in detecting Dark Matter with the GPS Satellite Constellation"   
