@@ -15,9 +15,9 @@ paginate_path:       '/Blog/page:num/'
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Conner Dailey
+  url:               https://twitter.com/taketwicedailey
+  email:             c.dailey18@gmail.com
 
 # Custom vars
 version:             1.0.0
