@@ -6,10 +6,12 @@ title: Curriculum Vitae
 ## EDUCATION
 ___
 ### Master of Science in Physics
-<div id="textbox">
-  <p class="alignleft">University of Nevada, Reno</p>
-  <p class="alignright">August 2017 - August 2019</p>
-</div>
+<p style="text-align:left;">
+    University of Nevada, Reno
+    <span style="float:right;">
+        August 2017 - August 2019
+    </span>
+</p>
 Advisor: Dr. Andrei Derevianko
 
 ### Bachelor of Science in Physics
