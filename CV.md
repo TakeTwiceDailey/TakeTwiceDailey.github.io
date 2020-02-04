@@ -12,7 +12,12 @@ ___
         August 2017 - August 2019
     </span>
 </p>
-Advisor: Dr. Andrei Derevianko
+<p style="text-align:left;">
+    Advisor: Dr. Andrei Derevianko
+    <span style="float:right;">
+        GPA: 3.845/4.00
+    </span>
+</p>
 
 ### Bachelor of Science in Physics
 University of Nevada, Reno  
