@@ -30,7 +30,7 @@ twitter_username: taketwicedailey
 github_username:  TakeTwiceDailey
 
 # Build settings
-theme: minima #jekyll-theme-midnight 
+theme: jekyll-theme-slate 
 plugins:
   - jekyll-feed
 
