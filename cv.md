@@ -57,12 +57,12 @@ ___
 * B. M. Roberts, G. Blewitt, C. Dailey, M. Murphy, M. Pospelov, A. Rollings, J. Sherman, W. Williams,
 and A. Derevianko. Search for domain wall dark matter with atomic clocks on board global positioning
 system satellites.
-Nature Communications, 8, October 2017.  
+Nature Communications, 8, October 2017. [Article link](https://www.nature.com/articles/s41467-017-01440-4)
 
 * B.  M.  Roberts,  G.  Blewitt,  C.  Dailey,  and  A.  Derevianko.   Search  for  transient  ultralight  dark
 matter signatures with networks of precision measurement devices using a bayesian statistics method.
 Physical Review D
-, 97:083009, April 2018.  
+, 97:083009, April 2018. [Article link](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.97.083009)
 
 * E.  Savalle,  B.  M.  Roberts,  F.  Frank,  P.  Pottie,  B.  T.  McAllister,  C.  Dailey,  A.  Derevianko,  and
 P.  Wolf.   Novel  approaches  to  dark-matter  detection  using  space-time  separated  clocks,  February 2019.  
@@ -71,6 +71,6 @@ P.  Wolf.   Novel  approaches  to  dark-matter  detection  using  space-time  se
 C. Dailey,  et. al. Symmetry  breaking  in  the  body-fixed  electron  emission  pattern  due to electron-retroaction in the photodissociation of H+2 and D+2 close to threshold.
 Physical Review
 Research
-, 1:033140, December 2019.  
+, 1:033140, December 2019.  [Article link](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.1.033140)
 
 ___
