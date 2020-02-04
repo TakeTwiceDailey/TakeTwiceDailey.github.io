@@ -11,6 +11,7 @@ description:         'I am a former graduate student at the University of Nevada
 url:                 http://lanyon.getpoole.com
 baseurl:             ''
 paginate:            5
+paginate_path:       '/blog/page:num/'
 
 # About/contact
 author:
