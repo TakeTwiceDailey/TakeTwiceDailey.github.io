@@ -88,8 +88,28 @@ ___
 ___
 
 <p style="text-align:left;">
-    **Graduate Research Assistant**
+    <b>PRISMA+ Intern</b>
+    <span style="float:right;">
+        January 2020 - Present
+    </span>
+</p>
+Johannes Gutenberg University, Mainz, Germany
+Advisor: Dr. Dmitry Budker
+
+<p style="text-align:left;">
+    <b>Graduate Research Assistant</b>
     <span style="float:right;">
         January 2018 - December 2019
     </span>
 </p>
+University of Nevada, Reno
+Advisor: Dr. Andrei Derevianko
+
+<p style="text-align:left;">
+    <b>Undergraduate Research Assistant</b>
+    <span style="float:right;">
+        January 2016 - May 2017
+    </span>
+</p>
+University of Nevada, Reno
+Advisor: Dr. Andrei Derevianko
