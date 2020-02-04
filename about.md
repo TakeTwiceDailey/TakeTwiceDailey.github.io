@@ -2,30 +2,15 @@
 layout: page
 title: About
 ---
+## About
 
-Welcome! Here you will find stuff
+Here you will find an archive of my personal interests and history. You can take a look at my curriculum vitae, a synopsis of my research, some of my photography, or check out some of my blog posts.
 
+I am a graduate student researching physics. Some of my interests are
 
->  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
-
-There are currently two themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+* strong gravity
+  * special and general relativity
+  * black hole and neutron star mergers
+  * quantum gravity
+* Bayesian statistics
+* machine learning
