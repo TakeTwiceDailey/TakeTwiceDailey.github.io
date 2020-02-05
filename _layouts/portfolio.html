@@ -55,6 +55,32 @@
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
+    .container .gallery a img {
+      float: left;
+      width: 20%;
+      height: auto;
+      border: 2px solid #fff;
+      -webkit-transition: -webkit-transform .15s ease;
+      -moz-transition: -moz-transform .15s ease;
+      -o-transition: -o-transform .15s ease;
+      -ms-transition: -ms-transform .15s ease;
+      transition: transform .15s ease;
+      position: relative;
+    }
+    /* line 46, ../sass/demo.scss */
+    .container .gallery a:hover img {
+      -webkit-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+      -o-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      transform: scale(1.05);
+      z-index: 5;
+    }
+    /* line 57, ../sass/demo.scss */
+    .container .gallery a.big img {
+      width: 40%;
+    }
+
   </style>
 
 
@@ -133,9 +159,55 @@
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
     <script>
+
+          $(function(){
+        var $gallery = $('.gallery a').simpleLightbox();
+
+        $gallery.on('show.simplelightbox', function(){
+          console.log('Requested for showing');
+        })
+        .on('shown.simplelightbox', function(){
+          console.log('Shown');
+        })
+        .on('close.simplelightbox', function(){
+          console.log('Requested for closing');
+        })
+        .on('closed.simplelightbox', function(){
+          console.log('Closed');
+        })
+        .on('change.simplelightbox', function(){
+          console.log('Requested for change');
+        })
+        .on('next.simplelightbox', function(){
+          console.log('Requested for next');
+        })
+        .on('prev.simplelightbox', function(){
+          console.log('Requested for prev');
+        })
+        .on('nextImageLoaded.simplelightbox', function(){
+          console.log('Next image loaded');
+        })
+        .on('prevImageLoaded.simplelightbox', function(){
+          console.log('Prev image loaded');
+        })
+        .on('changed.simplelightbox', function(){
+          console.log('Image changed');
+        })
+        .on('nextDone.simplelightbox', function(){
+          console.log('Image changed to next');
+        })
+        .on('prevDone.simplelightbox', function(){
+          console.log('Image changed to prev');
+        })
+        .on('error.simplelightbox', function(e){
+          console.log('No image found, go to the next/prev');
+          console.log(e);
+        });
+      });
+
+
       (function(document) {
 
-        var lightbox = $('.gallery a').simpleLightbox(options);
         var toggle = document.querySelector('.sidebar-toggle');
         var sidebar = document.querySelector('#sidebar');
         var checkbox = document.querySelector('#sidebar-checkbox');
