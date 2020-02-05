@@ -1,8 +1,55 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-  {% include head.html %}
+  <style>
 
+    * {
+    box-sizing: border-box;
+    }
+
+    .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+    }
+
+    /* Create four equal columns that sits next to each other */
+    .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    }
+
+    .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+    }
+  </style>
+
+
+  {% include head.html %}
   <body class="theme-base-0d sidebar-overlay">
 
     {% include sidebar.html %}
@@ -19,8 +66,48 @@
         </div>
       </div>
 
-      <div class="container content">
-        {{ content }}
+
+
+    <div class="row">
+      <div class="column">
+        <img src="\photos\A7R00937.jpg" style="width:100%">
+        <img src="\photos\A7R00940.jpg" style="width:100%">
+        <img src="\photos\A7R01512.jpg" style="width:100%">
+        <img src="\photos\A7R04388.jpg" style="width:100%">
+        <img src="\photos\A7R04447.jpg" style="width:100%">
+        <img src="\photos\A7R04466.jpg" style="width:100%">
+        <img src="\photos\A7R04753.jpg" style="width:100%">
+        <img src="\photos\A7R04792.jpg" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="\photos\A7R04882.jpg" style="width:100%">
+        <img src="\photos\A7R04905.jpg" style="width:100%">
+        <img src="\photos\A7R04928.jpg" style="width:100%">
+        <img src="\photos\A7R04960.jpg" style="width:100%">
+        <img src="\photos\A7R05092.jpg" style="width:100%">
+        <img src="\photos\A7R05245.jpg" style="width:100%">
+        <img src="\photos\A7R05247.jpg" style="width:100%">
+        <img src="\photos\A7R05775.jpg" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="\photos\A7R00937.jpg" style="width:100%">
+        <img src="\photos\A7R00940.jpg" style="width:100%">
+        <img src="\photos\A7R01512.jpg" style="width:100%">
+        <img src="\photos\A7R04388.jpg" style="width:100%">
+        <img src="\photos\A7R04447.jpg" style="width:100%">
+        <img src="\photos\A7R04466.jpg" style="width:100%">
+        <img src="\photos\A7R04753.jpg" style="width:100%">
+        <img src="\photos\A7R04792.jpg" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="\photos\A7R04882.jpg" style="width:100%">
+        <img src="\photos\A7R04905.jpg" style="width:100%">
+        <img src="\photos\A7R04928.jpg" style="width:100%">
+        <img src="\photos\A7R04960.jpg" style="width:100%">
+        <img src="\photos\A7R05092.jpg" style="width:100%">
+        <img src="\photos\A7R05245.jpg" style="width:100%">
+        <img src="\photos\A7R05247.jpg" style="width:100%">
+        <img src="\photos\A7R05775.jpg" style="width:100%">
       </div>
     </div>
 
@@ -43,5 +130,9 @@
         }, false);
       })(document);
     </script>
+
   </body>
+
+
+
 </html>
