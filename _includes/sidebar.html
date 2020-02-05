@@ -87,7 +87,7 @@
       The code below dynamically generates a sidebar nav of pages with
       `layout: page` in the front-matter. See readme for usage.
     {% endcomment %}
-
+    {% comment %}
     {% assign pages_list = site.pages | sort:"url" %}
     {% for node in pages_list %}
       {% if node.title != null %}
@@ -96,9 +96,9 @@
         {% endif %}
       {% endif %}
     {% endfor %}
+    {% endcomment %}
 
-
-    <a class="sidebar-nav-item" href="{{ site.baseurl }}/photography">Photography</a>
+    <a class="sidebar-nav-item" href="{{ site.baseurl }}/photography.md">Photography</a>
     <a class="sidebar-nav-item" href="{{ site.baseurl }}/blog">Blog</a>
 
     {% comment %}
@@ -110,7 +110,7 @@
 
   <div class="sidebar-item">
     <p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+      &copy; {{ site.time | date: '%Y' }} Conner Dailey. All rights reserved.
     </p>
   </div>
 </div>
