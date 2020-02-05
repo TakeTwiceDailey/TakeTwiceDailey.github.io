@@ -12,7 +12,7 @@
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 0 8px;
     }
 
     /* Create four equal columns that sits next to each other */
@@ -20,7 +20,7 @@
     -ms-flex: 25%; /* IE10 */
     flex: 25%;
     max-width: 25%;
-    padding: 0 4px;
+    padding: 0 8px;
     }
 
     .column img {
@@ -127,6 +127,8 @@
 
     <script>
       (function(document) {
+
+        var lightbox = $('.gallery a').simpleLightbox(options);
         var toggle = document.querySelector('.sidebar-toggle');
         var sidebar = document.querySelector('#sidebar');
         var checkbox = document.querySelector('#sidebar-checkbox');
