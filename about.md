@@ -5,7 +5,7 @@ title: About
 
 ## About
 
-Here you will find an archive of my personal interests and history. You can take a look at my curriculum vitae, a synopsis of my research, some of my photography, or check out some of my blog posts.
+Here you will find an archive of my personal interests and history. You are welcome take a look at my curriculum vitae, a synopsis of my research, some of my photography, or check out some of my blog posts. Everything can be found in the side-panel to the left, along with links from social media and contact information.
 
 I am a graduate student researching physics. Some of my interests are
 
@@ -17,7 +17,6 @@ I am a graduate student researching physics. Some of my interests are
   * statistical modeling
   * Monte-Carlo simulations
 * machine learning
-
 
 testing inline math `$a^2+b^2=c^2$`, but what about centered math?
 
