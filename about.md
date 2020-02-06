@@ -20,4 +20,8 @@ I am a graduate student researching physics. Some of my interests are
 
 testing inline math `$a^2+b^2=c^2$`, but what about centered math?
 
-`$$\partial_\mu\partial^\mu$$`
+`$$
+
+\left(\partial_\mu\partial^\mu+m^2c^2/\hbar^2\right)u(r,t)=0
+
+$$`
