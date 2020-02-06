@@ -29,6 +29,8 @@
 
     <script type="text/javascript">
     MathJax = {
+      loader: {load: ['[tex]/unicode']},
+      
       options: {
         // Remove <code> tags from the blacklist. Even though we pass an
         // explicit list of elements to process, this blacklist is still
@@ -36,6 +38,7 @@
         skipHtmlTags: { '[-]': ['code'] },
       },
       tex: {
+        packages: {'[+]': ['unicode']}
         // By default, only \( is enabled for inline math, to prevent false
         // positives. Since we already only process code blocks that contain
         // exactly one math expression and nothing else, it is also fine to
