@@ -16,3 +16,6 @@ I am a graduate student researching physics. Some of my interests are
   * statistical modeling
   * Monte-Carlo simulations
 * machine learning
+
+
+testing inline math `$a^2+b^2=c^2$`
