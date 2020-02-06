@@ -20,6 +20,11 @@ title: Research
       {% else %}
       {% if reseach_post.shortinfo %}
       {{ reseach_post.shortinfo }}
+      {% elsif reseach_post.description %}
+      {{ reseach_post.description }}
+      {% else %}
+      {{ reseach_post.excerpt }}
+      {% endif %}
       {% endif %}
     </div>
 
