@@ -2,7 +2,7 @@
 layout: page
 title: About
 ---
-`\def\hbar{\mathit{\rlap{\unicode{xAF}}h}}`
+`$\def\hbar{\mathit{\rlap{\unicode{xAF}}h}}$`
 
 ## About
 
