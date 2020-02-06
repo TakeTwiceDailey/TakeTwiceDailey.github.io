@@ -19,7 +19,7 @@ I am a graduate student researching physics. Some of my interests are
 * machine learning
 
 
-testing inline math `$\a^2+b^2=c^2$`, but what about centered math?
+testing inline math `$a^2+b^2=c^2$`, but what about centered math?
 
 `$$\large \left(\frac{1}{c^2}\frac{\partial^{\,2}}{ \partial\, t^2}  - \frac{\partial^{\,2}}{ \partial\, r^2} + \frac{m^2c^2}{\hb^2} \right) u(r,t) = 0 $$`
 
