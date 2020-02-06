@@ -2,6 +2,8 @@
 layout: page
 title: About
 ---
+`\def\hbar{\mathit{\rlap{\unicode{xAF}}h}}`
+
 ## About
 
 Here you will find an archive of my personal interests and history. You can take a look at my curriculum vitae, a synopsis of my research, some of my photography, or check out some of my blog posts.
