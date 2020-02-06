@@ -41,6 +41,10 @@
         // exactly one math expression and nothing else, it is also fine to
         // use the nicer $...$ construct for inline math.
         inlineMath: { '[+]': [['$', '$']] },
+
+        macros :{
+          hbar: "{\\hbar{\\mathit{\\rlap{\\unicode{xAF}}h}}}"
+        }
       },
       startup: {
         // This is called on page ready and replaces the default MathJax
@@ -76,7 +80,7 @@
     <script type="text/javascript" id="MathJax-script" async
       src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
     </script>
-    
+
     <script>
       (function(document) {
         var toggle = document.querySelector('.sidebar-toggle');
