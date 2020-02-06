@@ -26,3 +26,9 @@ author:
   linkedin: taketwicedailey
   orcid: http://orcid.org/0000-0003-2488-3461
   google_scholar: https://scholar.google.com/citations?user=mPNwR5sAAAAJ&hl=en
+
+# Research functionality
+
+collections:
+   research:
+     #output: true
