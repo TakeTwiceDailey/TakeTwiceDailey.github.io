@@ -11,7 +11,7 @@ relative_permalinks: false
 # Setup
 title:               Conner Dailey
 tagline:             'Physics graduate student, hobby photographer'
-description:         'I am a former graduate student at the University of Nevada, Reno. I enjoy all types of photography, especially astrophotography.'
+description:         'Physics graduate student, hobby photographer'
 url:                 https://taketwicedailey.github.io
 baseurl:             ''
 paginate:            5

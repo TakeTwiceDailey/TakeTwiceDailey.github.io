@@ -6,7 +6,7 @@ title: Research
 <h1 style="padding-bottom:1cm">Research</h1>
 
 <div class="posts">
-  {% for research_post in site.research %}
+  {% for research_post in site.research reversed%}
   <div class="post">
     <h2 class="post-title">
       <a href="{{ site.baseurl }}{{ research_post.url }}">
