@@ -3,6 +3,8 @@ layout: default
 title: Research
 ---
 
+<h2>Research</h2>
+
 <div class="posts">
   {% for research_post in site.research %}
   <div class="post">
@@ -15,17 +17,7 @@ title: Research
     <span class="post-date">{{ page.date | date_to_string }}</span>
 
     <div>
-      {% if reseach_post.fullview %}
-      {{ reseach_post.content }}
-      {% else %}
-      {% if reseach_post.shortinfo %}
       {{ reseach_post.shortinfo }}
-      {% elsif reseach_post.description %}
-      {{ reseach_post.description }}
-      {% else %}
-      {{ reseach_post.excerpt }}
-      {% endif %}
-      {% endif %}
     </div>
 
   </div>
