@@ -5,9 +5,9 @@ title: About
 
 ## About
 
-Here you will find an archive of my personal interests and history. You are welcome take a look at my curriculum vitae, a synopsis of my research, some of my photography, or check out some of my blog posts. Everything can be found in the side-panel to the left, along with links from social media and contact information.
+Here you will find an archive of my personal interests and history. You are welcome take a look at my curriculum vitae, a synopsis of my research, some of my photography, or check out some of my blog posts. A directory can be found in the side-panel to the left, along with links to social media and contact information.
 
-I am a graduate student researching physics. Some of my interests are
+I am a graduate student researching physics. Some of my current interests are
 
 * strong gravity
   * special and general relativity
@@ -17,9 +17,6 @@ I am a graduate student researching physics. Some of my interests are
   * statistical modeling
   * Monte-Carlo simulations
 * machine learning
+  * solving physics problems with neural networks
 
-testing inline math `$a^2+b^2=c^2$`, but what about centered math?
-
-`$$\large \left(\frac{1}{c^2}\frac{\partial^{\,2}}{ \partial\, t^2}  - \frac{\partial^{\,2}}{ \partial\, r^2} + \frac{m^2c^2}{\hbar^2} \right) u(r,t) = 0 $$`
-
-and special characters? What about `$\alpha$` and `$\beta$`?
+I studied at the University of Nevada, Reno under Dr. Andrei Derevianko and with the GPS.DM Collaboration. As an undergraduate I contributed to research involving a search for dark matter using the global positioning system (GPS). I also completed my Master's degree with the same group, where I researched new ways to use GPS for astrophysics applications. Our new concept involves correlating bursts of exotic fields sourced from high-energy astrophysical events, such has the known gravitational wave events.
