@@ -288,6 +288,7 @@ tbody tr:nth-child(odd) th {
 
 .alert {
   margin-bottom: 1rem;
+  margin-left: 5rem;
   padding: 1rem;
   border-radius: 10px;
   color: #ff1a1a;
@@ -295,7 +296,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .alert:before {
-  font-size: 1.25rem;
+  font-size: 2rem;
   content: "\026A0"; /*warning sign emoji*/
 }
 
