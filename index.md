@@ -1,11 +1,11 @@
 ---
 layout: page
-title: About
+title: Welcome!
 ---
 
-## About
-
 Here you will find an archive of my personal interests and history. You are welcome take a look at my curriculum vitae, a synopsis of my research, some of my photography, or check out some of my blog posts. A directory can be found in the side-panel to the left, along with links to social media and contact information.
+
+##About me
 
 I am a graduate student researching physics. Some of my current interests are
 
