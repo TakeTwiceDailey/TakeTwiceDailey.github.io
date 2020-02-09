@@ -283,8 +283,8 @@ tbody tr:nth-child(odd) th {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   margin-bottom: 1rem;
-  background-color: #0b7ada;
-  background-image: url(/icons/alert.png);
+  background-color: #86c3f9;
+  background-image: url(/icons/pencil.png);
   background-position: left center;
   background-repeat: no-repeat;
   background-size: 5rem;
