@@ -288,7 +288,7 @@ tbody tr:nth-child(odd) th {
 
 .alert {
   margin-bottom: 1rem;
-  margin-left: 5rem;
+  column-count: 2;
   padding: 1rem;
   border-radius: 10px;
   color: #ff1a1a;
