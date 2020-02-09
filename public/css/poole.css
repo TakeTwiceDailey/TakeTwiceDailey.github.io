@@ -296,7 +296,7 @@ tbody tr:nth-child(odd) th {
   border-radius: 10px;
   overflow: hidden;
   padding: 1rem 1rem 1rem 5rem;
-  color: #006600;
+  color: #008000;
 }
 
 .tip {
@@ -311,7 +311,7 @@ tbody tr:nth-child(odd) th {
   border-radius: 10px;
   overflow: hidden;
   padding: 1rem 1rem 1rem 5rem;
-  color: #665200;
+  color: #997a00;
 }
 
 
@@ -343,7 +343,7 @@ tbody tr:nth-child(odd) th {
    border-radius: 10px;
    overflow: hidden;
    padding: 1rem 1rem 1rem 5rem;
-   color: #660000;
+   color: #e60000;
 }
 
 /*
