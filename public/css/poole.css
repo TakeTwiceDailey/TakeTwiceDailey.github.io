@@ -295,7 +295,8 @@ tbody tr:nth-child(odd) th {
 }
 
 .alert:before {
-  content: "\0203C";
+  font-size: 1.25rem;
+  content: "\026A0"; /*warning sign emoji*/
 }
 
 /*
