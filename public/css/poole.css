@@ -216,7 +216,7 @@ blockquote {
   margin: .8rem 0;
   color: #0b7ada; /*matched color with theme*/
   border-left: .25rem solid #074B88; /*matched color with theme*/
-  border-radius: 15px;
+  border-radius: 5px;
 }
 blockquote p:last-child {
   margin-bottom: 0;
@@ -289,13 +289,13 @@ tbody tr:nth-child(odd) th {
 .alert {
   margin-bottom: 1rem;
   padding: 1rem;
-  border-radius: 15px;
+  border-radius: 10px;
   color: #ff1a1a;
-  background-color: #ff9999;
+  background-color: #ffb3b3;
 }
 
 .alert:before {
-  content: &#8252;;
+  content: "\0203C";
 }
 
 /*
