@@ -45,6 +45,9 @@ function[x_,y_]:= x^2+y^2
 
 {% endhighlight %}
 
+<p class="alert">alert testing</p>
+
+
 Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
 
 ### Lists
