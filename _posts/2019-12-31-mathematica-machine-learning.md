@@ -3,7 +3,7 @@ layout: post
 title: Machine Learning in Mathematica
 ---
 
-<p class="warning">This post is currently under construction!<p>
+<p class="warning">This post is currently under construction!</p>
 
 Wolfram Mathematica has made machine learning functionality a large part of the recent updates in versions 11 and 12. If you are completely new this functionality, as I was, you can explore some of the functions the Wolfram team has added [here](https://reference.wolfram.com/language/guide/MachineLearning.html).
 
