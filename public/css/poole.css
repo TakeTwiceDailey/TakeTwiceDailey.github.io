@@ -292,12 +292,12 @@ tbody tr:nth-child(odd) th {
    -webkit-border-radius: 10px;
    margin-bottom: 1rem;
    background-color: #ffb3b3;
-   background-image: url(../icons/alert.png);
+   background-image: url(/icons/alert.png);
    background-position: 9px 0px;
    background-repeat: no-repeat;
    border-radius: 10px;
    overflow: hidden;
-   padding: 1rem;
+   padding: 15px 60px;
    color: #ff1a1a;
 }
 
