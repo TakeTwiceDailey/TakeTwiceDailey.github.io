@@ -3,7 +3,7 @@ layout: page
 title: Welcome!
 ---
 
-<p style="warning">This site is currently under construction!</p>
+<p class="warning">This site is currently under construction!</p>
 
 ## Welcome!
 
