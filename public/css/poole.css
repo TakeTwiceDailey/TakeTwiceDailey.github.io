@@ -298,6 +298,10 @@ tbody tr:nth-child(odd) th {
   padding: 1rem 1rem 1rem 5rem;
   color: #008000;
 }
+.example::before {
+  font-weight: bold;
+  content: "Example: ";
+}
 
 .tip {
   -moz-border-radius: 10px;
@@ -313,7 +317,10 @@ tbody tr:nth-child(odd) th {
   padding: 1rem 1rem 1rem 5rem;
   color: #997a00;
 }
-
+.tip::before {
+  font-weight: bold;
+  content: "Tip: ";
+}
 
 .note {
   -moz-border-radius: 10px;
@@ -329,6 +336,11 @@ tbody tr:nth-child(odd) th {
   padding: 1rem 1rem 1rem 5rem;
   color: #074B88;
 }
+.note::before {
+  font-weight: bold;
+  content: "Note: ";
+}
+
 
 .alert
 {
@@ -344,12 +356,6 @@ tbody tr:nth-child(odd) th {
    overflow: hidden;
    padding: 1rem 1rem 1rem 5rem;
    color: #e60000;
-}
-
-.example::before {
-
-  content: "Example: ";
-
 }
 
 /*
