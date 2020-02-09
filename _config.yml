@@ -11,7 +11,7 @@ relative_permalinks: false
 # Setup
 title:               Conner Dailey
 tagline:             'Physics graduate student, hobby photographer'
-description:         'Physics graduate student, hobby photographer'
+description:         'Physics graduate student, hobby photographer.'
 url:                 https://taketwicedailey.github.io
 baseurl:             ''
 paginate:            5
