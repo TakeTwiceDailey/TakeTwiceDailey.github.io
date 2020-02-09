@@ -342,7 +342,7 @@ tbody tr:nth-child(odd) th {
 }
 
 
-.alert
+.warning
 {
    -moz-border-radius: 10px;
    -webkit-border-radius: 10px;
@@ -357,6 +357,11 @@ tbody tr:nth-child(odd) th {
    padding: 1rem 1rem 1rem 5rem;
    color: #e60000;
 }
+.warning::before {
+  font-weight: bold;
+  content: "Warning: ";
+}
+
 
 /*
  * Container
