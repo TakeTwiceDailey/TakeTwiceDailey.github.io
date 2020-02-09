@@ -35,11 +35,13 @@ Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est 
 
 Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
 
-{% highlight mathematica linenos %}
+{% highlight mathematica %}
 
 a=4;
 b=3;
 Times[3,4]
+
+function[x_,y_]:= x^2+y^2
 
 {% endhighlight %}
 
