@@ -59,7 +59,7 @@ ___
 
 ___
 
-* C. Dailey. "Probing exotic fields with networks of atomic clocks". Master's thesis, University of Nevada, Reno. August 2019
+* C. Dailey. "Probing exotic fields with networks of atomic clocks". Master's thesis, University of Nevada, Reno. August 2019.
 <a href="http://hdl.handle.net/11714/6029" target="\_blank">Full text<a>
 
 * B. M. Roberts, G. Blewitt, C. Dailey, M. Murphy, M. Pospelov, A. Rollings, J. Sherman, W. Williams,
