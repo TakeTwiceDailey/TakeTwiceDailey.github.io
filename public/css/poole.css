@@ -346,6 +346,12 @@ tbody tr:nth-child(odd) th {
    color: #e60000;
 }
 
+.example::before {
+
+  content: "Example: ";
+
+}
+
 /*
  * Container
  *

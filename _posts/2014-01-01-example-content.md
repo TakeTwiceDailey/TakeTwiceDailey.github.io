@@ -35,7 +35,7 @@ Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est 
 
 Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
 
-{% highlight mathematica %}
+{% highlight mathematica%}
 
 a=4;
 b=3;
