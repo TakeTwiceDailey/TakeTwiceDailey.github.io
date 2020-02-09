@@ -35,15 +35,12 @@ Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est 
 
 Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
 
-{% highlight wl %}
-// Example can be run directly in your JavaScript console
+{% highlight mathematica linenos %}
 
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
+a=4;
+b=3;
+Times[3,4]
 
-// Call the function
-adder(2, 6);
-// > 8
 {% endhighlight %}
 
 Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
