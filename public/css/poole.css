@@ -271,7 +271,12 @@ tbody tr:nth-child(odd) th {
  * Show alert messages to users. You may add it to single elements like a `<p>`,
  * or to a parent if there are multiple elements to show.
  */
-
+ /*
+  * Other Styles
+  *
+  * I added a whole bunch of text tip styles here (example, alert, etc.)
+  *
+  */
 .message {
   margin-bottom: 1rem;
   padding: 1rem;
@@ -291,7 +296,7 @@ tbody tr:nth-child(odd) th {
   border-radius: 10px;
   overflow: hidden;
   padding: 1rem 1rem 1rem 5rem;
-  color: #009900;
+  color: #006600;
 }
 
 .tip {
@@ -306,7 +311,7 @@ tbody tr:nth-child(odd) th {
   border-radius: 10px;
   overflow: hidden;
   padding: 1rem 1rem 1rem 5rem;
-  color: #b38f00;
+  color: #665200;
 }
 
 
@@ -338,7 +343,7 @@ tbody tr:nth-child(odd) th {
    border-radius: 10px;
    overflow: hidden;
    padding: 1rem 1rem 1rem 5rem;
-   color: #ff1a1a;
+   color: #660000;
 }
 
 /*
