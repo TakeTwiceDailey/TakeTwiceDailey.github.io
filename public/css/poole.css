@@ -283,7 +283,7 @@ tbody tr:nth-child(odd) th {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   margin-bottom: 1rem;
-  background-color: #b3ffb3;
+  background-color: #ccffcc;
   background-image: url(/icons/pencil.png);
   background-position: left center;
   background-repeat: no-repeat;
@@ -306,7 +306,7 @@ tbody tr:nth-child(odd) th {
   border-radius: 10px;
   overflow: hidden;
   padding: 1rem 1rem 1rem 5rem;
-  color: #cca300;
+  color: #b38f00;
 }
 
 
