@@ -279,11 +279,11 @@ tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
-.tip {
+.example {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   margin-bottom: 1rem;
-  background-color: #ffeb99;
+  background-color: #99ffbb;
   background-image: url(/icons/pencil.png);
   background-position: left center;
   background-repeat: no-repeat;
@@ -291,7 +291,22 @@ tbody tr:nth-child(odd) th {
   border-radius: 10px;
   overflow: hidden;
   padding: 1rem 1rem 1rem 5rem;
-  color: #ffcc00;
+  color: #00b33c;
+}
+
+.tip {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  margin-bottom: 1rem;
+  background-color: #fff0b3;
+  background-image: url(/icons/pencil.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 5rem;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 1rem 1rem 1rem 5rem;
+  color: #e6b800;
 }
 
 
@@ -299,7 +314,7 @@ tbody tr:nth-child(odd) th {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   margin-bottom: 1rem;
-  background-color: #86c3f9;
+  background-color: #b6dbfb;
   background-image: url(/icons/pencil.png);
   background-position: left center;
   background-repeat: no-repeat;
@@ -315,7 +330,7 @@ tbody tr:nth-child(odd) th {
    -moz-border-radius: 10px;
    -webkit-border-radius: 10px;
    margin-bottom: 1rem;
-   background-color: #ffb3b3;
+   background-color: #ffcccc;
    background-image: url(/icons/alert.png);
    background-position: left center;
    background-repeat: no-repeat;
