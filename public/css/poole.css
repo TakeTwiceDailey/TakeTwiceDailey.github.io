@@ -347,6 +347,7 @@ tbody tr:nth-child(odd) th {
 {
    -moz-border-radius: 10px;
    -webkit-border-radius: 10px;
+   text-indent: 0;
    margin-left: -2rem;
    margin-bottom: 1rem;
    background-color: #ffcccc;
@@ -363,6 +364,7 @@ tbody tr:nth-child(odd) th {
    box-shadow: 0.6rem 0.7rem 8px -0.4rem #888888;
 }
 .warning:before {
+  display: grid;
   width: 0;
   height: 0;
   border-bottom: 20px solid #e60000;
@@ -371,7 +373,6 @@ tbody tr:nth-child(odd) th {
   content: "";
   bottom: 3rem;
   right: 4rem;
-  display: block;
 }
 
 /*
