@@ -360,13 +360,13 @@ tbody tr:nth-child(odd) th {
    border: 2px solid #e60000;
    border-left: none;
    color: #e60000;
-   box-shadow: 0.9rem 0.9rem 8px -0.4rem #888888;
+   box-shadow: 0.8rem 0.8rem 8px -0.4rem #888888;
 }
 .warning:before {
   font-weight: bold;
   content: "Warning: ";
 }
-.warning:after {
+.warning:before {
   width: 0;
   height: 0;
   border-bottom: 5px solid red;
