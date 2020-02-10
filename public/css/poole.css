@@ -403,7 +403,7 @@ tbody tr:nth-child(odd) th {
    color: #e60000;
    box-shadow: 0.6rem 0.7rem 8px -0.4rem #888888;
 }
-.warning:before {
+.warning:after {
   position: absolute;
   width: 0;
   height: 0;
