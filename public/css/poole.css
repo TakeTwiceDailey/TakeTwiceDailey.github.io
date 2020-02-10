@@ -356,6 +356,8 @@ tbody tr:nth-child(odd) th {
    border-radius: 0px 10px 10px 0px;
    overflow: hidden;
    padding: 1rem 1rem 1rem 5rem;
+   border: 2px solid #e60000;
+   border-left: none;
    color: #e60000;
 }
 .warning::before {
