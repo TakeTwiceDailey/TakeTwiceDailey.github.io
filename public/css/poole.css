@@ -373,7 +373,7 @@ tbody tr:nth-child(odd) th {
   position: relative;
   content: "";
   bottom: 4rem;
-  right: 4rem;
+  right: 5rem;
 }
 
 /*
