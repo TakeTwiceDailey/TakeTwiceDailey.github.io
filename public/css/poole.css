@@ -277,12 +277,6 @@ tbody tr:nth-child(odd) th {
   * I added a whole bunch of text tip styles here (example, alert, etc.)
   *
   */
-.right-triangle {
-  width: 0;
-  height: 0;
-  border-bottom: 100px solid red;
-  border-left: 100px solid transparent;
-}
 
 .message {
   margin-bottom: 1rem;
@@ -372,10 +366,13 @@ tbody tr:nth-child(odd) th {
   font-weight: bold;
   content: "Warning: ";
 }
-/*.warning:after {
-  font-weight: bold;
-  content: "Warning: ";
-}*/
+.warning:after {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid red;
+  border-left: 100px solid transparent;
+  position: absolute;
+}
 
 /*
  * Container
