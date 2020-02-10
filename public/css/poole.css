@@ -363,18 +363,14 @@ tbody tr:nth-child(odd) th {
    box-shadow: 0.8rem 0.8rem 8px -0.4rem #888888;
 }
 .warning:before {
-  font-weight: bold;
-  content: "Warning: ";
-}
-.warning:before {
   width: 0;
   height: 0;
-  border-bottom: 5px solid red;
-  border-left: 5px solid transparent;
+  border-bottom: 20px solid red;
+  border-left: 20px solid transparent;
   position: relative;
   content: "";
-  top: 1px;
-  left: 1px;
+  top: 2rem;
+  left: 3rem;
 }
 
 /*
