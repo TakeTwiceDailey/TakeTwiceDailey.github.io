@@ -366,7 +366,7 @@ tbody tr:nth-child(odd) th {
    border: 2px solid #e60000;
    border-left: none;
    color: #e60000;
-   box-shadow: 1.5rem 1.5rem 5px -0.5rem #888888;
+   box-shadow: 1.1rem 1.1rem 8px -0.5rem #888888;
 }
 .warning:before {
   font-weight: bold;
