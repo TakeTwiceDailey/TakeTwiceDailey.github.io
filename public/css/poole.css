@@ -326,20 +326,33 @@ tbody tr:nth-child(odd) th {
 .note {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
+  position: relative;
+  text-indent: -0.8rem;
+  margin-left: -2rem;
   margin-bottom: 1rem;
   background-color: #b6dbfb;
   background-image: url(/icons/pencil.png);
   background-position: left center;
   background-repeat: no-repeat;
   background-size: 5rem;
-  border-radius: 10px;
-  overflow: hidden;
+  border-radius: 0px 10px 10px 0px;
+  overflow: visible;
   padding: 1rem 1rem 1rem 5rem;
+  border: 2px solid #074B88;
+  border-left: none;
   color: #074B88;
+  box-shadow: 0.6rem 0.7rem 8px -0.4rem #888888;
 }
 .note:before {
-  font-weight: bold;
-  content: "Note: ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 17px solid #074B88;
+  border-left: 17px solid transparent;
+  position: relative;
+  content: "";
+  bottom: 3.33rem;
+  right: 4.17rem;
 }
 
 
@@ -372,7 +385,7 @@ tbody tr:nth-child(odd) th {
   border-left: 17px solid transparent;
   position: relative;
   content: "";
-  bottom: 3.32rem;
+  bottom: 3.33rem;
   right: 4.17rem;
 }
 
