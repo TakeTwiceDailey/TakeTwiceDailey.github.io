@@ -368,11 +368,11 @@ tbody tr:nth-child(odd) th {
   position: absolute;
   width: 0;
   height: 0;
-  border-bottom: 19px solid #e60000;
-  border-left: 19px solid transparent;
+  border-bottom: 1rem solid #e60000;
+  border-left: 1rem solid transparent;
   position: relative;
   content: "";
-  bottom: 3.5rem;
+  bottom: 3.4rem;
   right: 5.1rem;
 }
 
