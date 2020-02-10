@@ -371,7 +371,7 @@ tbody tr:nth-child(odd) th {
   height: 0;
   border-bottom: 100px solid red;
   border-left: 100px solid transparent;
-  position: absolute;
+  position: relative;
   content: "";
   top: 1px;
   left: 1px;
