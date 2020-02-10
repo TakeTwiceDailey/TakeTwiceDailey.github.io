@@ -364,15 +364,14 @@ tbody tr:nth-child(odd) th {
    box-shadow: 0.6rem 0.7rem 8px -0.4rem #888888;
 }
 .warning:before {
-  display: flex;
   width: 0;
   height: 0;
   border-bottom: 20px solid #e60000;
   border-left: 20px solid transparent;
   position: relative;
   content: "";
-  bottom: 10rem;
-  right: 1px;
+  bottom: 5rem;
+  right: 3rem;
 }
 
 /*
