@@ -360,7 +360,7 @@ tbody tr:nth-child(odd) th {
    border: 2px solid #e60000;
    border-left: none;
    color: #e60000;
-   box-shadow: 0.7rem 0.7rem 8px -0.4rem #888888;
+   box-shadow: 0.6rem 0.7rem 8px -0.4rem #888888;
 }
 .warning:before {
   width: 0;
@@ -369,8 +369,8 @@ tbody tr:nth-child(odd) th {
   border-left: 20px solid transparent;
   position: relative;
   content: "";
-  bottom: 2rem;
-  right: 3rem;
+  bottom: 3rem;
+  right: 4rem;
 }
 
 /*
