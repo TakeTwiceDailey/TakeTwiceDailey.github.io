@@ -348,7 +348,7 @@ tbody tr:nth-child(odd) th {
    -moz-border-radius: 10px;
    -webkit-border-radius: 10px;
    position: relative;
-   text-indent: 0;
+   text-indent: -2pt;
    margin-left: -2rem;
    margin-bottom: 1rem;
    background-color: #ffcccc;
@@ -368,12 +368,12 @@ tbody tr:nth-child(odd) th {
   position: absolute;
   width: 0;
   height: 0;
-  border-bottom: 17px solid #e60000;
-  border-left: 17px solid transparent;
+  border-bottom: 16px solid #e60000;
+  border-left: 16px solid transparent;
   position: relative;
   content: "";
-  bottom: 3.45rem;
-  right: 5.1rem;
+  bottom: 3.4rem;
+  right: 5rem;
 }
 
 /*
