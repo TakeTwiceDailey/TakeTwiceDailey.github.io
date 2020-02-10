@@ -369,8 +369,8 @@ tbody tr:nth-child(odd) th {
 .warning:after {
   width: 0;
   height: 0;
-  border-bottom: 100px solid red;
-  border-left: 100px solid transparent;
+  border-bottom: 5px solid red;
+  border-left: 5px solid transparent;
   position: relative;
   content: "";
   top: 1px;
