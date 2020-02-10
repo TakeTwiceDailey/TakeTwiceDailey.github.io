@@ -288,39 +288,65 @@ tbody tr:nth-child(odd) th {
 .example {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
+  position: relative;
+  text-indent: -0.8rem;
+  margin-left: -2rem;
   margin-bottom: 1rem;
   background-color: #ccffcc;
   background-image: url(/icons/check.png);
   background-position: left center;
   background-repeat: no-repeat;
   background-size: 5rem;
-  border-radius: 10px;
-  overflow: hidden;
+  border-radius: 0px 10px 10px 0px;
+  overflow: visible;
   padding: 1rem 1rem 1rem 5rem;
+  border: 2px solid #008000;
+  border-left: none;
   color: #008000;
+  box-shadow: 0.6rem 0.7rem 8px -0.4rem #888888;
 }
 .example:before {
-  font-weight: bold;
-  content: "Example: ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 17px solid #008000;
+  border-left: 17px solid transparent;
+  position: relative;
+  content: "";
+  bottom: 3.33rem;
+  right: 4.17rem;
 }
 
 .tip {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
+  position: relative;
+  text-indent: -0.8rem;
+  margin-left: -2rem;
   margin-bottom: 1rem;
   background-color: #fff0b3;
   background-image: url(/icons/lightbulb.png);
   background-position: left center;
   background-repeat: no-repeat;
   background-size: 5rem;
-  border-radius: 10px;
-  overflow: hidden;
+  border-radius: 0px 10px 10px 0px;
+  overflow: visible;
   padding: 1rem 1rem 1rem 5rem;
+  border: 2px solid #997a00;
+  border-left: none;
   color: #997a00;
+  box-shadow: 0.6rem 0.7rem 8px -0.4rem #888888;
 }
 .tip:before {
-  font-weight: bold;
-  content: "Tip: ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 17px solid #997a00;
+  border-left: 17px solid transparent;
+  position: relative;
+  content: "";
+  bottom: 3.33rem;
+  right: 4.17rem;
 }
 
 .note {
