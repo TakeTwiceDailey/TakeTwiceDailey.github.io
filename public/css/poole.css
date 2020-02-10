@@ -371,8 +371,8 @@ tbody tr:nth-child(odd) th {
   border-left: 20px solid transparent;
   position: relative;
   content: "";
-  bottom: 3rem;
-  right: 4rem;
+  bottom: 1px;
+  right: 1px;
 }
 
 /*
