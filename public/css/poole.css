@@ -346,13 +346,14 @@ tbody tr:nth-child(odd) th {
 {
    -moz-border-radius: 10px;
    -webkit-border-radius: 10px;
+   margin-left: -1rem;
    margin-bottom: 1rem;
    background-color: #ffcccc;
    background-image: url(/icons/alert.png);
    background-position: left center;
    background-repeat: no-repeat;
    background-size: 5rem;
-   border-radius: 10px;
+   border-radius: 0px 10px 10px 0px;
    overflow: hidden;
    padding: 1rem 1rem 1rem 5rem;
    color: #e60000;
