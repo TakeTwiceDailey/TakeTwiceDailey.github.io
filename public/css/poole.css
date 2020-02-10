@@ -365,12 +365,13 @@ tbody tr:nth-child(odd) th {
 .warning:before {
   width: 0;
   height: 0;
-  border-bottom: 20px solid red;
+  border-bottom: 20px solid #e60000;
   border-left: 20px solid transparent;
   position: relative;
   content: "";
   bottom: 3rem;
   right: 4rem;
+  display: block;
 }
 
 /*
