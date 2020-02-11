@@ -12,21 +12,47 @@
       color: #4ab19a;
     }
 
-    /* line 16, ../sass/demo.scss */
-    .clear {
-      clear: both;
-      float: none;
-      width: 100%;
+    .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 8px;
     }
 
-    /* line 22, ../sass/demo.scss */
-    .container {
-      width: 100%;
-      padding-right: 15px;
-      padding-left: 15px;
+    /* Create four equal columns that sits next to each other */
+    .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 8px;
     }
 
-    .container .gallery a img {
+    .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    }
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+    }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+    }
+
+    .gallery .row .column a img {
       float: left;
       width: ;
       height: auto;
@@ -37,8 +63,8 @@
       transition: transform .15s ease;
       position: relative;
     }
-    /* line 46, ../sass/demo.scss */
-    .container .gallery a:hover img {
+
+    .gallery .row .column a:hover img {
       -webkit-transform: scale(1.05);
       -moz-transform: scale(1.05);
       -o-transform: scale(1.05);
@@ -46,15 +72,9 @@
       transform: scale(1.05);
       z-index: 5;
     }
-    /* line 57, ../sass/demo.scss */
-    /* line 57, ../sass/demo.scss */
-    .container .gallery a.big img {
-      width: 40%;
-    }
 
-    /* line 65, ../sass/demo.scss */
-    .align-center {
-      text-align: center;
+    .gallery .row .column a.big img {
+      width: 40%;
     }
 
   </style>
@@ -82,16 +102,28 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="gallery">
-        <a href="\photos\A7R05931L.jpg"><img src="\photos\thumbnails\A7R05931.jpg"  alt="" title=""/></a>
-        <a href="\photos\A7R06365L.jpg"><img src="\photos\thumbnails\A7R06365.jpg" alt="" title="Beautiful Image"/></a>
-        <div class="clear"></div>
 
-        <a href="\photos\A7R01512L.jpg"><img src="\photos\thumbnails\A7R01512.jpg" alt="" title="Beautiful Image"></a>
-  			<a href="\photos\A7R05931L.jpg"><img src="\photos\thumbnails\A7R05931.jpg" alt="" title=""></a>
+    <div class="gallery">
+      <div class="row">
+        <div class="column">
+          <a href="\photos\A7R05931L.jpg"><img src="\photos\thumbnails\A7R05931.jpg"  alt="" title=""/></a>
+          <a href="\photos\A7R06365L.jpg"><img src="\photos\thumbnails\A7R06365.jpg" alt="" title="Beautiful Image"/></a>
+        </div>
+        <div class="column">
+          <a href="\photos\A7R01512L.jpg"><img src="\photos\thumbnails\A7R01512.jpg" alt="" title="Beautiful Image"></a>
+    			<a href="\photos\A7R05931L.jpg"><img src="\photos\thumbnails\A7R05931.jpg" alt="" title=""></a>
+        </div>
+        <div class="column">
+          <a href="\photos\A7R05931L.jpg"><img src="\photos\thumbnails\A7R05931.jpg"  alt="" title=""/></a>
+          <a href="\photos\A7R06365L.jpg"><img src="\photos\thumbnails\A7R06365.jpg" alt="" title="Beautiful Image"/></a>
+        </div>
+        <div class="column">
+          <a href="\photos\A7R01512L.jpg"><img src="\photos\thumbnails\A7R01512.jpg" alt="" title="Beautiful Image"></a>
+    			<a href="\photos\A7R05931L.jpg"><img src="\photos\thumbnails\A7R05931.jpg" alt="" title=""></a>
+        </div>
       </div>
-    <div>
+    </div>
+
     {% comment %}
     <div class="gallery">
 			<a href="images/image1.jpg" class="big"><img src="images/thumbs/thumb1.jpg" alt="" title="Beautiful Image" /></a>
