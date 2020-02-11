@@ -361,6 +361,9 @@ tbody tr:nth-child(odd) th {
   .tip:before{
     display: none;
   }
+  .tip {
+    text-indent: 0pt;
+  }
 }
 
 .note {
@@ -397,6 +400,9 @@ tbody tr:nth-child(odd) th {
 @media (max-width: 630px) {
   .note:before{
     display: none;
+  }
+  .note {
+    text-indent: 0pt;
   }
 }
 
@@ -435,6 +441,9 @@ tbody tr:nth-child(odd) th {
 @media (max-width: 630px) {
   .warning:before{
     display: none;
+  }
+  .warning {
+    text-indent: 0pt;
   }
 }
 /*
