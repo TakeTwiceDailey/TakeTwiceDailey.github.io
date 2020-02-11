@@ -423,7 +423,7 @@ tbody tr:nth-child(odd) th {
    overflow: visible;
    padding: 1rem 1rem 1rem 5rem;
    border: 2px solid #e60000;
-   border-left: none;
+   /*border-left: none;*/
    color: #e60000;
    box-shadow: 0.6rem 0.7rem 8px -0.4rem #888888;
 }
