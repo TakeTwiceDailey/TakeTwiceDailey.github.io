@@ -414,7 +414,7 @@ tbody tr:nth-child(odd) th {
   bottom: 3.33rem;
   right: 4.17rem;
 }
-@media (min-width=630px) {
+@media (min-width: 630px) {
   .warning:before{
     display: none;
   }
