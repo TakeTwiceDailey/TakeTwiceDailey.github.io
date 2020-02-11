@@ -177,7 +177,13 @@
     <script>
 
         $(function(){
-        var $gallery = $('.gallery a').simpleLightbox();
+        var $gallery = $('.gallery a').simpleLightbox(
+            {
+            	captionPosition:'outside',
+          		animationSpeed: 200,
+          		disableRightClick: true,
+            }
+          );
 
         $gallery.on('show.simplelightbox', function(){
           console.log('Requested for showing');
