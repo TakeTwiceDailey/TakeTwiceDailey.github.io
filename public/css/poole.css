@@ -320,6 +320,9 @@ tbody tr:nth-child(odd) th {
   .example:before{
     display: none;
   }
+  .example {
+    text-indent: 0pt;
+  }
 }
 
 .tip {
