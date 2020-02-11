@@ -310,7 +310,7 @@ tbody tr:nth-child(odd) th {
   position: absolute;
   width: 0;
   height: 0;
-  border-bottom: 17px solid #008000;
+  border-bottom: 17px solid #006600;
   border-left: 17px solid transparent;
   position: relative;
   content: "";
@@ -350,7 +350,7 @@ tbody tr:nth-child(odd) th {
   position: absolute;
   width: 0;
   height: 0;
-  border-bottom: 17px solid #997a00;
+  border-bottom: 17px solid #806600;
   border-left: 17px solid transparent;
   position: relative;
   content: "";
@@ -390,7 +390,7 @@ tbody tr:nth-child(odd) th {
   position: absolute;
   width: 0;
   height: 0;
-  border-bottom: 17px solid #074B88;
+  border-bottom: 17px solid #064479;
   border-left: 17px solid transparent;
   position: relative;
   content: "";
@@ -431,7 +431,7 @@ tbody tr:nth-child(odd) th {
   position: absolute;
   width: 0;
   height: 0;
-  border-bottom: 17px solid #b30000;
+  border-bottom: 17px solid #cc0000;
   border-left: 17px solid transparent;
   position: relative;
   content: "";
