@@ -42,7 +42,7 @@ body.hidden-scroll {
     display: none;
     position: fixed;
     top: 50px;
-    left: 30px;
+    left: 50px;
     z-index: 1060;
     color: #fff;
     font-size: 1rem; }
@@ -117,6 +117,7 @@ body.hidden-scroll {
     .sl-wrapper .sl-image .sl-caption {
       display: none;
       padding: 10px;
+      text-align: center;
       color: #fff;
       background: rgba(0, 0, 0, 0.8);
       font-size: 1rem;
