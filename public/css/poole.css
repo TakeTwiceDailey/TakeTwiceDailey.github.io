@@ -411,10 +411,8 @@ tbody tr:nth-child(odd) th {
   border-left: 17px solid transparent;
   position: relative;
   content: "";
-  bottom: 10%;
-  right: 1%;
-  /* bottom: 3.33rem;
-  right: 4.17rem; */
+  bottom: 3.33rem;
+  right: 4.17rem;
 }
 @media (min-width=630px) {
   .warning:before{
