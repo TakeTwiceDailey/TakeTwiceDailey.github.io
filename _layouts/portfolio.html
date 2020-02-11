@@ -4,55 +4,29 @@
   <style>
 
     * {
-    box-sizing: border-box;
+      box-sizing: border-box;
     }
 
-    .row {
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-    padding: 0 8px;
+    /* line 12, ../sass/demo.scss */
+    a {
+      color: #4ab19a;
     }
 
-    /* Create four equal columns that sits next to each other */
-    .column {
-    -ms-flex: 25%; /* IE10 */
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 8px;
+    /* line 16, ../sass/demo.scss */
+    .clear {
+      clear: both;
+      float: none;
+      width: 100%;
     }
 
-    .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-    }
-
-    /* Responsive layout - makes a two column-layout instead of four columns */
-    @media screen and (max-width: 800px) {
-    .column {
-      -ms-flex: 50%;
-      flex: 50%;
-      max-width: 50%;
-    }
-    }
-
-    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-    @media screen and (max-width: 600px) {
-    .column {
-      -ms-flex: 100%;
-      flex: 100%;
-      max-width: 100%;
-    }
-    }
-
-    img.hover-shadow {
-      transition: 0.3s;
-    }
-
-    .hover-shadow:hover {
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* line 22, ../sass/demo.scss */
+    .container {
+      max-width: 1170px;
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
     }
 
     .container .gallery a img {
@@ -107,8 +81,8 @@
     </div>
 
     <div class="gallery">
-      <a href="\photos\A7R05931L.jpg"><img src="\photos\A7R05931L.jpg"  alt="" title=""/></a>
-      <a href="\photos\A7R00940p.jpg"><img src="\photos\A7R00940p.jpg" alt="" title="Beautiful Image"/></a>
+      <a href="photos/A7R05931.jpg"><img src="photos/thumbnails/A7R05931.jpg"  alt="" title=""/></a>
+      <a href="photos/A7R00940p.jpg"><img src="photos/thumbnails/A7R00940p.jpg" alt="" title="Beautiful Image"/></a>
     </div>
 
     {% comment %}
