@@ -6,8 +6,7 @@ shortinfo: This is an example blog post that shows several types of HTML content
 
 ## The default HTML and Markdown syntax
 
-Compared to other languages I am used to, HTML is incredibly bloated. For example, the tags used in HTML, say the paragraph tag `<p>` needs an ending tag `</p>` once you are done filling out the content. This has the effect of making HTML documents look ridiculously messy. Some genius (John Gruber) invented Markdown to make the code files readable. Here is how you use some of the basic functions:
-
+Compared to other languages I was used to before this, HTML is incredibly bloated. For example, the tags used in HTML, say the paragraph tag `<p>` needs an ending tag `</p>` once you are done filling out the content, and all of the style changes or other specificities are crammed into the parent tag. This has the effect of making HTML documents look ridiculously messy. Some genius (John Gruber) invented Markdown to make the code files more human readable. Here is how you use some of the basic functions:
 
 | Formatting Type   | Markdown Syntax   |
 |-------------------|-------------------|
@@ -16,7 +15,7 @@ Compared to other languages I am used to, HTML is incredibly bloated. For exampl
 | **bold**          |`**strong**`       |
 | ***both***        |`**_both_**`       |
 | ~~strikethrough~~ |`~~strikethrough~~`|
-| `codeblock`       |`` `codeblock` ``  |
+| `inline codeblock`|`` `inline codeblock` ``  |
 
 Markdown was never meant to be an exhaustive list of syntax re-mapping for HTML, so there are many things you might find missing. Luckily, raw HTML syntax is still valid inside Markdown documents. This is great for practically any specific text manipulation you might need, just not so great for your eyes. Here are some things I use that are not in Markdown by default:
 
@@ -25,24 +24,24 @@ Markdown was never meant to be an exhaustive list of syntax re-mapping for HTML,
 | some<sup>superscript</sup>| `some<sup>superscript</sup>`    |
 | some<sub>subscript</sub>  | `some<sub>subscript</sub>`      |
 | <abbr title="HyperText Markup Langage">HTML</abbr> |`<abbr title="HyperText Markup Langage">HTML</abbr>`|
-| <ins>insert<ins>          |`<ins>insert<ins>`               |
+| <ins>insert<ins>          |`<ins>insert</ins>`               |
 
 ## Other Mardown syntax
 
 If you need to quote a large amount of text, you can do this in blockquotes:
 
 > This is a blockquote. The default HTML syntax for this is messy:
-> `<blockquote>text</blockquote>`, but in Markdown this same thing is achieved by:
+> `<blockquote>text</blockquote>`, but in Markdown this same thing is achieved with:
 
 ```
-> This is a blockquote. The default HTML syntax for this is messy:
-> `<blockquote>text</blockquote>`, but in Markdown this same thing is achieved by:
+> greater-than symbols in front
+> of your text elements
 ```
-Making the Markdown document look much cleaner. How did I do that large code block?
+Making the Markdown document look much cleaner. How did I do that large code block you ask?
 
 ## Syntax Highlighting
 
-Sometimes you need to show literal code in your documents. Luckily this works great, for a huge library of languages, natively. Just specify the language you want in three backticks.
+Sometimes you need to show literal code in your documents. Luckily this works great, for a huge library of languages, natively. Just specify the language you want in three backticks, like this:
 
 {% highlight markdown%}
 ``` mathematica
@@ -56,7 +55,7 @@ function[x_,y_]:= x^2+y^2
 ```
 {% endhighlight %}
 
-This yields:
+The above markdown code yields:
 
 ``` mathematica
 
@@ -77,81 +76,58 @@ To do bring attention to in-line text that I don't want the reader to miss, I ha
 
 <p class="warning"> <b>Warning:</b> This warning block can be used to bring attention to a very important item that is crucially not missed by the reader.</p>
 
-<p class="note"><b>Note:</b> This note block can act as a sort of footnote that I want the reader to read **now** rather than at the bottom of the page.</p>
+<p class="note"><b>Note:</b> This note block can act as a sort of footnote that I want the reader to read <strong>now</strong> rather than at the bottom of the page. Sadly the Markdown shortcuts don't work inside defined HTML elements, so the previous bold <strong>now</strong> had to be done using the <code><strong></code> tag.</p>
 
-<p class="tip"><b>Tip:</b>This tip block can be used to show little pieces of information that may make following a tutorial easier if the reader is not as familiar with the framework.</p>
+<p class="tip"><b>Tip:</b> This tip block can be used to show little pieces of information that may make following a tutorial easier if the reader is not as familiar with the framework.</p>
 
-<p class="example"><b>Example:</b>This example block can be used to showcase short examples to make a concept more clear.</p>
+<p class="example"><b>Example:</b> This example block can be used to showcase short examples to make a concept more clear.</p>
 
-### Lists
+## Lists
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+You can make ordered and unordered lists using the Markdown syntax. You can use
 
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
+* Asterisks
+* Dashes
+* or Pluses
+
+to make your list elements just like
+
+```
+* Asterisks
+- Dashes
++ or Pluses
+```
+
+and no matter what you use, Markdown will format it the same way. Ordered lists are made with numbers following a dot, but they don't have to be in order in Markdown. A random order like this
+
+```
+3. randomly
+1. ordered
+2. list
+```
+will still format ordered in your final document:
+
+3. Asterisks
+1. Dashes
+2. or Pluses
 
 Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
 
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
+## Tables
 
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
+You can build tables in the Markdown document just like they might look in the document. The only important features are that there are at least three dashes in each column, and the positions of the colons define left, center, and right aligned table elements. Here's an example:
 
-<dl>
-  <dt>HyperText Markup Language (HTML)</dt>
-  <dd>The language used to describe and define the content of a Web page</dd>
+```
+| The Table | Contents | Go Here    |
+|:----------|:--------:|-----------:|
+|left       | center   |  right     |
+```
 
-  <dt>Cascading Style Sheets (CSS)</dt>
-  <dd>Used to describe the appearance of Web content</dd>
+Yields the following:
 
-  <dt>JavaScript (JS)</dt>
-  <dd>The programming language used to build advanced Web sites and applications</dd>
-</dl>
+| The Table | Contents | Go Here    |
+|:----------|:--------:|-----------:|
+|left       | center   |  right     |
 
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-### Tables
-
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
-      <th>Downvotes</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-      <td>23</td>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
-</table>
-
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
 
 -----
-
-Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a>
