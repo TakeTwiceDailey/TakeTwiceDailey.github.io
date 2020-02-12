@@ -1,42 +1,41 @@
 ---
 layout: post
-title: Example content
-shortinfo: This is an example blog post that shows several types of HTML content supported in this theme.
+title: Content formatting in this blog
+shortinfo: This is an example blog post that shows several types of HTML content used in this blog, and how I designed some of them.
 ---
 
+## The default HTML and Markdown syntax
 
-<div class="message">
-  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
-</div>
+Compared to other languages I am used to, HTML is incredibly bloated. For example, the tags used in HTML, say the paragraph tag `<p>` needs an ending tag `</p>` once you are done filling out the content. This has the effect of making HTML documents look ridiculously messy. Some genius (John Gruber) invented Markdown to make the code files readable. Here is how you use some of the basic functions:
 
-Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+| Formatting Type   | HTML Syntax                     | Markdown Syntax   |
+|-------------------|---------------------------------|-------------------|
+| paragraph text    |`<p>paragraph text</p>`          | paragraph text    |
+| <h2>Heading 2</h2>|`<h2>Heading 2</h2>`             | `## Heading 2`    |
+| <h3>Heading 3</h3>|`<h3>Heading 3</h3>`             | `### Heading 3`    |
+| etc...            |                                 |                   |
+| *italic*          |`<em>italic</em>`                |`*italic*`         |
+| **bold**          |`<strong>italic</strong>`        |`**strong**`       |
+| ***both***        |`<em><strong>test</strong></em>` |`**_both_**`       |
+| ~~strikethrough~~ |`<del>strikethrough</del>`       |`~~strikethrough~~`|
+| `codeblock`       |`<code>codeblock</code>`         |`` `codeblock` ``  |
+| <blockquote>block quotes</blockquote> | `<blockquote>block quotes</blockquote>` |`> blockquotes`|
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+Markdown was never meant to be an exhaustive list of syntax re-mapping for HTML, so there are many things you might find missing. Luckily, raw HTML syntax is still valid inside Markdown documents. This is great for practically any specific text manipulation you might need, just not so great for your eyes. Here are some things I use that are not in Markdown by default:
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+| Formatting Type           | HTML Syntax                     |
+|---------------------------|---------------------------------|
+| some<sup>superscript</sup>| `some<sup>superscript</sup>`    |
+| some<sub>subscript</sub>  | `some<sub>subscript</sub>`      |
+| <abbr title="HyperText Markup Langage">HTML</abbr> |`<abbr title="HyperText Markup Langage">HTML</abbr>` |
+| <ins>insert<ins>          |`<ins>insert<ins>`               |
 
-## Inline HTML elements
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+## Syntax Highlighting
 
-- **To bold text**, use `<strong>`.
-- *To italicize text*, use `<em>`.
-- Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-- Citations, like <cite>&mdash; Mark otto</cite>, should use `<cite>`.
-- <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
+Sometimes you need to show literal code in your documents. Luckily this works great, for a huge library of languages, natively. Just specify the language you want in three backticks.
 
-Most of these elements are styled by browsers with few modifications on our part.
-
-## Heading
-
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-### Code
-
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
-
-{% highlight mathematica%}
+``` mathematica
 
 a=4;
 b=3;
@@ -44,7 +43,11 @@ Times[3,4]
 
 function[x_,y_]:= x^2+y^2
 
-{% endhighlight %}
+```
+
+<div class="message">
+  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+</div>
 
 <p class="warning"> <b>Warning:</b> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.<br><br>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 
