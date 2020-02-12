@@ -8,18 +8,17 @@ shortinfo: This is an example blog post that shows several types of HTML content
 
 Compared to other languages I am used to, HTML is incredibly bloated. For example, the tags used in HTML, say the paragraph tag `<p>` needs an ending tag `</p>` once you are done filling out the content. This has the effect of making HTML documents look ridiculously messy. Some genius (John Gruber) invented Markdown to make the code files readable. Here is how you use some of the basic functions:
 
-| Formatting Type   | HTML Syntax                     | Markdown Syntax   |
-|-------------------|---------------------------------|-------------------|
-| paragraph text    |`<p>paragraph text</p>`          | paragraph text    |
-| <h2>Heading 2</h2>|`<h2>Heading 2</h2>`             | `## Heading 2`    |
-| <h3>Heading 3</h3>|`<h3>Heading 3</h3>`             | `### Heading 3`    |
-| etc...            |                                 |                   |
-| *italic*          |`<em>italic</em>`                |`*italic*`         |
-| **bold**          |`<strong>italic</strong>`        |`**strong**`       |
-| ***both***        |`<em><strong>test</strong></em>` |`**_both_**`       |
-| ~~strikethrough~~ |`<del>strikethrough</del>`       |`~~strikethrough~~`|
-| `codeblock`       |`<code>codeblock</code>`         |`` `codeblock` ``  |
-| <blockquote>block quotes</blockquote> | `<blockquote>block quotes</blockquote>` |`> blockquotes`|
+
+| Formatting Type   | Markdown Syntax   |
+|-------------------|-------------------|
+| paragraph text    | paragraph text    |
+| *italic*          |`*italic*`         |
+| **bold**          |`**strong**`       |
+| ***both***        |`**_both_**`       |
+| ~~strikethrough~~ |`~~strikethrough~~`|
+| `codeblock`       |`` `codeblock` ``  |
+| <blockquote>block quotes</blockquote> |`> blockquotes`|
+
 
 Markdown was never meant to be an exhaustive list of syntax re-mapping for HTML, so there are many things you might find missing. Luckily, raw HTML syntax is still valid inside Markdown documents. This is great for practically any specific text manipulation you might need, just not so great for your eyes. Here are some things I use that are not in Markdown by default:
 
@@ -44,6 +43,9 @@ Times[3,4]
 function[x_,y_]:= x^2+y^2
 
 ```
+## Custom Message Classes
+
+To
 
 <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
