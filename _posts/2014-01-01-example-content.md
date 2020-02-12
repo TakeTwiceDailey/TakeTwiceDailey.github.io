@@ -26,7 +26,7 @@ Markdown was never meant to be an exhaustive list of syntax re-mapping for HTML,
 |---------------------------|---------------------------------|
 | some<sup>superscript</sup>| `some<sup>superscript</sup>`    |
 | some<sub>subscript</sub>  | `some<sub>subscript</sub>`      |
-| <abbr title="HyperText Markup Langage">HTML</abbr> |`<abbr title="HyperText Markup Langage">HTML</abbr>` |
+| <abbr title="HyperText Markup Langage">HTML</abbr> |`<abbr title="HyperText Markup Langage">HTML</abbr>`|
 | <ins>insert<ins>          |`<ins>insert<ins>`               |
 
 
