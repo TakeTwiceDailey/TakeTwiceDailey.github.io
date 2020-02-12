@@ -76,7 +76,7 @@ To do bring attention to in-line text that I don't want the reader to miss, I ha
 
 <p class="warning"> <b>Warning:</b> This warning block can be used to bring attention to a very important item that is crucially not missed by the reader.</p>
 
-<p class="note"><b>Note:</b> This note block can act as a sort of footnote that I want the reader to read <strong>now</strong> rather than at the bottom of the page. Sadly the Markdown shortcuts don't work inside defined HTML elements, so the previous bold <strong>now</strong> had to be done using the <code><strong></code> tag.</p>
+<p class="note"><b>Note:</b> This note block can act as a sort of footnote that I want the reader to read now rather than at the bottom of the page.</p>
 
 <p class="tip"><b>Tip:</b> This tip block can be used to show little pieces of information that may make following a tutorial easier if the reader is not as familiar with the framework.</p>
 
