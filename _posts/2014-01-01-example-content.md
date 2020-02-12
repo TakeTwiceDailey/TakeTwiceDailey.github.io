@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Content formatting in this blog
-shortinfo: This is an example blog post that shows several types of HTML content used in this blog, and how I designed some of them.
+shortinfo: Here I show the Markdown syntax one can use to make HTML documents appear on the web, and some of the tools I have built to make reading this blog easier and more appealing.
 ---
 
 ## The default HTML and Markdown syntax
@@ -13,7 +13,7 @@ Compared to other languages I was used to before this, HTML is incredibly bloate
 | paragraph text    | paragraph text    |
 | *italic*          |`*italic*`         |
 | **bold**          |`**strong**`       |
-| ***both***        |`**_both_**`       |
+| ***both***        |`***both***`       |
 | ~~strikethrough~~ |`~~strikethrough~~`|
 | `inline codeblock`|`` `inline codeblock` ``  |
 
@@ -68,7 +68,7 @@ function[x_,y_]:= x^2+y^2
 ```
 ## Custom Message Classes
 
-To do bring attention to in-line text that I don't want the reader to miss, I have defined several custom message classes (inspired by those you can find on the Jekyll website) that can be used for various purposes.
+To bring attention to in-line text that I don't want the reader to miss, I have defined several custom message classes (inspired by those you can find on the Jekyll website) that can be used for various purposes.
 
 <div class="message">
   This message block can be used to emulate the previous code block, but use the native font instead.
@@ -107,20 +107,18 @@ and no matter what you use, Markdown will format it the same way. Ordered lists 
 ```
 will still format ordered in your final document:
 
-3. Asterisks
-1. Dashes
-2. or Pluses
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+3. randomly
+1. ordered
+2. list
 
 ## Tables
 
 You can build tables in the Markdown document just like they might look in the document. The only important features are that there are at least three dashes in each column, and the positions of the colons define left, center, and right aligned table elements. Here's an example:
 
 ```
-| The Table | Contents | Go Here    |
-|:----------|:--------:|-----------:|
-|left       | center   |  right     |
+| The Table | Contents | Go Here  |
+|:----------|:--------:|---------:|
+|left       |  center  |     right|
 ```
 
 Yields the following:
@@ -129,5 +127,6 @@ Yields the following:
 |:----------|:--------:|-----------:|
 |left       | center   |  right     |
 
+Hopefully that helped a little if you are currently new to this like I was.
 
 -----
