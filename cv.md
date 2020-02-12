@@ -60,7 +60,7 @@ ___
 ___
 
 * C. Dailey, C. Bradley, D. F. J. Kimball, I. Sulai, S. Pustelny, A. Wickenbrock, and A. Derevianko. "Quantum sensor networks as exotic field telescopes for multi-messenger astronomy". *arXiv e-prints*, page: arXiv:2002.04352, February 2020.
-<a href="https://arxiv.org/abs/2002.04352" target="\_blank">Full text<a>
+<a href="https://arxiv.org/abs/2002.04352" target="\_blank">Full text preprint<a>
 
 * C. Dailey. "Probing exotic fields with networks of atomic clocks". Master's thesis, University of Nevada, Reno. August 2019.
 <a href="http://hdl.handle.net/11714/6029" target="\_blank">Full text<a>
