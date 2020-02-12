@@ -17,8 +17,6 @@ Compared to other languages I am used to, HTML is incredibly bloated. For exampl
 | ***both***        |`**_both_**`       |
 | ~~strikethrough~~ |`~~strikethrough~~`|
 | `codeblock`       |`` `codeblock` ``  |
-| <blockquote>block quotes</blockquote> |`> blockquotes`|
-
 
 Markdown was never meant to be an exhaustive list of syntax re-mapping for HTML, so there are many things you might find missing. Luckily, raw HTML syntax is still valid inside Markdown documents. This is great for practically any specific text manipulation you might need, just not so great for your eyes. Here are some things I use that are not in Markdown by default:
 
@@ -29,10 +27,35 @@ Markdown was never meant to be an exhaustive list of syntax re-mapping for HTML,
 | <abbr title="HyperText Markup Langage">HTML</abbr> |`<abbr title="HyperText Markup Langage">HTML</abbr>`|
 | <ins>insert<ins>          |`<ins>insert<ins>`               |
 
+## Other Mardown syntax
+
+If you need to quote a large amount of text, you can do this in blockquotes:
+
+> This is a blockquote. The default HTML syntax for this is messy:
+> `<blockquote>text</blockquote>`, but in Markdown this same thing is achieved by:
+
+```
+> This is a blockquote. The default HTML syntax for this is messy:
+> `<blockquote>text</blockquote>`, but in Markdown this same thing is achieved by:
+```
+Making the Markdown document look much cleaner. How did I do that large code block?
 
 ## Syntax Highlighting
 
 Sometimes you need to show literal code in your documents. Luckily this works great, for a huge library of languages, natively. Just specify the language you want in three backticks.
+
+{% highlight markdown%}
+``` mathematica
+
+a=4;
+b=3;
+Times[3,4]
+
+function[x_,y_]:= x^2+y^2
+
+```
+{% endhighlight %}
+
 
 ``` mathematica
 
