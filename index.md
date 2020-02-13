@@ -7,7 +7,7 @@ title: Welcome!
 
 ## Welcome!
 
-<p><img src="/icons/my_face/01ConnerFaceBWTrans.png" style="padding:0 10px;width:40%;float: right"/></p>
+<p><img src="/icons/my_face/01ConnerFaceBWTransS.png" style="padding:0 10px;width:40%;float: right"/></p>
 
 Here you will find an archive of my personal interests and history. A directory can be found in the side-panel to the left, along with links to social media and contact information. You are welcome take a look at my curriculum vitae, a synopsis of my research, some of my photography, or check out some of my blog posts.
 
