@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Content formatting in this blog
+tags: HTML Markdown Blogging
 shortinfo: Here I show the Markdown syntax one can use to make HTML documents appear on the web, and some of the tools I have built to make reading this blog easier and more appealing.
 ---
 

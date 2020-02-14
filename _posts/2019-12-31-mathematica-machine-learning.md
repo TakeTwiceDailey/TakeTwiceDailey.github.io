@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Machine Learning in Mathematica
-tags: mathematica tutorial
+tags: Mathematica Tutorials
 shortinfo: Machine learning can be really confusing, and Mathematica's documentation doesn't help as much as I would like, but I have learned a lot about how it works. Check out this guide to learn about how you can teach your computer to recognize patterns in this comprehensive and simplistic guide.
 ---
 
