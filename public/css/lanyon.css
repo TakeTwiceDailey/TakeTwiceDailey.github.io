@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
   max-width: 50rem;/*28rem*/
-  min-width: 45vw;/*added as a test*/
+  min-width: 50vw;/*changed the width to 50% in large screens*/
 }
 @media (min-width: 38em) {
   .container {
@@ -95,6 +95,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .masthead {
+  position: sticky; /*made the masthead stick to the top*/
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
