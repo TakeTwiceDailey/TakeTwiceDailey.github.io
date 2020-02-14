@@ -18,6 +18,12 @@ title: Blog
       {{ post.shortinfo }}
     </div>
 
+    <ul class="tags">
+      {% for tag in post.tags %}
+        <li><a href="{{ "/" | relative_url }}tags#{{tag}}" class="tag">{{ tag }}</a></li>
+      {% endfor %}
+    </ul>
+    
   </div>
   {% endfor %}
 </div>
