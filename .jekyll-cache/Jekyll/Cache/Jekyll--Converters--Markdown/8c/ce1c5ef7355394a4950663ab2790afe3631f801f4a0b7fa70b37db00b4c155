@@ -1,0 +1,12 @@
+I"<p class="note"><b>Note:</b> A good understanding in vector algebra and matrix properties is recommended.</p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Most of our daily lives are lived in a physical realm well described by early physicists like Galileo. When Einstein first introduced the theory of special relativity, he effectively set a speed limit on every massive object in the universe, the speed of light <code class="highlighter-rouge">$c$</code>. This may not seem like much of a change on the surface, but this opened a whole new branch of physics that has many differences to the Galilean framework. As Galileo first described terrestrial motion, velocity addition worked in the same manner as any other vector addition. Simply add together each component of each of the velocity vectors <code class="highlighter-rouge">$\vec\beta=\vec v/c$</code> to be added:</p>
+
+<center><code>
+$\large \vec\beta_{12}=\vec\beta_1+\vec\beta_2\,.$
+</code></center>
+
+<p class="example"><b>Example:</b> If you are on a train</p>
+:ET

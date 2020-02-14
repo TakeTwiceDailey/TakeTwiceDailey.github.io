@@ -1,7 +1,7 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge # changed from `pygments` as github says so
-
+plugins: [jekyll-paginate]
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
@@ -14,7 +14,7 @@ tagline:             'Physics graduate student, hobby photographer'
 description:         'Physics graduate student, hobby photographer.'
 url:                 https://taketwicedailey.github.io
 baseurl:             ''
-paginate:            5
+paginate:            3
 paginate_path:       '/blog/page:num/'
 
 # About/contact
