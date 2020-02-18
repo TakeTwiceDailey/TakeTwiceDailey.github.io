@@ -41,14 +41,15 @@ body {
 }
 
 html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-family:"Computer Modern Serif", "PT Serif", serif, "Times New Roman";
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Computer Modern Serif","PT Serif", serif, Georgia;
+  /*font-family: "PT Sans", Helvetica, Arial, sans-serif;*/
   font-weight: 400;
   color: #313131;
-  letter-spacing: -.025rem;
+  /* letter-spacing: -.025rem; */
 }
 
 
@@ -73,17 +74,20 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .container {
-  max-width: 50rem;/*28rem*/
-  min-width: 50vw;/*changed the width to 50% in large screens*/
+  max-width: 100vw;/*28rem*/
+  font-size: 100%
 }
-@media (min-width: 38em) {
+@media (min-width: 50em) {
   .container {
-    max-width: 30rem;
+    max-width: 80vw;
+    font-size: 110%
   }
 }
-@media (min-width: 56em) {
+@media (min-width: 75em) {
   .container {
-    max-width: 36rem;
+    font-size: 120%;
+    max-width: 60vw;/*36rem;*/
+    min-width: 60vw;/*changed the width to 50% on large screens*/
   }
 }
 
@@ -112,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 70%;
   font-weight: 400;
   color: #8F8F8F;
-  letter-spacing: 0;
+  /* letter-spacing: 0; */
 }
 
 @media (max-width: 48em) {
@@ -149,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Computer Modern Serif", "PT Serif", serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   background-color: #202020;
@@ -179,6 +183,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid rgba(255,255,255,.1);
 }
 .sidebar-nav-item {
+  font-size: 120%;
   display: block;
   padding: .5rem 1rem;
   border-top: 1px solid rgba(255,255,255,.1);
@@ -369,7 +374,7 @@ a.sidebar-nav-item:focus {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Computer Modern Serif", "PT Serif", serif;
   color: #ccc;
   text-align: center;
 }
@@ -577,7 +582,7 @@ a.pagination-item:hover {
 }
 
 .tag {
-	font: 14px/1.5 'PT Sans', serif;
+	font: 20px/1.5 'Computer Modern Serif', serif;
   background: #cccccc;
   border-radius: 3px 0 0 3px;
   color: #999;

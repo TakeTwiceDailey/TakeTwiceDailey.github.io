@@ -154,7 +154,7 @@ pre {
 }
 code {
   padding: .1em .1em;/*0.25em 0.5em*/
-  font-size: 110%;/*85%*/
+  font-size: 85%;/*85%*/
   color: inherit;/*#bf616a*/
   background-color: transparent;/*#f9f9f9*/
   border-radius: 3px;
@@ -311,19 +311,25 @@ tbody tr:nth-child(odd) th {
   position: absolute;
   width: 0;
   height: 0;
-  border-bottom: 17px solid #006600;
-  border-left: 17px solid transparent;
+  border-bottom: .92rem solid #006600;
+  border-left: .92rem solid transparent;
   position: relative;
   content: "";
-  bottom: 3.33rem;
-  right: 4.17rem;
+  bottom: 3.7rem;
+  right: 4.2rem;
 }
-@media (max-width: 630px) {
+@media (max-width: 75em) {
   .example:before{
-    display: none;
+    bottom: 3.5rem;
+    right: 5rem;
   }
   .example {
     text-indent: 0pt;
+  }
+}
+@media (max-width: 50em) {
+  .example:before{
+    display: none;
   }
 }
 
@@ -351,19 +357,25 @@ tbody tr:nth-child(odd) th {
   position: absolute;
   width: 0;
   height: 0;
-  border-bottom: 17px solid #806600;
-  border-left: 17px solid transparent;
+  border-bottom: .92rem solid #806600;
+  border-left: .92rem solid transparent;
   position: relative;
   content: "";
-  bottom: 3.33rem;
-  right: 4.17rem;
+  bottom: 3.7rem;
+  right: 4.2rem;
 }
-@media (max-width: 630px) {
+@media (max-width: 75em) {
   .tip:before{
-    display: none;
+    bottom: 3.5rem;
+    right: 5rem;
   }
   .tip {
     text-indent: 0pt;
+  }
+}
+@media (max-width: 50em) {
+  .tip:before{
+    display: none;
   }
 }
 
@@ -391,19 +403,25 @@ tbody tr:nth-child(odd) th {
   position: absolute;
   width: 0;
   height: 0;
-  border-bottom: 17px solid #064479;
-  border-left: 17px solid transparent;
+  border-bottom: .92rem solid #064479;
+  border-left: .92rem solid transparent;
   position: relative;
   content: "";
-  bottom: 3.33rem;
-  right: 4.17rem;
+  bottom: 3.7rem;
+  right: 4.2rem;
 }
-@media (max-width: 630px) {
+@media (max-width: 75em) {
   .note:before{
-    display: none;
+    bottom: 3.5rem;
+    right: 5rem;
   }
   .note {
     text-indent: 0pt;
+  }
+}
+@media (max-width: 50em) {
+  .note:before{
+    display: none;
   }
 }
 
@@ -432,19 +450,25 @@ tbody tr:nth-child(odd) th {
   position: absolute;
   width: 0;
   height: 0;
-  border-bottom: 17px solid #cc0000;
-  border-left: 17px solid transparent;
+  border-bottom: .92rem solid #cc0000;
+  border-left: .92rem solid transparent;
   position: relative;
   content: "";
-  bottom: 3.33rem;
-  right: 4.17rem;
+  bottom: 3.7rem;
+  right: 4.2rem;
 }
-@media (max-width: 630px) {
+@media (max-width: 75em) {
   .warning:before{
-    display: none;
+    bottom: 3.5rem;
+    right: 5rem;
   }
   .warning {
     text-indent: 0pt;
+  }
+}
+@media (max-width: 50em) {
+  .warning:before{
+    display: none;
   }
 }
 /*

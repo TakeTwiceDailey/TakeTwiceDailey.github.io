@@ -3,11 +3,11 @@ layout: default
 title: Research
 ---
 
-<h1 style="padding-bottom:1cm">Research</h1>
-
+<h1 style="font-size: 180%">Research</h1>
+<hr>
 <div class="posts">
   {% for research_post in site.research reversed%}
-  <div class="post">
+  <div class="post" style="margin-bottom:1rem">
     <h2 class="post-title">
       <a href="{{ site.baseurl }}{{ research_post.url }}">
         {{ research_post.title }}
@@ -19,7 +19,7 @@ title: Research
     <div>
       {{ research_post.shortinfo }}
     </div>
-
+    <hr>
   </div>
   {% endfor %}
 </div>

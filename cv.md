@@ -12,7 +12,7 @@ ___
 
 ___
 
-### Master of Science in Physics
+<b>Master of Science in Physics</b>
 <p style="text-align:left;">
     University of Nevada, Reno
     <span style="float:right;">
@@ -25,7 +25,7 @@ ___
     </span>
 </p>
 
-### Bachelor of Science in Physics
+<b>Bachelor of Science in Physics</b>
 <p style="text-align:left;">
     University of Nevada, Reno
     <span style="float:right;">
@@ -39,7 +39,7 @@ ___
     </span>
 </p>
 
-### Secondary Education
+<b>Secondary Education</b>
 <p style="text-align:left;">
     Truckee Meadows Community College High School
     <span style="float:right;">
@@ -234,6 +234,6 @@ ____
 
 **Computer Languages:** Mathematica, C++, Python, R, HTML
 
-**Software Tools:** LaTeX, Bash, Adobe Lightroom, MS Office
+**Software Tools:** $$\mathrm{\LaTeX}$$, Bash, Adobe Lightroom, MS Office
 
 **Subject Proficiencies:** Bayesian statistics, special and general relativity,  fundamental interactions

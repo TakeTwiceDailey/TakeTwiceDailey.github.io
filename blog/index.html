@@ -2,10 +2,11 @@
 layout: default
 title: Blog
 ---
-
+<h1 style="font-size: 180%">Blog</h1>
+<hr>
 <div class="posts">
   {% for post in paginator.posts %}
-  <div class="post">
+  <div class="post" style="margin-bottom:1rem">
     <h1 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
@@ -23,7 +24,7 @@ title: Blog
         <li><a href="{{ "/" | relative_url }}tags#{{tag}}" class="tag">{{ tag }}</a></li>
       {% endfor %}
     </ul>
-
+    <hr>
   </div>
   {% endfor %}
 </div>
