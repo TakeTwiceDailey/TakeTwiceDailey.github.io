@@ -119,17 +119,13 @@ Hopefully that helped a little if you are currently new to this like I was.
 
 To bring attention to in-line text that I don't want the reader to miss, I have defined several custom message classes (inspired by those you can find on the Jekyll website) that can be used for various purposes.
 
-<div class="message">
-  This message block can be used to emulate the previous code block, but use the native font instead.
-</div>
+<div class="message warning">This warning block can be used to bring attention to a very important item that is crucially not missed by the reader.</div>
 
-<p class="warning"> <b>Warning:</b> This warning block can be used to bring attention to a very important item that is crucially not missed by the reader.</p>
+<p class="message note">This note block can act as a sort of footnote that I want the reader to read now rather than at the bottom of the page.</p>
 
-<p class="note"><b>Note:</b> This note block can act as a sort of footnote that I want the reader to read now rather than at the bottom of the page.</p>
+<p class="message tip">This tip block can be used to show little pieces of information that may make following a tutorial easier if the reader is not as familiar with the framework.</p>
 
-<p class="tip"><b>Tip:</b> This tip block can be used to show little pieces of information that may make following a tutorial easier if the reader is not as familiar with the framework.</p>
-
-<p class="example"><b>Example:</b> This example block can be used to showcase short examples to make a concept more clear.</p>
+<p class="message example">This example block can be used to showcase short examples to make a concept more clear. More text.</p>
 
 # MathJax
 

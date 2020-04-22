@@ -12,35 +12,43 @@
       color: #4ab19a;
     }
 
+    .gallery{
+      display: block;
+      width: 100%;
+    }
+
     .row {
     display: -ms-flexbox; /* IE10 */
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
-    padding: 0 8px;
+    padding: 0;
     }
 
     /* Create four equal columns that sits next to each other */
     .column {
     -ms-flex: 25%; /* IE10 */
     flex: 25%;
-    max-width: 25%;
-    padding: 0 8px;
+    max-width: 24.5%;
     }
 
     .column img {
     /*margin-top: 8px;*/
     vertical-align: middle;
-    width: 100%;
+    border-radius: 8px;
+    width: 98%;
+    margin-left:  1%;
+    margin-right: 1%;
+    margin-bottom: 8px;
     }
 
     /* Responsive layout - makes a two column-layout instead of four columns */
     @media screen and (max-width: 800px) {
-    .column {
-      -ms-flex: 50%;
-      flex: 50%;
-      max-width: 50%;
-    }
+      .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 49%;
+      }
     }
 
     /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -48,13 +56,12 @@
     .column {
       -ms-flex: 100%;
       flex: 100%;
-      max-width: 100%;
+      max-width: 98%;
     }
     }
 
     .gallery .row .column a img {
       float: left;
-      width: ;
       height: auto;
       -webkit-transition: -webkit-transform .15s ease;
       -moz-transition: -moz-transform .15s ease;
@@ -79,8 +86,8 @@
 
   </style>
 
-
   {% include head.html %}
+
   <body class="theme-base-0d">
 
     {% include sidebar.html %}
@@ -89,99 +96,178 @@
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
       <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
+        <div class="container" style="background-color: inherit; border: none">
+          <h2 class="masthead-title">
             <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
             <small>{{ site.tagline }}</small>
-          </h3>
+          </h2>
         </div>
       </div>
 
       <div class="container content">
-        {{ content }}
-      </div>
-    </div>
 
-    <div class="gallery">
-      <div class="row">
-        <div class="column">
-          <a href="\photos\A7R05931L.jpg"><img src="\photos\thumbnails\A7R05931.jpg"
-            title="Crystal clear water of Lake Tahoe, Nevada."></a>
-          <a href="\photos\A7R00940p.jpg"><img src="\photos\thumbnails\A7R00940.jpg"
-            title="Part of a engagement shoot for good friends of mine."></a>
-          <a href="\photos\A7R01512L.jpg"><img src="\photos\thumbnails\A7R01512.jpg"
-            title="Gothic style cathedral in Wiesbaden, Germany."></a>
-          <a href="\photos\A7R09668p.jpg"><img src="\photos\thumbnails\A7R09668.jpg"
-            title="The Mainzer Dom cathedral, Mainz, Germany."></a>
-          <a href="\photos\A7R04905p.jpg"><img src="\photos\thumbnails\A7R04905.jpg"
-            title="Tiger swallowtail butterfly near Lake Tahoe."></a>
-          <a href="\photos\A7R05961p.jpg"><img src="\photos\thumbnails\A7R05961.jpg"
-            title="Pines and waters of Lake Tahoe."></a>
-          <a href="\photos\A7R04753p.jpg"><img src="\photos\thumbnails\A7R04753.jpg"
-            title="Crescent moon through clouds at sunset."></a>
-          <a href="\photos\A7R04792L.jpg"><img src="\photos\thumbnails\A7R04792.jpg"
-            title="The Eagle nebula."></a>
-        </div>
-        <div class="column">
-          <a href="\photos\A7R06481p.jpg"><img src="\photos\thumbnails\A7R06481.jpg"
-            title="Sunset over Bodega Bay, California."></a>
-          <a href="\photos\A7R04388L.jpg"><img src="\photos\thumbnails\A7R04388.jpg"
-            title="Snowy Egret on the beach in Saint Augustine, Florida."></a>
-          <a href="\photos\A7R05092p.jpg"><img src="\photos\thumbnails\A7R05092.jpg"
-            title="Red-winged Blackbird, Nevada."></a>
-          <a href="\photos\A7R04447L.jpg"><img src="\photos\thumbnails\A7R04447.jpg"
-            title="Shell gradient, Florida beach."></a>
-          <a href="\photos\A7R05245p.jpg"><img src="\photos\A7R05245p.jpg"
-            title="Swan in Manzanita Lake, University of Nevada, Reno."></a>
-          <a href="\photos\A7R05247p.jpg"><img src="\photos\thumbnails\A7R05247.jpg"
-            title="Swan in Manzanita Lake, University of Nevada, Reno."></a>
-          <a href="\photos\A7R04466L.jpg"><img src="\photos\thumbnails\A7R04466.jpg"
-            title="Brown anole lizard, Florida"></a>
-          <a href="\photos\A7R05775p.jpg"><img src="\photos\thumbnails\A7R05775.jpg"
-            title="Yellow lily, gardens at the University of Nevada, Reno."></a>
-        </div>
-        <div class="column">
-          <a href="\photos\A7R06594L.jpg"><img src="\photos\thumbnails\A7R06594.jpg"
-            title="The Rainbow bridge, Donner, California."></a>
-          <a href="\photos\A7R04928p.jpg"><img src="\photos\thumbnails\A7R04928.jpg"
-            title="Twelve-spotted skimmer dragonfly, Tahoe area."></a>
-          <a href="\photos\A7R06074p.jpg"><img src="\photos\thumbnails\A7R06074.jpg"
-            title="Flame skimmer dragonfly, Fresno, California."></a>
-          <a href="\photos\A7R06250p.jpg"><img src="\photos\thumbnails\A7R06250.jpg"
-            title="Red berries, University of Nevada, Reno."></a>
-          <a href="\photos\A7R06365L.jpg"><img src="\photos\thumbnails\A7R06365.jpg"
-            title="Black tailed deer, Point Reyes National Seashore, California."></a>
-          <a href="\photos\A7R06252p.jpg"><img src="\photos\thumbnails\A7R06252.jpg"
-            title="Sequoia pines and a weirdo, Sequoia National Park."></a>
-          <a href="\photos\A7R06393L.jpg"><img src="\photos\thumbnails\A7R06393.jpg"
-            title="Elephant seals, Point Reyes National Seashore, California."></a>
-          <a href="\photos\A7R04960p.jpg"><img src="\photos\thumbnails\A7R04960.jpg"
-            title="Fun in the water, Truckee river, Reno"></a>
-        </div>
-        <div class="column">
-          <a href="\photos\A7R08655p.jpg"><img src="\photos\thumbnails\A7R08655.jpg"
-            title="Milky Way, San Pedro de Atacama, Chile."></a>
-          <a href="\photos\A7R07234p.jpg"><img src="\photos\thumbnails\A7R07234.jpg"
-            title="Waterfalls, Pine Flat Lake, California."></a>
-          <a href="\photos\A7R08303p.jpg"><img src="\photos\thumbnails\A7R08303.jpg"
-            title="Total solar eclipse, La Serena, Chile."></a>
-          <a href="\photos\A7R08485L.jpg"><img src="\photos\thumbnails\A7R08485.jpg"
-            title="Valley of the Moon, Atacama Desert, Chile."></a>
-          <a href="\photos\A7R08488p.jpg"><img src="\photos\thumbnails\A7R08488.jpg"
-            title="Salt flats, Atacama Desert, Chile."></a>
-          <a href="\photos\A7R07193p.jpg"><img src="\photos\thumbnails\A7R07193.jpg"
-            title="Memorial for Sandy, Sanger, California"></a>
-          <a href="\photos\A7R08658L.jpg"><img src="\photos\thumbnails\A7R08658.jpg"
-            title="Milky Way, San Pedro de Atacama, Chile."></a>
-          <a href="\photos\A7R09617p.jpg"><img src="\photos\thumbnails\A7R09617.jpg"
-            title="Tiny frog, Camp Fleischmann, California"></a>
+        <br>
+          {{ content }}
+        <br>
+
+      </div>
+
+      <br>
+
+      <div class="gallery">
+        <div class="row">
+          <div class="column" style="margin-left: 1%">
+            <a href="\photos\A7R05931L.jpg"><img src="\photos\thumbnails\A7R05931.jpg"
+              title="Crystal clear water of Lake Tahoe, Nevada."></a>
+            <a href="\photos\A7R00940p.jpg"><img src="\photos\thumbnails\A7R00940.jpg"
+              title="Part of a engagement shoot for good friends of mine."></a>
+            <a href="\photos\A7R01512L.jpg"><img src="\photos\thumbnails\A7R01512.jpg"
+              title="Gothic style cathedral in Wiesbaden, Germany."></a>
+            <a href="\photos\A7R09668p.jpg"><img src="\photos\thumbnails\A7R09668.jpg"
+              title="The Mainzer Dom cathedral, Mainz, Germany."></a>
+            <a href="\photos\A7R04905p.jpg"><img src="\photos\thumbnails\A7R04905.jpg"
+              title="Tiger swallowtail butterfly near Lake Tahoe."></a>
+            <a href="\photos\A7R05961p.jpg"><img src="\photos\thumbnails\A7R05961.jpg"
+              title="Pines and waters of Lake Tahoe."></a>
+            <a href="\photos\A7R04753p.jpg"><img src="\photos\thumbnails\A7R04753.jpg"
+              title="Crescent moon through clouds at sunset."></a>
+            <a href="\photos\A7R04792L.jpg"><img src="\photos\thumbnails\A7R04792.jpg"
+              title="The Eagle nebula."></a>
+          </div>
+          <div class="column">
+            <a href="\photos\A7R06481p.jpg"><img src="\photos\thumbnails\A7R06481.jpg"
+              title="Sunset over Bodega Bay, California."></a>
+            <a href="\photos\A7R04388L.jpg"><img src="\photos\thumbnails\A7R04388.jpg"
+              title="Snowy Egret on the beach in Saint Augustine, Florida."></a>
+            <a href="\photos\A7R05092p.jpg"><img src="\photos\thumbnails\A7R05092.jpg"
+              title="Red-winged Blackbird, Nevada."></a>
+            <a href="\photos\A7R04447L.jpg"><img src="\photos\thumbnails\A7R04447.jpg"
+              title="Shell gradient, Florida beach."></a>
+            <a href="\photos\A7R05245p.jpg"><img src="\photos\A7R05245p.jpg"
+              title="Swan in Manzanita Lake, University of Nevada, Reno."></a>
+            <a href="\photos\A7R05247p.jpg"><img src="\photos\thumbnails\A7R05247.jpg"
+              title="Swan in Manzanita Lake, University of Nevada, Reno."></a>
+            <a href="\photos\A7R04466L.jpg"><img src="\photos\thumbnails\A7R04466.jpg"
+              title="Brown anole lizard, Florida"></a>
+            <a href="\photos\A7R05775p.jpg"><img src="\photos\thumbnails\A7R05775.jpg"
+              title="Yellow lily, gardens at the University of Nevada, Reno."></a>
+          </div>
+          <div class="column">
+            <a href="\photos\A7R06594L.jpg"><img src="\photos\thumbnails\A7R06594.jpg"
+              title="The Rainbow bridge, Donner, California."></a>
+            <a href="\photos\A7R04928p.jpg"><img src="\photos\thumbnails\A7R04928.jpg"
+              title="Twelve-spotted skimmer dragonfly, Tahoe area."></a>
+            <a href="\photos\A7R06074p.jpg"><img src="\photos\thumbnails\A7R06074.jpg"
+              title="Flame skimmer dragonfly, Fresno, California."></a>
+            <a href="\photos\A7R06250p.jpg"><img src="\photos\thumbnails\A7R06250.jpg"
+              title="Red berries, University of Nevada, Reno."></a>
+            <a href="\photos\A7R06365L.jpg"><img src="\photos\thumbnails\A7R06365.jpg"
+              title="Black tailed deer, Point Reyes National Seashore, California."></a>
+            <a href="\photos\A7R06252p.jpg"><img src="\photos\thumbnails\A7R06252.jpg"
+              title="Sequoia pines and a weirdo, Sequoia National Park."></a>
+            <a href="\photos\A7R06393L.jpg"><img src="\photos\thumbnails\A7R06393.jpg"
+              title="Elephant seals, Point Reyes National Seashore, California."></a>
+            <a href="\photos\A7R04960p.jpg"><img src="\photos\thumbnails\A7R04960.jpg"
+              title="Fun in the water, Truckee river, Reno"></a>
+          </div>
+          <div class="column" style="margin-right: 1%">
+            <a href="\photos\A7R08655p.jpg"><img src="\photos\thumbnails\A7R08655.jpg"
+              title="Milky Way, San Pedro de Atacama, Chile."></a>
+            <a href="\photos\A7R07234p.jpg"><img src="\photos\thumbnails\A7R07234.jpg"
+              title="Waterfalls, Pine Flat Lake, California."></a>
+            <a href="\photos\A7R08303p.jpg"><img src="\photos\thumbnails\A7R08303.jpg"
+              title="Total solar eclipse, La Serena, Chile."></a>
+            <a href="\photos\A7R08485L.jpg"><img src="\photos\thumbnails\A7R08485.jpg"
+              title="Valley of the Moon, Atacama Desert, Chile."></a>
+            <a href="\photos\A7R08488p.jpg"><img src="\photos\thumbnails\A7R08488.jpg"
+              title="Salt flats, Atacama Desert, Chile."></a>
+            <a href="\photos\A7R07193p.jpg"><img src="\photos\thumbnails\A7R07193.jpg"
+              title="Memorial for Sandy, Sanger, California"></a>
+            <a href="\photos\A7R08658L.jpg"><img src="\photos\thumbnails\A7R08658.jpg"
+              title="Milky Way, San Pedro de Atacama, Chile."></a>
+            <a href="\photos\A7R09617p.jpg"><img src="\photos\thumbnails\A7R09617.jpg"
+              title="Tiny frog, Camp Fleischmann, California"></a>
+          </div>
         </div>
       </div>
-    </div>
 
+      <br>
+    </div>
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        CommonHTML: {
+          linebreaks:
+          { automatic: true,
+            width: "90% container"
+          },
+          scale: 95
+         },
+        "HTML-CSS": {
+          linebreaks:
+           { automatic: true,
+             width: "90% container"
+           },
+          scale: 95
+         },
+        SVG: {
+          linebreaks: {
+          automatic: true,
+          width: "90% container"
+        },
+          scale: 95
+        },
+        extensions: [
+            "MathMenu.js",
+            "MathZoom.js",
+            "AssistiveMML.js",
+            "ally/accessibility-menu.js"
+        ],
+        jax: ["input/TeX", "output/CommonHTML"],
+        TeX: {
+          extensions: [
+            "AMSmath.js",
+            "AMSsymbols.js",
+            "noErrors.js",
+            "noUndefined.js"
+          ]
+        },
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          processEscapes: true
+        },
+        styles: { ".MathJax": { color: "inherit" } }
+      });
+    </script>
+
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+
+    <script>
+
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script type="text/javascript" src="{{ site.baseurl }}/public/js/simple-lightbox.min.js"></script>
@@ -258,7 +344,6 @@
     </script>
 
   </body>
-
 
 
 </html>

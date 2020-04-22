@@ -14,7 +14,7 @@ description: "An archive of posts sorted by tag."
   <ul class="tags">
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-    <li ><a href="#{{ this_word | cgi_escape }}" class="tag">{{ this_word }} <span>({{ site.tags[this_word].size }})</span></a></li>
+    <li ><a href="#{{ this_word | cgi_escape }}" class="tag drop-shadow">{{ this_word }} <span>({{ site.tags[this_word].size }})</span></a></li>
   {% endunless %}{% endfor %}
   </ul>
 
@@ -28,5 +28,6 @@ description: "An archive of posts sorted by tag."
       </div>
       <div style="clear: both;"></div>​
     {% endif %}{% endfor %}
+    <hr>
   {% endunless %}{% endfor %}
 </div>

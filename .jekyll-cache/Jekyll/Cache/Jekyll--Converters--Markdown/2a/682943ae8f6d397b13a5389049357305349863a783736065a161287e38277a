@@ -1,5 +1,5 @@
-I"º2<p><br /></p>
-<p class="note"><b>Note:</b> A good understanding in vector algebra and matrix properties is recommended.</p>
+I"ñ3<p><br /></p>
+<p class="message note"><b>Note:</b> A good understanding in vector algebra and matrix properties is recommended.</p>
 
 <h1 id="introduction">Introduction</h1>
 
@@ -11,7 +11,7 @@
 
 <p>(We define velocities as a ratio like this so that the magnitude of each <script type="math/tex">\vec\beta_i</script> is between 0 and 1.)</p>
 
-<p class="example"><b>Example:</b> Suppose you are on a train traveling at speed \(\beta_1\) (relative to the ground) and there is a different train traveling at speed \(\beta_2\) relative to you. If you hop on this different train (according to Galileo) you will now be traveling at speed \(\beta_{12}\) (relative to the ground).</p>
+<p class="message example"><b>Example:</b> Suppose you are on a train traveling at speed \(\beta_1\) (relative to the ground) and there is a different train traveling at speed \(\beta_2\) relative to you. If you hop on this different train (according to Galileo) you will now be traveling at speed \(\beta_{12}\) (relative to the ground).</p>
 
 <p>But this Galilean transformation contains no information about Einsteinâ€™s speed limit. In principle, one could go faster than <script type="math/tex">c</script> by hopping on a train traveling at <script type="math/tex">c</script> (or <script type="math/tex">\beta > 1</script>). As this is not allowed in special relativity, we have to modify the velocity transformation such that <script type="math/tex">\vec\beta_{12}</script> canâ€™t have a superluminal speed. To do this, we will need some mathematical tools. First, we will need the Lorentz factors, which help define how things will scale as we get closer to the speed of light. Here and later on, I will define the Lorentz factor as both a function of a vector velocity <script type="math/tex">\vec\beta</script> and the individual components of a vector velocity vector <script type="math/tex">\beta_i</script>,</p>
 
@@ -121,5 +121,7 @@ R(\beta_x,\beta_y)=
 
 <script type="math/tex; mode=display">\boxed{\cos(\theta)=\frac{\gamma_x+\gamma_y}{1+\gamma_x\gamma_y}}\,.</script>
 
-<p>What has happened here? we have indeed returned our system to rest, as we wanted, but our coordinate system has been rotated. This is by no means an intuitive result, and this very property of special relativity confused physicists long before special relativity was proposed. Thomas rotation is linked to other concepts in physics, like Thomas precession and the gyromagnetic ratio. For a long time, physicists could not understand why quantum mechanics could not reproduce the correct gyromagnetic ratio, and it was only when quantum mechanics was updated to include relativity that the correct one was obtained.</p>
+<p>What has happened here? We have indeed returned our system to rest, as we wanted, but our coordinate system has been rotated. This is by no means an intuitive result, and this very property of special relativity confused physicists long before special relativity was proposed. Thomas rotation is linked to other concepts in physics like Thomas precession and the gyromagnetic ratio. For a long time, physicists could not understand why quantum mechanics could not reproduce the correct gyromagnetic ratio, and it was only when quantum mechanics was updated to include relativity that the correct one was obtained.</p>
+
+<p>This is not a general result for the Thomas rotation angle, as we have only considered a specific case of two orthogonal boosts. To keep this blog post short and accessible to a wider audience, I do not go into the general derivation, but I have written it up if you are interested here.</p>
 :ET

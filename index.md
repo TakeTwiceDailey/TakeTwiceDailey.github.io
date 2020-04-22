@@ -3,11 +3,11 @@ layout: page
 title: Welcome!
 ---
 
-<p class="warning">This site is currently under construction!</p>
+<p class="message warning">This site is currently under construction!</p>
 
 ## Welcome!
 
-<p><img src="/icons/my_face/01ConnerFaceBWTransS.png" style="padding:0 10px;width:40%;float: right"/></p>
+<p class="drop-shadow"><img src="/icons/my_face/01ConnerFaceBWTransS.png" style="padding:0 10px;width:40%;float: right"/></p>
 
 Here you will find an archive of my personal interests and history. A directory can be found in the side-panel to the left, along with links to social media and contact information. You are welcome take a look at my curriculum vitae, a synopsis of my research, some of my photography, or check out some of my blog posts.
 
@@ -16,14 +16,14 @@ Here you will find an archive of my personal interests and history. A directory 
 
 I am a graduate student researching physics. Some of my current interests are
 
-* strong gravity
+* **strong gravity**
   * special and general relativity
   * black hole and neutron star mergers
-  * quantum gravity
-* Bayesian statistics
+  * unified theories
+* **Bayesian statistics**
   * statistical modeling
   * Monte-Carlo simulations
-* machine learning
+* **machine learning**
   * solving physics problems with neural networks
 
 

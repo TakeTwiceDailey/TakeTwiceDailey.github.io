@@ -12,7 +12,7 @@ ___
 
 ___
 
-<b>Master of Science in Physics</b>
+<strong>Master of Science in Physics</strong>
 <p style="text-align:left;">
     University of Nevada, Reno
     <span style="float:right;">
@@ -25,7 +25,7 @@ ___
     </span>
 </p>
 
-<b>Bachelor of Science in Physics</b>
+<strong>Bachelor of Science in Physics</strong>
 <p style="text-align:left;">
     University of Nevada, Reno
     <span style="float:right;">
@@ -39,7 +39,7 @@ ___
     </span>
 </p>
 
-<b>Secondary Education</b>
+<strong>Secondary Education</strong>
 <p style="text-align:left;">
     Truckee Meadows Community College High School
     <span style="float:right;">
@@ -95,7 +95,7 @@ ___
 ___
 
 <p style="text-align:left;">
-    <b>PRISMA+ Intern</b>
+    <strong>PRISMA+ Intern</strong>
     <span style="float:right;">
         January 2020 - Present
     </span>
@@ -104,7 +104,7 @@ Johannes Gutenberg University, Mainz, Germany
 Advisor: Dr. Dmitry Budker
 
 <p style="text-align:left;">
-    <b>Graduate Research Assistant</b>
+    <strong>Graduate Research Assistant</strong>
     <span style="float:right;">
         January 2018 - December 2019
     </span>
@@ -113,7 +113,7 @@ University of Nevada, Reno
 Advisor: Dr. Andrei Derevianko
 
 <p style="text-align:left;">
-    <b>Undergraduate Research Assistant</b>
+    <strong>Undergraduate Research Assistant</strong>
     <span style="float:right;">
         January 2016 - May 2017
     </span>
@@ -128,7 +128,7 @@ ___
 ___
 
 <p style="text-align:left;">
-    <b>APS April Meeting 2019 "Quarks 2 Cosmos"</b>
+    <strong>APS April Meeting 2019 "Quarks 2 Cosmos"</strong>
     <span style="float:right;">
         April 2019
     </span>
@@ -139,7 +139,7 @@ Type:  Invited Talk
 Title:  "Progress in dark matter search with the global positioning system"  
 
 <p style="text-align:left;">
-    <b>APS Division of Atomic and Molecular Physics Meeting 2018</b>
+    <strong>APS Division of Atomic and Molecular Physics Meeting 2018</strong>
     <span style="float:right;">
         June 2018
     </span>
@@ -150,7 +150,7 @@ Type:  Poster Presentation
 Title:  "Searching for Dark Matter and Exotic Physics with Atomic Clocks and the GPS Constellation"  
 
 <p style="text-align:left;">
-    <b>PhysCon 2016</b>
+    <strong>PhysCon 2016</strong>
     <span style="float:right;">
         November 2016
     </span>
@@ -178,21 +178,21 @@ ____
 ____
 
 <p style="text-align:left;">
-    <b>UNR College of Science Dean’s List</b>
+    <strong>UNR College of Science Dean’s List</strong>
     <span style="float:right;">
         2015, 2016, 2017, 2018
     </span>
 </p>
 
 <p style="text-align:left;">
-    <b>Nevada Undergraduate Research Award</b>
+    <strong>Nevada Undergraduate Research Award</strong>
     <span style="float:right;">
        2016
     </span>
 </p>
 
 <p style="text-align:left;">
-    <b>2013 UNR Physics Exam Award</b>
+    <strong>2013 UNR Physics Exam Award</strong>
     <span style="float:right;">
         2013
     </span>
@@ -206,21 +206,21 @@ ____
 ____
 
 <p style="text-align:left;">
-    <b>Governor Guinn Millennium Scholarship</b>
+    <strong>Governor Guinn Millennium Scholarship</strong>
     <span style="float:right;">
         2014, 2015, 2016, 2017
     </span>
 </p>
 
 <p style="text-align:left;">
-    <b>TMCC/UNR Thompson Scholarship</b>
+    <strong>TMCC/UNR Thompson Scholarship</strong>
     <span style="float:right;">
        2014, 2015
     </span>
 </p>
 
 <p style="text-align:left;">
-    <b>ASUN Academic Scholarship</b>
+    <strong>ASUN Academic Scholarship</strong>
     <span style="float:right;">
         2015, 2016
     </span>

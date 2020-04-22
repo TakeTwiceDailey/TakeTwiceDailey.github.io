@@ -5,7 +5,7 @@ tags: Physics Relativity
 shortinfo: I have found special relativity to be a very interesting subject. One thing I had a hard time with was replacing my non-relativistic intuition. On a quest to fully understand relativistic dynamics, I came across a concept known as Thomas (or Wigner) rotation. This subject is very math intensive, but I will try to make it as accessible as possible.
 ---
 <br>
-<p class="note"><b>Note:</b> A good understanding in vector algebra and matrix properties is recommended.</p>
+<p class="message note"><b>Note:</b> A good understanding in vector algebra and matrix properties is recommended.</p>
 
 # Introduction
 
@@ -17,7 +17,7 @@ $$\vec\beta_{12}=\vec\beta_1+\vec\beta_2\,.\tag{1}$$
 
 (We define velocities as a ratio like this so that the magnitude of each $$\vec\beta_i$$ is between 0 and 1.)
 
-<p class="example"><b>Example:</b> Suppose you are on a train traveling at speed \(\beta_1\) (relative to the ground) and there is a different train traveling at speed \(\beta_2\) relative to you. If you hop on this different train (according to Galileo) you will now be traveling at speed \(\beta_{12}\) (relative to the ground).</p>
+<p class="message example"><b>Example:</b> Suppose you are on a train traveling at speed \(\beta_1\) (relative to the ground) and there is a different train traveling at speed \(\beta_2\) relative to you. If you hop on this different train (according to Galileo) you will now be traveling at speed \(\beta_{12}\) (relative to the ground).</p>
 
 But this Galilean transformation contains no information about Einstein's speed limit. In principle, one could go faster than $$c$$ by hopping on a train traveling at $$c$$ (or $$\beta > 1$$). As this is not allowed in special relativity, we have to modify the velocity transformation such that $$\vec\beta_{12}$$ can't have a superluminal speed. To do this, we will need some mathematical tools. First, we will need the Lorentz factors, which help define how things will scale as we get closer to the speed of light. Here and later on, I will define the Lorentz factor as both a function of a vector velocity $$\vec\beta$$ and the individual components of a vector velocity vector $$\beta_i$$,
 
@@ -32,7 +32,7 @@ $$
 
 This may look complicated, and it is, but the entire purpose of the above expression is simply to ensure that no matter the input velocities $$\vec\beta_1$$ and $$\vec\beta_2$$, the magnitude of $$\vec\beta_{12}$$ is always less than 1. This ensures that you can't go faster than the speed of light by simply jumping onto another train. Thus, this is the correct expression in special relativity to calculate your velocity after jumping trains like before.
 
-<p class="note"><b>Note:</b> Of course, Galileo was not <q>wrong</q> in the sense that his transformation is approximately true. In the limit of slow input velocities ( \(\beta_1\ll 1\) and \(\beta_2\ll 1\)) the Einstein expression reduces to the Galilean one. You can see this by only keeping first order terms in the input velocities, which leaves you with only \(\vec{\beta}_{12}\approx\vec\beta_1+ \vec\beta_2\).</p>
+<p class="message note"><b>Note:</b> Of course, Galileo was not <q>wrong</q> in the sense that his transformation is approximately true. In the limit of slow input velocities ( \(\beta_1\ll 1\) and \(\beta_2\ll 1\)) the Einstein expression reduces to the Galilean one. You can see this by only keeping first order terms in the input velocities, which leaves you with only \(\vec{\beta}_{12}\approx\vec\beta_1+ \vec\beta_2\).</p>
 
 This Einstein velocity addition formula is very different from the Galilean one, which introduces many odd and interesting differences in physical dynamics. For example, the way space and time act **directly depends** on the reference frame you may be in. If you are standing on the ground and your friend is on a train, lengths are contracted and time ticks by slower for your friend relative to you. This is where relativity gets its name, physics is always relative to the reference frame in which you experience the world. We can describe the transformation between reference frames with the Lorentz transformation.
 
@@ -42,7 +42,7 @@ This Einstein velocity addition formula is very different from the Galilean one,
 
 In non-relativistic physics, we are happy to describe everything with 3-dimensional vectors. This is because there is no reason to treat space and time together, as they act in different ways. More precisely, in the Galilean framework time ticks by at the same rate regardless of the reference frame you are in. This all changes in relativity, so we now need to be able to describe how both time and space are affected. We do this by defining 4-vectors that have their first component as a temporal component, and the last three as spatial components. Space and time are now combined into **spacetime**.
 
-<p class="example"><b>Example:</b> A 4-vector \(\mathbf{x}\) would look like \(\mathbf{x}=(t,x,y,z)\). If we give each of the components numerical values, a 4-vector represents a spacetime <b>event</b> because both a time and location have been specified.</p>
+<p class="message example"><b>Example:</b> A 4-vector \(\mathbf{x}\) would look like \(\mathbf{x}=(t,x,y,z)\). If we give each of the components numerical values, a 4-vector represents a spacetime <b>event</b> because both a time and location have been specified.</p>
 
 If we want to transform such a 4-dimensional vector, we need to use 4-dimensional matrices. This is thus the form that the Lorentz transformations take. Luckily, they don't look incredibly complicated if we transform into a new reference frame moving along a Cartesian direction. The following is the transformation for a new reference frame moving in the $$x$$-direction:
 
@@ -86,7 +86,7 @@ $$
 \Lambda_x(-\beta)\Lambda_y(-\beta)\Lambda_y(\beta)\Lambda_x(\beta) = I\,.
 $$
 
-<p class="example"><b>Example:</b> Suppose you are at rest there are two trains, one moving in the \(x\)-direction (\(x\)-train) and one moving in the \(y\)-direction (\(y\)-train). The above boost sequence would be like jumping onto the \(x\)-train, followed jumping onto the \(y\)-train. We then switch the direction the trains are moving, jump back onto the \(x\)-train, and finally jump back onto the ground. You are now back to exactly the place you were before.</p>
+<p class="message example"><b>Example:</b> Suppose you are at rest there are two trains, one moving in the \(x\)-direction (\(x\)-train) and one moving in the \(y\)-direction (\(y\)-train). The above boost sequence would be like jumping onto the \(x\)-train, followed jumping onto the \(y\)-train. We then switch the direction the trains are moving, jump back onto the \(x\)-train, and finally jump back onto the ground. You are now back to exactly the place you were before.</p>
 
 The problem comes when we switch the order of the boosts. Matrices do not necessarily commute, and the Lorentz boost matrices do not. So if we switch the third and forth boosts we will find that
 
