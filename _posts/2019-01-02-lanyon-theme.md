@@ -7,7 +7,7 @@ shortinfo: Lanyon is a website theme using Jekyll. It works beautifully with Git
 
 Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler. Best of all, it works well with [GitHub pages](https://pages.github.com/), so you don't need to pay a subscription to host your website.
 
-# Built on Poole
+## Built on Poole
 
 Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by [@mdo](https://twitter.com/mdo). Poole, and every theme built on it (like Lanyon here) includes the following:
 
@@ -18,7 +18,7 @@ Poole is the Jekyll Butler, serving as an upstanding and effective foundation fo
 * Related posts (time-based, because Jekyll) below each post
 * Syntax highlighting, courtesy of Pygments (the Python-based code snippet highlighter)
 
-# Lanyon features
+## Lanyon features
 
 In addition to the features of Poole, Lanyon adds the following:
 
@@ -29,11 +29,11 @@ In addition to the features of Poole, Lanyon adds the following:
 
 [Head to the readme](https://github.com/poole/lanyon#readme) to learn more.
 
-# Browser support
+## Browser support
 
 Lanyon is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.
 
-# Download
+## Download
 
 Lanyon is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/lanyon">GitHub repository</a> for downloads, bug reports, and features requests.
 

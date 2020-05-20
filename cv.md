@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Curriculum Vitae
+mathjax: true
 ---
 ___
 
@@ -41,7 +42,7 @@ ___
 
 <strong>Secondary Education</strong>
 <p style="text-align:left;">
-    Truckee Meadows Community College High School
+    Truckee Meadows Community College <br> High School
     <span style="float:right;">
         August 2013 - May 2014
     </span>
@@ -82,7 +83,7 @@ P.  Wolf.   "Novel  approaches  to  dark-matter  detection  using  space-time  s
 <a href="https://arxiv.org/abs/1902.07192" target="\_blank">Full text<a>
 
 * S. Heck, A. Gatton, K. A. Larsen, W. Iskandar, E. G. Champenois, R. Strom, A. Landers, D. Reedy,
-C. Dailey,  et. al. "Symmetry  breaking  in  the  body-fixed  electron  emission  pattern  due to electron-retroaction in the photodissociation of H+2 and D+2 close to threshold".
+C. Dailey,  et. al. "Symmetry  breaking  in  the  body-fixed  electron  emission  pattern  due to electron-retroaction in the photodissociation of $$\mathrm{H}^{+2}$$ and $$\mathrm{D}^{+2}$$ close to threshold".
 Physical Review
 Research
 , 1:033140, December 2019.
@@ -128,7 +129,7 @@ ___
 ___
 
 <p style="text-align:left;">
-    <strong>APS April Meeting 2019 "Quarks 2 Cosmos"</strong>
+    <strong>APS April Meeting 2019 <q>Quarks 2 Cosmos</q></strong>
     <span style="float:right;">
         April 2019
     </span>
@@ -139,7 +140,7 @@ Type:  Invited Talk
 Title:  "Progress in dark matter search with the global positioning system"  
 
 <p style="text-align:left;">
-    <strong>APS Division of Atomic and Molecular Physics Meeting 2018</strong>
+    <strong>APS Division of Atomic <br> and Molecular Physics Meeting 2018</strong>
     <span style="float:right;">
         June 2018
     </span>

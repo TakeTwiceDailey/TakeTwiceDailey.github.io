@@ -1,7 +1,8 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge # changed from `pygments` as github says so
-
+gems:
+  - jekyll-compass
 
 plugins: [jekyll-paginate]
 # Permalinks

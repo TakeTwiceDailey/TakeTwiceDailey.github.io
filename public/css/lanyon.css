@@ -75,11 +75,11 @@ h1, h2, h3, h4, h5, h6 {
  * Center the page content.
  */
 
-.container {
-  max-width: 100vw;/*28rem*/
+/* .container {
+  max-width: 100vw;
   font-size: 100%
-}
-@media (min-width: 50em) {
+} */
+/* @media (min-width: 50em) {
   .container {
     max-width: 80vw;
     font-size: 110%
@@ -88,10 +88,10 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 75em) {
   .container {
     font-size: 120%;
-    max-width: 60vw;/*36rem;*/
-    min-width: 60vw;/*changed the width to 50% on large screens*/
+    max-width: 60vw;
+    min-width: 60vw;
   }
-}
+} */
 
 
 /*
@@ -156,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: "PT Serif", serif;
+  font-family: serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   background-color: #202020;

@@ -1,0 +1,45 @@
+I"“<p class="message warning">This post is currently under construction!</p>
+
+<p>Wolfram Mathematica has made machine learning functionality a large part of the recent updates in versions 11 and 12. If you are completely new this functionality, as I was, you can explore some of the functions the Wolfram team has added <a href="https://reference.wolfram.com/language/guide/MachineLearning.html">here</a>.</p>
+
+<blockquote>
+  <p>The Wolfram Language includes a wide range of state-of-the-art integrated machine learning capabilities, from highly automated functions like Predict and Classify to functions based on specific methods and diagnostics, including the latest neural net approaches. The functions work on many types of data, including numerical, categorical, time series, textual, image and audio.</p>
+</blockquote>
+
+<p>I have found that their documentation and guides for machine learning are more geared to people who already have a good understanding in the subject. So I have included a general introduction and several simple examples in this post, which might be useful to others.</p>
+
+<h2 id="what-is-machine-learning">What is machine learning?</h2>
+
+<hr />
+
+<p>When I was first learning about computer programming, my general trouble came from the stupidity of computers. If you try to explain to a person how to do something, there are many things you implicitly assume they already know. With a computer, nothing is taken for granted. You have to describe <em>every</em> detail of the task you want it to accomplish.</p>
+
+<p>Machine learning is different. From Wikipedia:</p>
+
+<blockquote>
+  <p>Machine learning is the scientific study of algorithms and statistical models that computer systems use to perform a specific task without using explicit instructions, relying on patterns and inference instead.</p>
+</blockquote>
+
+<p>Instead coming up with all the instructions yourself, you give the computer a bunch of examples to learn from. There are a lot of complicated algorithms behind the scenes that tell a computer how to learn, but this is already done for the end user unless you want something specific.</p>
+
+<h2 id="machine-learning-in-mathematica">Machine learning in Mathematica</h2>
+
+<hr />
+
+<p class="message note">
+Everything done here uses the latest version of Mathematica as a reference, which at the time of this writing is version 12.
+<p>
+
+What problem do we want our computer to solve? To start with a simple example, let's teach the computer to recognize a function of our choosing. How about a bell curve?
+
+The first step to getting a machine to learn is to generate a sample of "input output pairs". For each input we give the computer, we tell it the correct output. After training using these pairs, the computer will be able to make educated guesses about future outputs.
+
+
+<figure class="highlight"><pre><code class="language-mathematica" data-lang="mathematica"><span class="nv">trainingSize</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1000</span><span class="o">;</span><span class="w">
+</span><span class="nv">f</span><span class="p">[</span><span class="nv">x</span><span class="o">_</span><span class="p">]</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nb">Exp</span><span class="p">[</span><span class="o">-</span><span class="nv">x</span><span class="o">^</span><span class="m">2</span><span class="p">]</span><span class="w">
+</span><span class="nv">randomSample</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">RandomReal</span><span class="p">[{</span><span class="o">-</span><span class="m">5</span><span class="o">,</span><span class="w"> </span><span class="m">5</span><span class="p">}</span><span class="o">,</span><span class="w"> </span><span class="nv">trainingSize</span><span class="p">]</span><span class="o">;</span><span class="w">
+</span><span class="nv">trainingSet</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="nf">#</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="nv">f</span><span class="p">[</span><span class="nf">#</span><span class="p">])</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="o">/@</span><span class="w"> </span><span class="nv">randomSample</span><span class="o">;</span><span class="w">
+</span><span class="nv">trainingPoints</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="nf">#</span><span class="o">,</span><span class="w"> </span><span class="nv">f</span><span class="p">[</span><span class="nf">#</span><span class="p">]}</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="o">/@</span><span class="w"> </span><span class="nv">randomSample</span><span class="o">;</span></code></pre></figure>
+
+</p></p>
+:ET

@@ -11,7 +11,7 @@
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
       <div class="masthead">
-        <div class="container" style="background-color: inherit; border: none">
+        <div class="container off-center" style="background-color: inherit; border: none; box-shadow: none">
           <h2 class="masthead-title">
             <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
             <small>{{ site.tagline }}</small>
@@ -19,9 +19,11 @@
         </div>
       </div>
 
-      <div class="container content">
+      <div id="hex-strap" class="hex-group fade-in" style="top: 150px; animation-delay: 0.8s">
+      </div>
 
-      <br>
+
+      <div id="page-container" class="container content fade-in off-center">
         {{ content }}
       <br>
 
@@ -32,59 +34,31 @@
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        CommonHTML: {
-          linebreaks:
-          { automatic: true,
-            width: "90% container"
-          },
-          scale: 95
-         },
-        "HTML-CSS": {
-          linebreaks:
-           { automatic: true,
-             width: "90% container"
-           },
-          scale: 95
-         },
-        SVG: {
-          linebreaks: {
-          automatic: true,
-          width: "90% container"
-        },
-          scale: 95
-        },
-        extensions: [
-            "MathMenu.js",
-            "MathZoom.js",
-            "AssistiveMML.js",
-            "ally/accessibility-menu.js"
-        ],
-        jax: ["input/TeX", "output/CommonHTML"],
-        TeX: {
-          extensions: [
-            "AMSmath.js",
-            "AMSsymbols.js",
-            "noErrors.js",
-            "noUndefined.js"
-          ]
-        },
-        tex2jax: {
-          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-          processEscapes: true
-        },
-        styles: { ".MathJax": { color: "inherit" } }
-      });
+    <script>
+      var hexHeight = 1.635*43.87862;
+      var clientHeight = document.getElementById('page-container').clientHeight;
+      var node = document.getElementById('hex-strap');
+
+
+      var i;
+      for(i = 0; i < (clientHeight/hexHeight); i++){
+        if(i%2 < 1){
+          var limit = 3;
+        } else{
+          var limit = 2;
+        }
+        var j;
+        for(j = 0; j < limit; j++){
+          var newNode = document.createElement('div');
+          newNode.setAttribute('class','hex');
+          node.appendChild(newNode);
+        }
+        var br = document.createElement('br');
+        node.appendChild(br);
+      }
+
     </script>
 
-    <script type="text/javascript" async
-      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
-    </script>
-
-    <script type="text/javascript" id="MathJax-script" async
-      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-    </script>
 
     <script>
 

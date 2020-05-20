@@ -1,0 +1,97 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+//
+// adjust these values
+$width: 76px;
+$x-spacing: 4px;
+
+// colors
+$color1: #55636e;
+$color2: #72948c;
+$color3: #d28994;
+$color-bg: #e9e9ef;
+
+// computed
+$side-length: ($width / 2) / cos(30deg);
+$cap-y-scale: tan(30deg);
+$cap-height: ($width / 2) * $cap-y-scale;
+$cap-unscaled-side-length: $width / sqrt(2);
+$half-x-spacing: $x-spacing / 2;
+$y-spacing: $half-x-spacing * sqrt(3);
+$spacer-width: $width + $x-spacing;
+
+// body {
+//   min-width: 412px;
+//   margin: 20px;
+//   background-color: $color-bg;
+//   font-size: 0;
+//   text-align: center;
+// }
+.hex-group {
+  min-width: 412px;
+  margin: 20px;
+  font-size: 0;
+  text-align: center;
+}
+
+.hex {
+  display: inline-block;
+  position: relative;
+  width: $width;
+  height: $side-length;
+  margin: $cap-height $half-x-spacing $y-spacing;
+  color: rgba(255, 255, 255, 0.75);
+  background-color: $color1;
+  font: 40px/#{$side-length} sans-serif;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  vertical-align: middle;
+  text-transform: uppercase;
+  animation: pulse 7.5s infinite;
+
+  &::before, &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: $cap-unscaled-side-length;
+    height: $cap-unscaled-side-length;
+    background-color: inherit;
+    transform-origin: 0 0;
+    transform: scaleY($cap-y-scale) rotate(-45deg);
+  }
+
+  &::before {
+    top: 0;
+  }
+
+  &::after {
+   top: $side-length;
+  }
+
+  &:nth-of-type(3n) {
+    animation-delay: 0s;
+  }
+
+  &:nth-of-type(3n + 1) {
+    animation-delay: -2.5s;
+  }
+
+  &:nth-of-type(3n + 2) {
+    animation-delay: -5s;
+  }
+}
+
+.spacer {
+  display: inline-block;
+  width: $spacer-width;
+}
+
+@keyframes pulse {
+  0% { background-color: $color1; }
+  33% { background-color: $color2; }
+  66% { background-color: $color3; }
+}

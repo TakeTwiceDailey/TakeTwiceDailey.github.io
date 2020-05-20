@@ -1,0 +1,9 @@
+---
+require:
+- jekyll-compass
+project_path: "/mnt/c/Users/TakeTwiceDailey/Documents/GitHub/Website"
+http_path: "/"
+css_dir: "../public/css"
+sass_dir: _sass
+images_dir: "../photos"
+javascripts_dir: "../public/js"

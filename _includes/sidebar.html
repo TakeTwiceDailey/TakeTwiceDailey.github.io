@@ -15,7 +15,7 @@
 
   <div id="contact-list" style="text-align:center">
     {% if site.author.instagram %}
-      <a href="https://instagram.com/{{ site.author.instagram }}" target="\_blank">
+      <a href="https://instagram.com/{{ site.author.instagram }}" rel="noopener noreferrer" target="\_blank">
         <span class="fa-stack fa-lg">
           <i class="fab fa-instagram fa-stack-1x"></i>
         </span>
@@ -23,7 +23,7 @@
     {% endif %}
 
       {% if site.author.github %}
-        <a href="https://github.com/{{ site.author.github }}" target="\_blank">
+        <a href="https://github.com/{{ site.author.github }}" rel="noopener noreferrer" target="\_blank">
           <span class="fa-stack fa-lg">
             <i class="fab fa-github-alt fa-stack-1x"></i>
           </span>
@@ -31,7 +31,7 @@
       {% endif %}
 
       {% if site.author.twitter %}
-        <a href="https://twitter.com/{{ site.author.twitter }}" target="\_blank">
+        <a href="https://twitter.com/{{ site.author.twitter }}" rel="noopener noreferrer" target="\_blank">
           <span class="fa-stack fa-lg">
             <i class="fab fa-twitter fa-stack-1x"></i>
           </span>
@@ -39,7 +39,7 @@
       {% endif %}
 
       {% if site.author.linkedin %}
-        <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="\_blank">
+        <a href="https://linkedin.com/in/{{ site.author.linkedin }}" rel="noopener noreferrer" target="\_blank">
           <span class="fa-stack fa-lg">
             <i class="fab fa-linkedin fa-stack-1x"></i>
           </span>
@@ -48,28 +48,28 @@
   </div>
   <div id="contact-list" style="text-align:center">
       {% if site.author.goodreads %}
-        <a href="https://goodreads.com/{{ site.author.goodreads }}" target="\_blank">
+        <a href="https://goodreads.com/{{ site.author.goodreads }}" rel="noopener noreferrer" target="\_blank">
           <span class="fa-stack fa-lg">
             <i class="fab fa-book fa-stack-1x"></i>
           </span>
         </a>
       {% endif %}
       {% if site.author.orcid %}
-        <a href="{{ site.author.orcid }}" target="\_blank">
+        <a href="{{ site.author.orcid }}" rel="noopener noreferrer" target="\_blank">
           <span class="fa-stack fa-lg">
             <i class="fab fa-orcid fa-stack-1x"></i>
           </span>
         </a>
       {% endif %}
       {% if site.author.google_scholar %}
-      <a href="{{ site.author.google_scholar }}" target="\_blank">
+      <a href="{{ site.author.google_scholar }}" rel="noopener noreferrer" target="\_blank">
         <span class="fa-stack fa-lg">
           <i class="fab fa-google fa-stack-1x"></i>
         </span>
       </a>
       {% endif %}
       {% if site.author.email %}
-        <a href="mailto:{{ site.author.email }}">
+        <a href="mailto:{{ site.author.email }}" rel="noopener noreferrer">
           <span class="fa-stack fa-lg">
             <i class="far fa-envelope fa-stack-1x"></i>
           </span>

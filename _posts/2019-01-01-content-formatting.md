@@ -5,9 +5,12 @@ tags: HTML Markdown Blogging
 shortinfo: Here I show the Markdown syntax one can use to make HTML documents appear on the web, and some of the tools I have built to make reading this blog easier and more appealing.
 ---
 
-# The default HTML and Markdown syntax
+## The default HTML and Markdown syntax
+---
 
-Compared to other languages I was used to before this, HTML is incredibly bloated. For example, the tags used in HTML, say the paragraph tag `<p>` needs an ending tag `</p>` once you are done filling out the content, and all of the style changes or other specificities are crammed into the parent tag. This has the effect of making HTML documents look ridiculously messy. Some genius (John Gruber) invented Markdown to make the code files more human readable. Here is how you use some of the basic functions:
+Compared to other computer languages I know, <abbr title="HyperText Markup Langage">HTML</abbr> is incredibly bloated. For example, the tags used in HTML, say the body tag `<body>` needs an ending tag `</body>` once you are done filling out the content, and all of the style changes or other specificities are crammed into the parent tag. This has the effect of making HTML documents look ridiculously messy.
+
+This is why web development seems to have split into three separate entities, HTML/Markdown, <abbr title="Cascading Style Sheets">CSS</abbr>, and JavaScript. HTML serves as the main language with which your browser translates the content to display on your screen. CSS serves as a separate file that contains all information regarding the styling and formatting of content, so that the programmer does not need to cram all of the style code into HTML tags. Javascript is there to take care of any more complicated functionality you may require to code by hand. Some genius (John Gruber) invented Markdown as a more user-friendly alternative to the main content specifications in HTML, translating from a more intuitive layout to raw HTML. Here is how you use some of the basic functions:
 
 | Formatting Type   | Markdown Syntax   |
 |-------------------|-------------------|
@@ -27,7 +30,8 @@ Markdown was never meant to be an exhaustive list of syntax re-mapping for HTML,
 | <abbr title="HyperText Markup Langage">HTML</abbr> |`<abbr title="HyperText Markup Langage">HTML</abbr>`|
 | <ins>insert<ins>          |`<ins>insert</ins>`               |
 
-# Other Mardown syntax
+## Other Markdown syntax
+---
 
 If you need to quote a large amount of text, you can do this in blockquotes:
 
@@ -38,9 +42,10 @@ If you need to quote a large amount of text, you can do this in blockquotes:
 > greater-than symbols in front
 > of your text elements
 ```
-Making the Markdown document look much cleaner. How did I do that large code block you ask?
+Making the Markdown document look much cleaner. Keep in mind that all of the formatting and styling of the specific blockquotes, tables, etc., shown here are done with CSS outside of the Markdown file. How did I do that large code block you ask?
 
-# Syntax Highlighting
+## Syntax Highlighting
+---
 
 Sometimes you need to show literal code in your documents. Luckily this works great, for a huge library of languages, natively. Just specify the language you want in three backticks, like this:
 
@@ -68,7 +73,8 @@ function[x_,y_]:= x^2+y^2
 
 ```
 
-# Lists
+## Lists
+---
 
 You can make ordered and unordered lists using the Markdown syntax. You can use
 
@@ -97,7 +103,8 @@ will still format ordered in your final document:
 1. ordered
 2. list
 
-# Tables
+## Tables
+---
 
 You can build tables in the Markdown document just like they might look in the document. The only important features are that there are at least three dashes in each column, and the positions of the colons define left, center, and right aligned table elements. Here's an example:
 
@@ -115,7 +122,8 @@ Yields the following:
 
 Hopefully that helped a little if you are currently new to this like I was.
 
-# Custom Message Classes
+## Custom Message Classes
+---
 
 To bring attention to in-line text that I don't want the reader to miss, I have defined several custom message classes (inspired by those you can find on the Jekyll website) that can be used for various purposes.
 
@@ -125,11 +133,11 @@ To bring attention to in-line text that I don't want the reader to miss, I have 
 
 <p class="message tip">This tip block can be used to show little pieces of information that may make following a tutorial easier if the reader is not as familiar with the framework.</p>
 
-<p class="message example">This example block can be used to showcase short examples to make a concept more clear. More text.</p>
+<p class="message example">This example block can be used to showcase short examples to make a concept more clear.</p>
 
-# MathJax
-
-# Other Changes
-
+## MathJax
+---
+## Other Changes
+---
 
 -----

@@ -3,11 +3,28 @@ layout: default
 ---
 
 <div class="post">
-  <h2 class="post-title" style="text-align:center">{{ page.title }}</h2>
-  <span class="post-date" style="text-align:center">{{ page.date | date_to_string }}</span>
-  <p style="text-align:center">{{ page.authors }}</p>
-  <a href="{{ page.link }}" target="_blank"><p style="text-align:center">Full text</p></a>
-  <h3 style="text-align:center">Abstract</h3>
-  <p style="text-align:center">{{page.abstract}}</p>
+
+  {% if page.mathjax %}
+    {% include mathjax.html %}
+  {% endif %}
+
+  <h2 class="post-title" style="text-align:center; margin-top:1rem;">
+    {{ page.title }}
+  </h2>
+  <span class="post-date" style="text-align:center">
+    {{ page.date | date_to_string }}
+  </span>
+  <p style="text-align:center">
+    {{ page.authors }}
+  </p>
+  <a href="{{ page.link }}" target="_blank">
+    <p style="text-align:center">Full text</p>
+  </a>
+  <h3 style="text-align:center">
+    Abstract
+  </h3>
+  <p style="text-align:center">
+    {{page.abstract}}
+  </p>
   {{ content }}
 </div>
