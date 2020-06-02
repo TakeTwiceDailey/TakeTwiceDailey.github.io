@@ -1,0 +1,33 @@
+I"B<!-- <p class="message warning">This site is currently under construction!</p> -->
+
+<p class="message note no-icon">Check out the side panel to the left to find out more about me</p>
+
+<h2 id="about-me">About me</h2>
+
+<p>I am a graduate student researching physics. Some of my current interests are</p>
+
+<ul>
+  <li><strong>strong gravity</strong>
+    <ul>
+      <li>special and general relativity</li>
+      <li>black hole and neutron star mergers</li>
+      <li>unified theories</li>
+    </ul>
+  </li>
+  <li><strong>Bayesian statistics</strong>
+    <ul>
+      <li>statistical modeling</li>
+      <li>Monte-Carlo simulations</li>
+    </ul>
+  </li>
+  <li><strong>machine learning</strong>
+    <ul>
+      <li>solving physics problems with neural networks</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="short-history">Short History</h2>
+
+<p>I studied at the University of Nevada, Reno under Dr. Andrei Derevianko and with the GPS.DM Collaboration. As an undergraduate I contributed to research involving a search for dark matter using the global positioning system (GPS). I also completed my Master’s degree with the same group, where I researched new ways to use GPS for astrophysics applications. Our new concept involves correlating bursts of exotic fields sourced from high-energy astrophysical events, such has the known gravitational wave events.</p>
+:ET

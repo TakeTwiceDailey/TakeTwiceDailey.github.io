@@ -3,6 +3,7 @@ layout: post
 title: Content formatting in this blog
 tags: HTML Markdown Blogging
 shortinfo: Here I show the Markdown syntax one can use to make HTML documents appear on the web, and some of the tools I have built to make reading this blog easier and more appealing.
+mathjax: true
 ---
 
 ## The default HTML and Markdown syntax
@@ -122,22 +123,104 @@ Yields the following:
 
 Hopefully that helped a little if you are currently new to this like I was.
 
-## Custom Message Classes
----
+## kramdown
+____
 
-To bring attention to in-line text that I don't want the reader to miss, I have defined several custom message classes (inspired by those you can find on the Jekyll website) that can be used for various purposes.
+Jekyll, the engine I use to compile this website, uses by default an extension of Markdown called kramdown. It adds a bunch of other functions to the original Markdown syntax. One of these nice additions is the ability to add classes/ids to paragraph elements. For example, I defined several custom message classes using CSS, and to use them, I can specify that they are meant to be those classes by adding some kramdown code, like so:
 
-<div class="message warning">This warning block can be used to bring attention to a very important item that is crucially not missed by the reader.</div>
+```
+This warning block can be used to bring attention to a very
+important item that is crucially not missed by the reader.
+{: class="message warning"}
+```
 
-<p class="message note">This note block can act as a sort of footnote that I want the reader to read now rather than at the bottom of the page.</p>
+These classes can be used to bring attention to in-line text that I don't want the reader to miss (inspired by those you can find on the Jekyll website) and they come in four different forms.
 
-<p class="message tip">This tip block can be used to show little pieces of information that may make following a tutorial easier if the reader is not as familiar with the framework.</p>
+This warning block can be used to bring attention to a very important item that is crucially not missed by the reader.
+{: class="message warning"}
 
-<p class="message example">This example block can be used to showcase short examples to make a concept more clear.</p>
+This note block can act as a sort of footnote that I want the reader to read now rather than at the bottom of the page.
+{: class="message note"}
+
+This tip block can be used to show little pieces of information that may make following a tutorial easier if the reader is not as familiar with the framework.
+{: class="message tip"}
+
+This example block can be used to showcase short examples to make a concept more clear.
+{: class="message example"}
 
 ## MathJax
 ---
-## Other Changes
----
 
------
+MathJax is the display engine you use if you want beautiful math formatting online. According to them:
+
+> (MathJax is) a JavaScript display engine for mathematics that works in all browsers.
+> No more setup for readers. It just works.
+
+It works with kramdown just fine, and uses the well-known $$\mathrm{\LaTeX}$$ math-typesetting syntax.
+
+
+To use it, as is recommended on their website, you include the following in the head of your HTML:
+
+``` html
+<script
+src="https://polyfill.io/v3/polyfill.min.js?features=es6">
+</script>
+<script id="MathJax-script" async
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+```
+{: style="font-size: 95%;"}
+
+This will ensure that your website will always use the latest version of MathJax.
+
+In this blog, I decided to use a constant version, so that I don't have to deal with future versions changing the format as I like it, so I used the following instead:
+
+``` html
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+```
+{: style="font-size: 93%;"}
+
+To use MathJax, you wrap "display mode math" $$\mathrm{\LaTeX}$$ code in double dollars (`$$...$$`), and inline math in single dollars (`$...$`). Here is a quick example of how you might write an article involving spherical harmonics in kramdown:
+
+```
+The spherical harmonics are defined based on Laplace's
+equation
+
+$$
+\nabla^2 f(r,\theta,\phi)=0\,,
+$$
+
+where the Laplacian operator $\nabla^2$ in spherical
+coordinates is
+
+$$
+\nabla^2 = \frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial}{\partial r}\right)+\frac{1}{r^2\sin(\theta)}\frac{\partial}{\partial \theta}\left(\sin(\theta)\frac{\partial}{\partial \theta}\right)+\frac{1}{r^2\sin^2(\theta)}\frac{\partial^2}{\partial\phi^2}\,.
+$$
+```
+{: style="font-size: 95%;"}
+
+Which fully rendered yields:
+
+_______
+
+The spherical harmonics are defined based on Laplace's equation
+
+$$
+\nabla^2 f(r,\theta,\phi)=0\,,
+$$
+
+where the Laplacian operator $\nabla^2$ in spherical coordinates is
+
+$$
+\nabla^2 = \frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial}{\partial r}\right)+\frac{1}{r^2\sin(\theta)}\frac{\partial}{\partial \theta}\left(\sin(\theta)\frac{\partial}{\partial \theta}\right)+\frac{1}{r^2\sin^2(\theta)}\frac{\partial^2}{\partial\phi^2}\,.
+$$
+
+____
+
+Which is just as good as $\mathrm{\LaTeX}$ for my puposes anyway.

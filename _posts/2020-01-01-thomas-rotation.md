@@ -26,7 +26,7 @@ $$\vec\beta_{12}=\vec\beta_1+\vec\beta_2\,.\tag{1}$$
 **Example:** Suppose you are on a train traveling at speed $$\beta_1$$ (relative to the ground) and there is a different train traveling at speed $$\beta_2$$ relative to you. If you hop on this different train (according to Galileo) you will now be traveling at speed $$\beta_{12}$$ (relative to the ground).
 {: class="message example"}
 
-But this Galilean transformation contains no information about Einstein's speed limit. In principle, one could go faster than $$c$$ by hopping on a train traveling at $$c$$ (or $$\beta > 1$$). As this is not allowed in special relativity, the velocity transformation has to be modified such that $$\vec\beta_{12}$$ will never have a superluminal speed. To do this, we will need some mathematical tools. First, we will need the Lorentz factors, which help define how things will scale as we get closer to the speed of light. Here and later on, I will define the Lorentz factor as both a function of a vector velocity $$\vec\beta$$ and the individual components of a velocity vector $$\beta_i$$,
+But this Galilean transformation contains no information about Einstein's speed limit. In principle, one could go faster than $$c$$ by running inside a train traveling at $$c$$ (or $$\beta = 1$$). As this is not allowed in special relativity, the velocity transformation has to be modified such that $$\vec\beta_{12}$$ will never have a superluminal speed. To do this, we will need some mathematical tools. First, we will need the Lorentz factors, which help define how things will scale as we get closer to the speed of light. Here and later on, I will define the Lorentz factor as both a function of a vector velocity $$\vec\beta$$ and the individual components of a velocity vector $$\beta_i$$,
 
 $$\gamma = \frac{1}{\sqrt{1-\vec\beta\cdot\vec\beta}}, \quad \gamma_i = \frac{1}{\sqrt{1-\beta_i^2}}\,,\tag{2}$$
 
@@ -37,9 +37,9 @@ $$
 \left[\vec{\beta}_1+\vec{\beta}_2+\frac{\gamma_2}{\gamma_2+1}\,\vec{\beta}_2\times\Big(\vec\beta_2\times\vec{\beta}_1\Big)\right]\,.\tag{3}
 $$
 
-This may look complicated, and it is, but the entire purpose of the above expression is simply to ensure that no matter the input velocities $$\vec\beta_1$$ and $$\vec\beta_2$$, the magnitude of $$\vec\beta_{12}$$ is always less than 1. This ensures that you can't go faster than the speed of light by simply jumping into a differene reference frame. Thus, this is the correct expression in special relativity to calculate your velocity after jumping trains like in the previous example.
+This may look complicated, and it is, but the entire purpose of the above expression is simply to ensure that no matter the input velocities $$\vec\beta_1$$ and $$\vec\beta_2$$, the magnitude of $$\vec\beta_{12}$$ is always less than 1. This ensures that you can't go faster than the speed of light by simply jumping into a different reference frame. Thus, this is the correct expression in special relativity to calculate your velocity after jumping trains like in the previous example.
 
-**Note:** Of course, Newton and Galileo were not "wrong" in the sense that $$(1)$$ is approximately true. In the limit of slow input velocities ( $$\beta_1\ll 1$$ and $$\beta_2\ll 1$$) the Einstein expression reduces to the Galilean one. You can see this by only keeping first order terms in the input velocities, which leaves you with $$\vec{\beta}_{12}\approx\vec\beta_1+ \vec\beta_2$$.
+**Note:** Of course, Newton and Galileo were not "wrong" in the sense that Equation $$(1)$$ is approximately true. In the limit of slow input velocities ( $$\beta_1\ll 1$$ and $$\beta_2\ll 1$$) the Einstein expression reduces to the Galilean one. You can see this by only keeping first order terms in the input velocities, which leaves you with $$\vec{\beta}_{12}\approx\vec\beta_1+ \vec\beta_2$$.
 {: class="message note"}
 
 This Einstein velocity addition formula is very different from the Galilean one, which introduces many odd and interesting features in physical dynamics. As stated before, the way space and time act **directly depends** on the reference frame you may be in. If you are standing on the ground and your friend is on a train, lengths are contracted and time ticks by slower for your friend relative to you. This is where relativity gets its name, physics is always relative to the reference frame in which you experience the world. We can better describe the transformation between reference frames with what is called the Lorentz transformation.
@@ -50,7 +50,7 @@ This Einstein velocity addition formula is very different from the Galilean one,
 
 In non-relativistic physics, we are happy to describe everything with 3-dimensional vectors. This is because there is no reason to treat space and time together, as time is approximately universal. Both time and space can change together in relativity, so we now need to be able to describe all of the changes at once. This can be done by defining 4-vectors that have their first component as a temporal component, and the last three as spatial components. Space and time are now combined into **spacetime**.
 
-**Example:** A 4-vector $$\mathbf{x}$$ would look like $$\mathbf{x}=(t,x,y,z)$$. If we give each of the components numerical values, a 4-vector represents a spacetime <b>event</b> because both a time and location have been specified.
+**Example:** A 4-vector $$\mathbf{x}$$ would look like $$\mathbf{x}=(t,x,y,z)$$. If we give each of the components numerical values, a 4-vector represents a spacetime **event** because both a time and location have been specified.
 {: class="message example"}
 
 If we want to transform such a 4-dimensional vector, we need to use 4-dimensional matrices. Luckily, the Lorentz matrices don't look incredibly complicated if we transform into a new reference frame moving along a Cartesian axis. The following is the transformation for a new reference frame moving in the $$x$$-direction:
@@ -77,7 +77,7 @@ $$
   \end{array} }\right)\,.
 $$
 
-There is of course also a $$z$$-direction boost, but we will not need it here. The Lorentz boost matrices have important properties that our intuition about <q>jumping on trains</q> should help us recognize as essential. Firstly, if you boost in one direction, and then boost in the opposite direction the same amount, you have effectively done nothing. This would be like jumping on a train, reversing the direction of the train, and then jumping off again, which lands you back where you started. The Lorentz transformation contains this property,
+There is of course also a $$z$$-direction boost, but we will not need it here. The Lorentz boost matrices have important properties that our intuition about "jumping on trains" should help us recognize as essential. First, if you boost in one direction, and then boost in the opposite direction the same amount, you have effectively done nothing. This would be like jumping on a train, reversing the direction of the train, and then jumping off again, which lands you back where you started. The Lorentz transformation contains this property,
 
 $$
 \Lambda_x(-\beta)\Lambda_x(\beta)=I\,,\tag{4}
@@ -89,7 +89,7 @@ $$
 \Lambda_i^{-1}(\beta) = \Lambda_i(-\beta)\,.
 $$
 
-Since we know that successive uses of Equation $$(4)$$ are equivalent to multiplying by the identity matrix, we can also recognize, that the following must also be true:
+Since we know that successive uses of Equation $$(4)$$ are equivalent to multiplying by the identity matrix, we can also recognize that the following must also be true:
 
 $$
 \Lambda_x(-\beta)\Lambda_y(-\beta)\Lambda_y(\beta)\Lambda_x(\beta) = I\,.
@@ -165,9 +165,15 @@ $$
 \boxed{\cos(\theta)=\frac{\gamma_x+\gamma_y}{1+\gamma_x\gamma_y}}\,.
 $$
 
-**Tip:** You should always check the limiting cases of your result to make sure it makes sense. First, we can take the limit $$\beta_2\ll 1$$. This corresponds to the case of Equation $$(4)$$. You will find  that $$\cos(\theta)\approx 0$$ as we expect since $$\theta$$ should be $$0$$.
+**Tip:** You should always check the limiting cases of your result to make sure it makes sense. First, we can take the limit $$\beta_y\ll 1$$. This corresponds to the case of Equation $$(4)$$. You will find  that $$\cos(\theta)\approx 0$$ as we expect since our reference frame should not rotate if we have effectively done nothing.
 {: class="message tip" }
 
-What has happened here? We have indeed returned our system to rest, as we wanted, but our coordinate system has been rotated. This is by no means an intuitive result, and this very property of special relativity confused physicists long before special relativity was proposed. Thomas rotation is linked to other concepts in physics like Thomas precession and the gyromagnetic ratio. For a long time, physicists could not understand why quantum mechanics could not reproduce the correct gyromagnetic ratio, and it was only when quantum mechanics was updated to include relativity that the correct one was obtained.
+What has happened here? We have indeed returned our system to rest, as we wanted, but our coordinate system has been rotated. This is by no means an intuitive result, and this very property of special relativity confused physicists long before special relativity was proposed. Thomas rotation is linked to other concepts in physics like Thomas precession and the gyromagnetic ratio. For a long time, physicists could not understand why quantum mechanics could not reproduce the correct gyromagnetic ratio, and it was only when quantum mechanics was updated to include special relativity that the correct one was obtained.
 
-This is not a general result for the Thomas rotation angle, as we have only considered the specific case of two orthogonal boosts. To keep this blog post short and accessible to a wider audience, I do not go into the general derivation, but I have written it up if you are interested here.
+This is not a general result for the Thomas rotation angle, as we have only considered the specific case of two orthogonal boosts. To keep this blog post short and accessible to a wider audience, I do not go into the general derivation. Suffice to say, if you wanted to derive the general result you would have to solve the much more difficult problem:
+
+$$
+\Lambda(-\vec\beta_{12})\Lambda(\vec\beta_1)\Lambda(\vec\beta_2) = R(\vec\beta_1,\vec\beta_2)\,,
+$$
+
+and solve for the corresponding general Thomas rotation angle using the matrix $$R(\vec\beta_1,\vec\beta_2)$$.
