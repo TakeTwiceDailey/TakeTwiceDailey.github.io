@@ -2,7 +2,7 @@
 layout: post
 title: A Quantum Mechanical Anecdote
 tags: Physics Quantum_Mechanics
-shortinfo: Many people do not formally learn what quantum mechanics actually is, and unfortunately the closest many people might get to understanding what it really means is scenes from popular culture, like the movie Ant-Man. Here, I describe in the simplest terms possible to subject that has made physicists scratch there heads for over 100 years.
+shortinfo: Many people do not formally learn what quantum mechanics actually is, and unfortunately the closest many people might get to understanding what it really means is scenes from popular culture, like the movie Ant-Man. Here, I describe in the simplest terms possible to subject that has made physicists scratch their heads for over 100 years.
 mathjax: true
 published: true
 ---

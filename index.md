@@ -10,14 +10,14 @@ Check out the side panel at the top left for information and content.
 
 I am a physics graduate student, some of my current interests include:
 
-* **strong gravity**
+* **Strong Gravity**
   * special and general relativity
   * black hole and neutron star mergers
   * unified theories
-* **Bayesian statistics**
+* **Bayesian Statistics**
   * statistical modeling
   * Monte-Carlo simulations
-* **machine learning**
+* **Machine Learning**
   * solving physics problems with neural networks
 
 

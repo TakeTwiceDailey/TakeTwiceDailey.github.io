@@ -1,4 +1,4 @@
-I"�<hr />
+I"�<hr />
 
 <p>Download the full PDF <a href="\CV\Curriculum_Vitae-2020-02-04.pdf">here</a>.</p>
 
@@ -86,7 +86,7 @@ P.  Wolf.   “Novel  approaches  to  dark-matter  detection  using  space-time 
   </li>
   <li>
     <p>S. Heck, A. Gatton, K. A. Larsen, W. Iskandar, E. G. Champenois, R. Strom, A. Landers, D. Reedy,
-C. Dailey,  et. al. “Symmetry  breaking  in  the  body-fixed  electron  emission  pattern  due to electron-retroaction in the photodissociation of <script type="math/tex">\mathrm{H}^{+2}</script> and <script type="math/tex">\mathrm{D}^{+2}</script> close to threshold”.
+C. Dailey,  et. al. “Symmetry  breaking  in  the  body-fixed  electron  emission  pattern  due to electron-retroaction in the photodissociation of \(\mathrm{H}^{+2}\) and \(\mathrm{D}^{+2}\) close to threshold”.
 Physical Review
 Research
 , 1:033140, December 2019.
@@ -238,7 +238,7 @@ Title:  “Preliminary steps in detecting Dark Matter with the GPS Satellite Con
 
 <p><strong>Computer Languages:</strong> Mathematica, C++, Python, R, HTML</p>
 
-<p><strong>Software Tools:</strong> <script type="math/tex">\mathrm{\LaTeX}</script>, Bash, Adobe Lightroom, MS Office</p>
+<p><strong>Software Tools:</strong> \(\mathrm{\LaTeX}\), Bash, Adobe Lightroom, MS Office</p>
 
 <p><strong>Subject Proficiencies:</strong> Bayesian statistics, special and general relativity,  fundamental interactions</p>
 :ET

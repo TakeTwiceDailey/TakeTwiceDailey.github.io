@@ -1,6 +1,7 @@
 ---
 layout: portfolio
 title: Photography
+mathjax: true
 ---
 
 # My Photography
