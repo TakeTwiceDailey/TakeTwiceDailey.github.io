@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
@@ -22,59 +29,103 @@
   width: 76px;
   height: 43.87862px;
   margin: 21.93931px 2px 3.4641px;
-  color: rgba(255, 255, 255, 0.75);
+  z-index: -6;
   background-color: var(--main-bg-color);
-  font: 40px/43.87862px sans-serif;
-  vertical-align: middle;
-  text-transform: uppercase;
-  z-index:-5;
 
-  animation-name: pulse;
-  animation-duration: 15s;
-  animation-timing-function: linear;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
-  animation-fill-mode: forwards;
+  -webkit-animation-name: pulse;
+          animation-name: pulse;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 /* line 58, ../../_sass/screen.scss */
-.hex::before, .hex::after {
+.hex:before, .hex:after {
   content: '';
   display: block;
   position: absolute;
   z-index: -5;
   width: 53.74012px;
   height: 53.74012px;
-  background-color: inherit;
-  transform-origin: 0 0;
-  transform: scaleY(0.57735) rotate(-45deg);
+  -webkit-transform-origin: 0 0;
+      -ms-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-transform: scaleY(0.57735) rotate(-45deg);
+      -ms-transform: scaleY(0.57735) rotate(-45deg);
+          transform: scaleY(0.57735) rotate(-45deg);
+
+  background-color: var(--main-bg-color);
+
+  -webkit-animation-name: pulse;
+          animation-name: pulse;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 /* line 70, ../../_sass/screen.scss */
-.hex::before {
+.hex:before {
   top: 0;
 }
 /* line 74, ../../_sass/screen.scss */
-.hex::after {
+.hex:after {
   top: 43.87862px;
 }
-/* line 78, ../../_sass/screen.scss */
-.hex:nth-of-type(4n) {
-  animation-delay: 0s;
-}
-/* line 82, ../../_sass/screen.scss */
-.hex:nth-of-type(4n + 1) {
-  animation-delay: -5s;
-}
-/* line 86, ../../_sass/screen.scss */
-.hex:nth-of-type(4n + 2) {
-  animation-delay: -10s;
+
+
+.hex:nth-of-type(4n),
+.hex:nth-of-type(4n):before,
+.hex:nth-of-type(4n):after {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
-/* line 91, ../../_sass/screen.scss */
-.spacer {
-  display: inline-block;
-  width: 80px;
+.hex:nth-of-type(4n+1),
+.hex:nth-of-type(4n+1):before,
+.hex:nth-of-type(4n+1):after {
+  -webkit-animation-delay: -5s;
+          animation-delay: -5s;
 }
+
+.hex:nth-of-type(4n+2),
+.hex:nth-of-type(4n+2):before,
+.hex:nth-of-type(4n+2):after {
+  -webkit-animation-delay: -10s;
+          animation-delay: -10s;
+}
+
+
+@-webkit-keyframes pulse {
+  0% {
+    background-color: var(--main-bg-color);
+  }
+  25% {
+    background-color: #55636e;
+  }
+  50% {
+    background-color: #444;
+  }
+  75%{
+    background-color: var(--main-bg-color);
+  }
+}
+
 
 @keyframes pulse {
   0% {
