@@ -1,0 +1,7 @@
+I"�<h2 id="introduction">Introduction</h2>
+<hr />
+<p>Problem three of the 2020 CAP problem competition asks for an explanation for the intermediate axis theorem (also referred to as the tennis racket theorem or the Dzhanibekov effect). The names given to this effect are historical, but it is purely a feature of Newton’s second law when applied to rotating rigid bodies.  Euler’s equations for rigid body rotation govern the dynamics of these systems. His equations are first-order ordinary differential equations (ODEs), but they are by no means trivial to solve since they are coupled and non-linear. Rigid bodies and Euler’s equations have been studied in detail for at least the last 200 years and exact solutions are known, although they involve elliptic functions. An easier way to visualize the problem was coined by Poinsot, known as Poinsot’s construction. Instead of solving Euler’s equations, Poinsot enforced conservation of energy and angular momentum as constraints on the solutions, and visualized the solution paths as the intersection between surfaces. I claim however that to understand the intermediate axis theorem, one does not need to directly solve Euler’s equations, or even enforce conservation constraints. With some manipulation of Euler’s equations, all of the dynamical features of the system can be visualized graphically and the instability of the intermediate axis can be proven with tools from stability theory.</p>
+
+<h2 id="sources">Sources</h2>
+<hr />
+:ET

@@ -1,0 +1,15 @@
+I"o<h2 id="introduction">Introduction</h2>
+<hr />
+<p>Have you ever wondered why you can’t seem to rotate a tennis racket head-over-handle? If you do, it won’t do it in a stable manner, it will flip along other directions too. This is a demonstration of the
+intermediate axis theorem (also referred to as the tennis racket theorem or the Dzhanibekov effect). It is a feature of Euler’s equations which govern rigid body rotation. His equations are first-order ordinary differential equations (ODEs), but they are by no means trivial to solve since they are coupled and non-linear. Rigid bodies and Euler’s equations have been studied in detail for at least the last 200 years and exact solutions are known, although they involve elliptic functions. An easier way to visualize the problem was coined by Poinsot, known as Poinsot’s construction. Instead of solving Euler’s equations, Poinsot enforced conservation of energy and angular momentum as constraints on the solutions, and visualized the solution paths as the intersection between surfaces. I claim however that to understand the intermediate axis theorem, one does not need to directly solve Euler’s equations, or even enforce conservation constraints. With some manipulation, all of the dynamical features of rigid body rotation can be visualized graphically.</p>
+
+<h2 id="eulers-equations">Euler’s Equations</h2>
+<hr />
+
+<p>To analyze the rotational dynamics of rigid bodies, I start with Euler’s equations in three dimensions (in the absence of applied torque),</p>
+
+\[I\frac{d \vec \omega}{dt} +\vec\omega\times(I\vec\omega)= 0\,,\]
+
+<h2 id="sources">Sources</h2>
+<hr />
+:ET

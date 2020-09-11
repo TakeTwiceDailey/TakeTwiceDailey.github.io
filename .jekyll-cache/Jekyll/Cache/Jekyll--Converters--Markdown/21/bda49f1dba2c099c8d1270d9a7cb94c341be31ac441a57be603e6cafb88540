@@ -1,0 +1,35 @@
+I"�<h2 id="introduction">Introduction</h2>
+<hr />
+<p>Have you ever wondered why you can’t seem to rotate a tennis racket head-over-handle? If you do, it won’t do it in a stable manner, it will flip along other directions too. This is a demonstration of the
+intermediate axis theorem (also referred to as the tennis racket theorem or the Dzhanibekov effect). It is a feature of Euler’s equations which govern rigid body rotation. His equations are first-order ordinary differential equations (ODEs), but they are by no means trivial to solve since they are coupled and non-linear. Rigid bodies and Euler’s equations have been studied in detail for at least the last 200 years and exact solutions are known, although they involve elliptic functions. An easier way to visualize the problem was coined by Poinsot, known as Poinsot’s construction. Instead of solving Euler’s equations, Poinsot enforced conservation of energy and angular momentum as constraints on the solutions, and visualized the solution paths as the intersection between surfaces. I claim however that to understand the intermediate axis theorem, one does not need to directly solve Euler’s equations, or even enforce conservation constraints. With some manipulation, all of the dynamical features of rigid body rotation can be visualized graphically.</p>
+
+<h2 id="eulers-equations">Euler’s Equations</h2>
+<hr />
+
+<p>To analyze the rotational dynamics of rigid bodies, I start with Euler’s equations in three dimensions (in the absence of applied torque),</p>
+
+\[I\frac{d \vec \omega}{dt} +\vec\omega\times(I\vec\omega)= 0\,,\tag{1}\]
+
+<p>where $I$ is the $3\times3$ inertia tensor and $\vec\omega$ is the angular velocity vector of the rigid body. Equation (1) is derived from Newton’s second law, but adapted into the body-fixed reference frame. The reason for this is that it ensures that the inertia tensor of the body is not changing with time. First I will substitute the body-fixed angular momentum $\vec L=I\vec\omega$ to obtain</p>
+
+\[\frac{d \vec L}{dt} =\vec L\times(I^{-1}\vec L)\,.\tag{2}\]
+
+<p>I will then choose a Cartesian basis $(x,y,z)$ that is aligned with the angular momentum components such that the inertia tensor can be diagonalized as</p>
+
+\[I =\left(\def\arraystretch{1.1}{\begin{array}{ccc} I_x &amp; 0 &amp; 0\\ 0 &amp; I_y &amp; 0 \\ 0 &amp; 0 &amp; I_z\end{array} }\right)\,.\tag{3}\]
+
+<p>At this point, I am motivated to try to reduce this system to a two dimensional one, because three dimensions is just too many. To do this, I will represent this system of equations in terms of spherical coordinate variables $(r,\phi,\theta)$. In terms of these variables, the angular momentum vector can be expressed as</p>
+
+\[\vec L =L\left[\cos(\phi)\sin(\theta)\hat x + \sin(\phi)\sin(\theta)\hat y + \cos(\theta)\hat z\right]\,.\]
+
+<p>I can then substitute this into Equation (2) along with Equation (3) to obtain</p>
+
+\[\begin{align}
+\frac{1}{L^2}\frac{d \vec L}{dt} =&amp;\;\frac{(I_y-I_z)}{I_y I_z}\sin (\theta ) \cos (\theta ) \sin (\phi )\hat x\nonumber\\&amp;
++\frac{(I_z-I_x)}{I_x I_z}\sin (\theta ) \cos (\theta ) \cos (\phi )\hat y\\&amp;
++\frac{(I_x-I_y)}{I_x I_y}\sin ^2(\theta ) \sin(\phi ) \cos (\phi )\hat z\,.
+\end{align}\]
+
+<h2 id="sources">Sources</h2>
+<hr />
+:ET
