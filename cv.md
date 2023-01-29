@@ -5,13 +5,23 @@ mathjax: true
 ---
 ___
 
-Download the full PDF [here](\CV\Curriculum_Vitae-2020-02-04.pdf).  
+Download the full PDF [here](\CV\Curriculum_Vitae_Feb_2022.pdf).  
 
 ___
 
 ## Education
 
 ___
+
+<strong>Doctor of Philosophy in Theoretical Physics</strong>
+<p style="text-align:left;">
+    University of Waterloo, Perimeter Institute
+    <span style="float:right;">
+        August 2020 - Present
+    </span>
+</p><p style="text-align:left;">
+    Advisor: Dr. Niayesh Afshordi, Dr. Erik Schnetter
+</p>
 
 <strong>Master of Science in Physics</strong>
 <p style="text-align:left;">
@@ -40,25 +50,14 @@ ___
     </span>
 </p>
 
-<strong>Secondary Education</strong>
-<p style="text-align:left;">
-    Truckee Meadows Community College <br> High School
-    <span style="float:right;">
-        August 2013 - May 2014
-    </span>
-</p>
-<p style="text-align:left;">
-    Edward C. Reed High School
-    <span style="float:right;">
-        August 2010 - June 2013
-    </span>
-</p>
-
 ___
 
 ## Publications
 
 ___
+
+* C. Dailey, N. Afshordi, E. Schnetter, "Reflecting boundary conditions in numerical relativity as a model for black hole echoes." arXiv (2023).
+<a href="https://arxiv.org/abs/2301.05778" target="\_blank">Full text.<a>
 
 * C. Dailey, C. Bradley, D. F. Jackson Kimball, *et al.* "Quantum sensor networks as exotic field telescopes for multi-messenger astronomy." *Nature Astronomy*, 5, 150–158 (2021).
 <a href="https://www.nature.com/articles/s41550-020-01242-7" target="\_blank">Full text.<a>
@@ -89,9 +88,18 @@ ___
 ___
 
 <p style="text-align:left;">
+    <strong>Graduate Research Assistant</strong>
+    <span style="float:right;">
+        September 2020 - Present
+    </span>
+</p>
+University of Waterloo, Perimeter Institute for Theoretical Physics
+Advisor: Dr. Niayesh Afshordi, Dr. Erik Schnetter
+
+<p style="text-align:left;">
     <strong>PRISMA+ Intern</strong>
     <span style="float:right;">
-        January 2020 - Present
+        January 2020 - March 2020
     </span>
 </p>
 Johannes Gutenberg University, Mainz, Germany  
@@ -120,6 +128,17 @@ ___
 ## First-Author Conference Presentations
 
 ___
+
+<p style="text-align:left;">
+    <strong>Testing Gravity 2023</strong>
+    <span style="float:right;">
+        January 2023
+    </span>
+</p>
+Vancouver, British Columbia, Canada
+Type:  Poster Presentation 
+Title:  "Reflecting boundary conditions in numerical relativity as a model for black hole echoes"  
+
 
 <p style="text-align:left;">
     <strong>APS April Meeting 2019 <q>Quarks 2 Cosmos</q></strong>
@@ -160,10 +179,11 @@ ____
 
 ____
 
+Strong Gravity Group, Perimeter Institute
+
 The Global Positioning System as a Dark Matter observatory (GPS.DM)
 
 The Global Network of Optical Magnetometers for Exotic physics (GNOME)
-
 
 ____
 
@@ -191,7 +211,6 @@ ____
         2013
     </span>
 </p>
-
 
 ____
 
@@ -226,8 +245,8 @@ ____
 
 ____
 
-**Computer Languages:** Mathematica, C++, Python, R, HTML
+**Computer Languages:** Mathematica, Julia, C++, Python, HTML
 
-**Software Tools:** $$\mathrm{\LaTeX}$$, Bash, Adobe Lightroom, MS Office
+**Software Tools:** $$\mathrm{\LaTeX}$$, Bash, Adobe Lightroom, MS Office, Visual Studio
 
-**Subject Proficiencies:** Bayesian statistics, special and general relativity,  fundamental interactions
+**Subject Proficiencies:** Special and general relativity, fundamental interactions, Bayesian statistics.
