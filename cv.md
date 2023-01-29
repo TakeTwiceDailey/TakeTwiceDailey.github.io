@@ -60,34 +60,27 @@ ___
 
 ___
 
-* C. Dailey, C. Bradley, D. F. J. Kimball, I. Sulai, S. Pustelny, A. Wickenbrock, and A. Derevianko. "Quantum sensor networks as exotic field telescopes for multi-messenger astronomy". *arXiv e-prints*, page: arXiv:2002.04352, February 2020.
-<a href="https://arxiv.org/abs/2002.04352" target="\_blank">Full text preprint<a>
+* C. Dailey, C. Bradley, D. F. Jackson Kimball, *et al.* "Quantum sensor networks as exotic field telescopes for multi-messenger astronomy." *Nature Astronomy*, 5, 150–158 (2021).
+<a href="https://www.nature.com/articles/s41550-020-01242-7" target="\_blank">Full text.<a>
 
 * C. Dailey. "Probing exotic fields with networks of atomic clocks". Master's thesis, University of Nevada, Reno. August 2019.
-<a href="http://hdl.handle.net/11714/6029" target="\_blank">Full text<a>
+<a href="http://hdl.handle.net/11714/6029" target="\_blank">Full text.<a>
 
-* B. M. Roberts, G. Blewitt, C. Dailey, M. Murphy, M. Pospelov, A. Rollings, J. Sherman, W. Williams,
-and A. Derevianko. "Search for domain wall dark matter with atomic clocks on board global positioning
+* B. M. Roberts, G. Blewitt, C. Dailey, *et. al.* "Search for domain wall dark matter with atomic clocks on board global positioning
 system satellites".
-Nature Communications, 8, October 2017.
-<a href="https://www.nature.com/articles/s41467-017-01440-4" target="\_blank">Full text<a>
+*Nature Communications*, 8 (2017).
+<a href="https://www.nature.com/articles/s41467-017-01440-4" target="\_blank">Full text.<a>
 
 * B.  M.  Roberts,  G.  Blewitt,  C.  Dailey,  and  A.  Derevianko.   "Search  for  transient  ultralight  dark
-matter signatures with networks of precision measurement devices using a bayesian statistics method".
-Physical Review D
-, 97:083009, April 2018.
-<a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.97.083009" target="\_blank">Full text<a>
+matter signatures with networks of precision measurement devices using a Bayesian statistics method".
+*Physical Review D*, 97:083009 (2018).
+<a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.97.083009" target="\_blank">Full text.<a>
 
-* E.  Savalle,  B.  M.  Roberts,  F.  Frank,  P.  Pottie,  B.  T.  McAllister,  C.  Dailey,  A.  Derevianko,  and
-P.  Wolf.   "Novel  approaches  to  dark-matter  detection  using  space-time  separated  clocks".  February 2019.
-<a href="https://arxiv.org/abs/1902.07192" target="\_blank">Full text<a>
+* E.  Savalle,  B.  M.  Roberts,  F.  Frank,  P.  Pottie, *et. al.* "Novel  approaches  to  dark-matter  detection  using  space-time  separated  clocks". (2019).
+<a href="https://arxiv.org/abs/1902.07192" target="\_blank">Full text.<a>
 
-* S. Heck, A. Gatton, K. A. Larsen, W. Iskandar, E. G. Champenois, R. Strom, A. Landers, D. Reedy,
-C. Dailey,  et. al. "Symmetry  breaking  in  the  body-fixed  electron  emission  pattern  due to electron-retroaction in the photodissociation of $$\mathrm{H}^{+2}$$ and $$\mathrm{D}^{+2}$$ close to threshold".
-Physical Review
-Research
-, 1:033140, December 2019.
-<a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.1.033140" target="\_blank">Full text<a>
+* S. Heck, A. Gatton, K. A. Larsen, W. Iskandar, *et. al.* "Symmetry  breaking  in  the  body-fixed  electron  emission  pattern  due to electron-retroaction in the photodissociation of $$\mathrm{H}^{+2}$$ and $$\mathrm{D}^{+2}$$ close to threshold". *Physical Review Research*, 1:033140 (2019).
+<a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.1.033140" target="\_blank">Full text.<a>
 
 ___
 
