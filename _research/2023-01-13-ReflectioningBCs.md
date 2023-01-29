@@ -10,23 +10,4 @@ mathjax: true
 
 ## Introduction
 
-Both in the context of gravitational waves (GWs) and
-scalar waves, there has been a recent interest in black
-hole echoes. The idea behind black hole echoes
-is that there may be some mechanism, resulting from
-quantum phenomena for example, by which wave pack-
-ets falling into a black hole could partially reflect off of
-an interface before reaching the horizon, thus resulting
-in a potentially detectable effect. In the context of GW
-astronomy, this has opened a novel window to study ex-
-otic near-horizon physics phenomenologically, from cur-
-rent and future observations. However, inter-
-preting this data requires modelling strong gravitational
-systems in numerical relativity, where there does not cur-
-rently seem to be a good understanding of how to prop-
-erly implement a reflecting surface. There has also been some recent skepti-
-cism that black hole echoes can be detected at all due to
-the formation of an apparent horizon before the reflec-
-tion occurs, and having a proper way to model re-
-flecting surfaces allows for rigorous testing beyond order-
-of-magnitude estimates.
+Both in the context of gravitational waves (GWs) and scalar waves, there has been a recent interest in black hole echoes. The idea behind black hole echoes is that there may be some mechanism, resulting from quantum phenomena for example, by which wave packets falling into a black hole could partially reflect off of an interface before reaching the horizon, thus resulting in a potentially detectable effect. In the context of GW astronomy, this has opened a novel window to study exotic near-horizon physics phenomenologically, from current and future observations. However, interpreting this data requires modelling strong gravitational systems in numerical relativity, where there does not currently seem to be a good understanding of how to properly implement a reflecting surface. There has also been some recent skepticism that black hole echoes can be detected at all due tothe formation of an apparent horizon before the reflection occurs, and having a proper way to model reflecting surfaces allows for rigorous testing beyond order-of-magnitude estimates.
