@@ -5,7 +5,7 @@ mathjax: true
 ---
 ___
 
-Download the full PDF [here](\CV\Curriculum_Vitae_Feb_2023.pdf).  
+Download the full PDF [here](\CV\Curriculum_Vitae_November_2023-1.pdf).  
 
 ___
 
@@ -56,8 +56,8 @@ ___
 
 ___
 
-* C. Dailey, N. Afshordi, E. Schnetter, "Reflecting boundary conditions in numerical relativity as a model for black hole echoes." arXiv (2023).
-<a href="https://arxiv.org/abs/2301.05778" target="\_blank">Full text.<a>
+* C. Dailey, N. Afshordi, E. Schnetter, "Reflecting boundary conditions in numerical relativity as a model for black hole echoes." *Classical and Quantum Gravity*, 40(19):195007 (2023).
+<a href="https://iopscience.iop.org/article/10.1088/1361-6382/acde2f" target="\_blank">Full text.<a>
 
 * C. Dailey, C. Bradley, D. F. Jackson Kimball, *et al.* "Quantum sensor networks as exotic field telescopes for multi-messenger astronomy." *Nature Astronomy*, 5, 150–158 (2021).
 <a href="https://www.nature.com/articles/s41550-020-01242-7" target="\_blank">Full text.<a>
