@@ -109,6 +109,10 @@ pre {
   z-index:2;
 }
 
+.pad{
+  padding:  1rem;
+}
+
 .center{
   position: relative;
   left: 50%;
