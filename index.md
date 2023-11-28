@@ -3,8 +3,8 @@ layout: homepage
 title: Conner Dailey
 ---
 
-Check out the side panel at the top left for information and content.
-{: class="message note" }
+**Check out the side panel at the top left for information and content.**
+
 
 ## About me
 

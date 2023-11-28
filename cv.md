@@ -20,7 +20,7 @@ ___
         August 2020 - Present
     </span>
 </p><p style="text-align:left;">
-    Advisor: Dr. Niayesh Afshordi, Dr. Erik Schnetter
+    Advisors: Dr. Niayesh Afshordi, Dr. Erik Schnetter
 </p>
 
 <strong>Master of Science in Physics</strong>
@@ -136,7 +136,9 @@ ___
     </span>
 </p>
 Vancouver, British Columbia, Canada
+
 Type:  Poster Presentation 
+
 Title:  "Reflecting boundary conditions in numerical relativity as a model for black hole echoes"  
 
 
