@@ -10,6 +10,8 @@ title: Conner Dailey
 
 I am a physics graduate student, some of my current interests include:
 
+
+<img align="right" src="icons/Conner Dailey web.jpg" width="50%"/>
 * **Strong Gravity**
   * special and general relativity
   * numerical methods for solving Einstein's equations
