@@ -3,7 +3,7 @@ layout: homepage
 title: Conner Dailey
 ---
 
-**Check out the side panel at the top left for information and content.**
+**Check out the side panel at the top left for more content**
 
 
 ## About me
@@ -24,4 +24,4 @@ I am a physics graduate student, some of my current interests include:
 
 ## Short History
 
-I studied at the University of Nevada, Reno under Dr. Andrei Derevianko and with the GPS.DM Collaboration. As an undergraduate I contributed to a search for dark matter using GPS. I completed my Master's degree with the same group, where I researched new ways to use GPS for astrophysics applications. Our novel concept involves correlating bursts of exotic fields sourced from high-energy astrophysical events such as the LIGO gravitational wave events. I currently study at the Univerrsity of Waterloo, with residency at the Perimeter Institute for Theoretical Physics, where I work with the Strong Gravity group along with my advisors Niayesh Afshordi and Erik Schnetter.
+I studied at the University of Nevada, Reno under Dr. Andrei Derevianko and with the GPS.DM Collaboration. As an undergraduate I contributed to a search for dark matter using GPS. I completed my Master's degree with the same group, where I researched new ways to use GPS for astrophysics applications. Our novel concept involves correlating bursts of exotic fields sourced from high-energy astrophysical events such as the merger of binary black holes. I currently study at the University of Waterloo, with residency at the Perimeter Institute for Theoretical Physics, where I work with the Strong Gravity group along with my advisors Niayesh Afshordi and Erik Schnetter.
