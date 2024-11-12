@@ -17,7 +17,7 @@ ___
 <p style="text-align:left;">
     University of Waterloo, Perimeter Institute
     <span style="float:right;">
-        August 2020 - Present
+        August 2020 - December 2024
     </span>
 </p><p style="text-align:left;">
     Advisors: Dr. Niayesh Afshordi, Dr. Erik Schnetter
