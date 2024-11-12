@@ -5,7 +5,7 @@ mathjax: true
 ---
 ___
 
-Download the full PDF [here](\CV\Curriculum_Vitae_November_2023-1.pdf).  
+Download the full PDF [here](\CV\Curriculum_Vitae_November_2024.pdf).  
 
 ___
 
