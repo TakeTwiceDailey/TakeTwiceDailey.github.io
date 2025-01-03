@@ -4,7 +4,7 @@ title: Reflecting boundary conditions in numerical relativity as a model for bla
 shortinfo: In this paper we implement a reflecting surface outside of a black hole in an effort to model black hole echoes.
 abstract: Recently, there has been much interest in black hole echoes, based on the idea that there may be some mechanism (e.g., from quantum gravity) that waves/fields falling into a black hole could partially reflect off of an interface before reaching the horizon. There does not seem to be a good understanding of how to properly model a reflecting surface in numerical relativity, as the vast majority of the literature avoids the implementation of artificial boundaries, or applies transmitting boundary conditions. Here, we present a framework for reflecting a scalar field in a fully dynamical spherically symmetric spacetime, and implement it numerically. We study the evolution of a wave packet in this situation and its numerical convergence, including when the location of a reflecting boundary is very close to the horizon of a black hole. This opens the door to model exotic near-horizon physics within full numerical relativity.
 authors: Conner Dailey, Niayesh Afshordi, Erik Schnetter
-link: https://arxiv.org/abs/2301.05778
+link: https://iopscience.iop.org/article/10.1088/1361-6382/acde2f
 mathjax: true
 ---
 
