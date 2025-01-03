@@ -5,7 +5,23 @@ mathjax: true
 ---
 ___
 
-Download the full PDF [here](\CV\Curriculum_Vitae_November_2024.pdf).  
+Download the full PDF [here](\CV\Curriculum_Vitae_January_2025.pdf).  
+
+___
+
+## Employment
+
+___
+
+<strong>Postdoctoral Researcher</strong>
+<p style="text-align:left;">
+    Friedrich Schiller University Jena, Institute for Theoretical Physics
+    <span style="float:right;">
+        Feburary 2025 - Present
+    </span>
+</p><p style="text-align:left;">
+    Advisors: Dr. Bernd Bruegmann
+</p>
 
 ___
 
@@ -56,6 +72,9 @@ ___
 
 ___
 
+* C. Dailey, E. Schnetter, N. Afshordi, "Formulating the complete initial boundary value problem in numerical relativity to model black hole echoes." *Classical and Quantum Gravity*, 42(2):025002 (2024).
+<a href="https://iopscience.iop.org/article/10.1088/1361-6382/ad9701" target="\_blank">Full text.<a>
+
 * C. Dailey, N. Afshordi, E. Schnetter, "Reflecting boundary conditions in numerical relativity as a model for black hole echoes." *Classical and Quantum Gravity*, 40(19):195007 (2023).
 <a href="https://iopscience.iop.org/article/10.1088/1361-6382/acde2f" target="\_blank">Full text.<a>
 
@@ -81,7 +100,7 @@ matter signatures with networks of precision measurement devices using a Bayesia
 * S. Heck, A. Gatton, K. A. Larsen, W. Iskandar, *et. al.* "Symmetry  breaking  in  the  body-fixed  electron  emission  pattern  due to electron-retroaction in the photodissociation of $$\mathrm{H}^{+2}$$ and $$\mathrm{D}^{+2}$$ close to threshold". *Physical Review Research*, 1:033140 (2019).
 <a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.1.033140" target="\_blank">Full text.<a>
 
-___
+<!-- ___
 
 ## Professional Research Experience
 
@@ -185,13 +204,21 @@ Strong Gravity Group, Perimeter Institute
 
 The Global Positioning System as a Dark Matter observatory (GPS.DM)
 
-The Global Network of Optical Magnetometers for Exotic physics (GNOME)
+The Global Network of Optical Magnetometers for Exotic physics (GNOME) -->
 
 ____
 
 ## Honors and Awards
 
 ____
+
+<p style="text-align:left;">
+    <strong>Canadian Association of Physicists Inaugural
+Problem Competition winner</strong>
+    <span style="float:right;">
+        2020
+    </span>
+</p>
 
 <p style="text-align:left;">
     <strong>UNR College of Science Dean’s List</strong>
@@ -204,6 +231,13 @@ ____
     <strong>Nevada Undergraduate Research Award</strong>
     <span style="float:right;">
        2016
+    </span>
+</p>
+
+<p style="text-align:left;">
+    <strong>Eagle Scout</strong>
+    <span style="float:right;">
+        2014
     </span>
 </p>
 
@@ -221,23 +255,51 @@ ____
 ____
 
 <p style="text-align:left;">
+    <strong>PI Residency Grad Scholarship</strong>
+    <span style="float:right;">
+        2022-2024
+    </span>
+</p>
+
+<p style="text-align:left;">
+    <strong>McDonald HQP Pooled Resources Scholarship</strong>
+    <span style="float:right;">
+        2022-2024
+    </span>
+</p>
+
+<p style="text-align:left;">
+    <strong>International Doctoral Student Award</strong>
+    <span style="float:right;">
+        2020-2023
+    </span>
+</p>
+
+<p style="text-align:left;">
+    <strong>Marie Curie Graduate Award</strong>
+    <span style="float:right;">
+        2020-2021
+    </span>
+</p>
+
+<p style="text-align:left;">
     <strong>Governor Guinn Millennium Scholarship</strong>
     <span style="float:right;">
-        2014, 2015, 2016, 2017
+        2014-2017
     </span>
 </p>
 
 <p style="text-align:left;">
     <strong>TMCC/UNR Thompson Scholarship</strong>
     <span style="float:right;">
-       2014, 2015
+       2014-2015
     </span>
 </p>
 
 <p style="text-align:left;">
     <strong>ASUN Academic Scholarship</strong>
     <span style="float:right;">
-        2015, 2016
+        2015-2016
     </span>
 </p>
 
