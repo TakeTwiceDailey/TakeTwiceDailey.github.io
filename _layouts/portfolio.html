@@ -5,19 +5,9 @@
 
   <body class="theme-base-0d">
 
-    {% include sidebar.html %}
     {% include mathjax.html %}
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
-      <div class="masthead">
-        <div class="container center" style="background-color: inherit; border: none; box-shadow:none;">
-          <h2 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
-          </h2>
-        </div>
-      </div>
+      {% include header.html %}
 
       <div class="container content fade-in center">
           {{ content }}
@@ -28,86 +18,16 @@
       <br>
 
       <div class="gallery fade-in">
-        <div class="row">
-          <div class="column" style="margin-left: 1%">
-            <a href="/photos/A7R05931L.jpg"><img src="/photos/thumbnails/A7R05931.jpg" width="600" height="400" loading="lazy"
-              alt="Crystal clear water of Lake Tahoe, Nevada." title="Crystal clear water of Lake Tahoe, Nevada."></a>
-            <a href="/photos/A7R00940p.jpg"><img src="/photos/thumbnails/A7R00940.jpg" width="400" height="600" loading="lazy"
-              alt="Part of an engagement shoot for good friends of mine." title="Part of an engagement shoot for good friends of mine."></a>
-            <a href="/photos/A7R01512L.jpg"><img src="/photos/thumbnails/A7R01512.jpg" width="600" height="480" loading="lazy"
-              alt="Gothic style cathedral in Wiesbaden, Germany." title="Gothic style cathedral in Wiesbaden, Germany."></a>
-            <a href="/photos/A7R09668p.jpg"><img src="/photos/thumbnails/A7R09668.jpg" width="400" height="600" loading="lazy"
-              alt="The Mainzer Dom cathedral, Mainz, Germany." title="The Mainzer Dom cathedral, Mainz, Germany."></a>
-            <a href="/photos/A7R04905p.jpg"><img src="/photos/thumbnails/A7R04905.jpg" width="400" height="600" loading="lazy"
-              alt="Tiger swallowtail butterfly near Lake Tahoe." title="Tiger swallowtail butterfly near Lake Tahoe."></a>
-            <a href="/photos/A7R05961p.jpg"><img src="/photos/thumbnails/A7R05961.jpg" width="400" height="600" loading="lazy"
-              alt="Pines and waters of Lake Tahoe." title="Pines and waters of Lake Tahoe."></a>
-            <a href="/photos/A7R04753p.jpg"><img src="/photos/thumbnails/A7R04753.jpg" width="400" height="600" loading="lazy"
-              alt="Crescent moon through clouds at sunset." title="Crescent moon through clouds at sunset."></a>
-            <a href="/photos/A7R04792L.jpg"><img src="/photos/thumbnails/A7R04792.jpg" width="600" height="400" loading="lazy"
-              alt="The Eagle nebula." title="The Eagle nebula."></a>
-          </div>
-          <div class="column">
-            <a href="/photos/A7R06481p.jpg"><img src="/photos/thumbnails/A7R06481.jpg" width="400" height="600" loading="lazy"
-              alt="Sunset over Bodega Bay, California." title="Sunset over Bodega Bay, California."></a>
-            <a href="/photos/A7R04388L.jpg"><img src="/photos/thumbnails/A7R04388.jpg" width="600" height="400" loading="lazy"
-              alt="Snowy Egret on the beach in Saint Augustine, Florida." title="Snowy Egret on the beach in Saint Augustine, Florida."></a>
-            <a href="/photos/A7R05092p.jpg"><img src="/photos/thumbnails/A7R05092.jpg" width="400" height="600" loading="lazy"
-              alt="Red-winged Blackbird, Nevada." title="Red-winged Blackbird, Nevada."></a>
-            <a href="/photos/A7R04447L.jpg"><img src="/photos/thumbnails/A7R04447.jpg" width="600" height="400" loading="lazy"
-              alt="Shell gradient, Florida beach." title="Shell gradient, Florida beach."></a>
-            <a href="/photos/A7R05245p.jpg"><img src="/photos/thumbnails/A7R05245.jpg" width="400" height="500" loading="lazy"
-              alt="Swan in Manzanita Lake, University of Nevada, Reno." title="Swan in Manzanita Lake, University of Nevada, Reno."></a>
-            <a href="/photos/A7R05247p.jpg"><img src="/photos/thumbnails/A7R05247.jpg" width="400" height="600" loading="lazy"
-              alt="Swan in Manzanita Lake, University of Nevada, Reno." title="Swan in Manzanita Lake, University of Nevada, Reno."></a>
-            <a href="/photos/A7R04466L.jpg"><img src="/photos/thumbnails/A7R04466.jpg" width="600" height="400" loading="lazy"
-              alt="Brown anole lizard, Florida" title="Brown anole lizard, Florida"></a>
-            <a href="/photos/A7R05775p.jpg"><img src="/photos/thumbnails/A7R05775.jpg" width="400" height="600" loading="lazy"
-              alt="Yellow lily, gardens at the University of Nevada, Reno." title="Yellow lily, gardens at the University of Nevada, Reno."></a>
-          </div>
-          <div class="column">
-            <a href="/photos/A7R06594L.jpg"><img src="/photos/thumbnails/A7R06594.jpg" width="600" height="400" loading="lazy"
-              alt="The Rainbow bridge, Donner, California." title="The Rainbow bridge, Donner, California."></a>
-            <a href="/photos/A7R04928p.jpg"><img src="/photos/thumbnails/A7R04928.jpg" width="400" height="600" loading="lazy"
-              alt="Twelve-spotted skimmer dragonfly, Tahoe area." title="Twelve-spotted skimmer dragonfly, Tahoe area."></a>
-            <a href="/photos/A7R06074p.jpg"><img src="/photos/thumbnails/A7R06074.jpg" width="400" height="600" loading="lazy"
-              alt="Flame skimmer dragonfly, Fresno, California." title="Flame skimmer dragonfly, Fresno, California."></a>
-            <a href="/photos/A7R06250p.jpg"><img src="/photos/thumbnails/A7R06250.jpg" width="400" height="600" loading="lazy"
-              alt="Red berries, University of Nevada, Reno." title="Red berries, University of Nevada, Reno."></a>
-            <a href="/photos/A7R06365L.jpg"><img src="/photos/thumbnails/A7R06365.jpg" width="600" height="400" loading="lazy"
-              alt="Black tailed deer, Point Reyes National Seashore, California." title="Black tailed deer, Point Reyes National Seashore, California."></a>
-            <a href="/photos/A7R06252p.jpg"><img src="/photos/thumbnails/A7R06252.jpg" width="400" height="600" loading="lazy"
-              alt="Sequoia pines and a weirdo, Sequoia National Park." title="Sequoia pines and a weirdo, Sequoia National Park."></a>
-            <a href="/photos/A7R06393L.jpg"><img src="/photos/thumbnails/A7R06393.jpg" width="600" height="400" loading="lazy"
-              alt="Elephant seals, Point Reyes National Seashore, California." title="Elephant seals, Point Reyes National Seashore, California."></a>
-            <a href="/photos/A7R04960p.jpg"><img src="/photos/thumbnails/A7R04960.jpg" width="400" height="600" loading="lazy"
-              alt="Fun in the water, Truckee river, Reno" title="Fun in the water, Truckee river, Reno"></a>
-          </div>
-          <div class="column" style="margin-right: 1%">
-            <a href="/photos/A7R08655p.jpg"><img src="/photos/thumbnails/A7R08655.jpg" width="400" height="600" loading="lazy"
-              alt="Milky Way, San Pedro de Atacama, Chile." title="Milky Way, San Pedro de Atacama, Chile."></a>
-            <a href="/photos/A7R07234p.jpg"><img src="/photos/thumbnails/A7R07234.jpg" width="400" height="600" loading="lazy"
-              alt="Waterfalls, Pine Flat Lake, California." title="Waterfalls, Pine Flat Lake, California."></a>
-            <a href="/photos/A7R08303p.jpg"><img src="/photos/thumbnails/A7R08303.jpg" width="480" height="600" loading="lazy"
-              alt="Total solar eclipse, La Serena, Chile." title="Total solar eclipse, La Serena, Chile."></a>
-            <a href="/photos/A7R08485L.jpg"><img src="/photos/thumbnails/A7R08485.jpg" width="600" height="400" loading="lazy"
-              alt="Valley of the Moon, Atacama Desert, Chile." title="Valley of the Moon, Atacama Desert, Chile."></a>
-            <a href="/photos/A7R08488p.jpg"><img src="/photos/thumbnails/A7R08488.jpg" width="400" height="600" loading="lazy"
-              alt="Salt flats, Atacama Desert, Chile." title="Salt flats, Atacama Desert, Chile."></a>
-            <a href="/photos/A7R07193p.jpg"><img src="/photos/thumbnails/A7R07193.jpg" width="400" height="600" loading="lazy"
-              alt="Memorial for Sandy, Sanger, California" title="Memorial for Sandy, Sanger, California"></a>
-            <a href="/photos/A7R08658L.jpg"><img src="/photos/thumbnails/A7R08658.jpg" width="600" height="400" loading="lazy"
-              alt="Milky Way, San Pedro de Atacama, Chile." title="Milky Way, San Pedro de Atacama, Chile."></a>
-            <a href="/photos/A7R09617p.jpg"><img src="/photos/thumbnails/A7R09617.jpg" width="400" height="600" loading="lazy"
-              alt="Tiny frog, Camp Fleischmann, California" title="Tiny frog, Camp Fleischmann, California"></a>
-          </div>
-        </div>
+        {% for photo in site.data.photos %}
+        <a href="{{ site.baseurl }}/photos/{{ photo.photo }}"><img src="{{ site.baseurl }}/photos/thumbnails/{{ photo.thumbnail }}"
+          width="{{ photo.width }}" height="{{ photo.height }}" loading="lazy"
+          alt="{{ photo.caption | escape }}" title="{{ photo.caption | escape }}"></a>
+        {% endfor %}
       </div>
 
       <br>
+      {% include footer.html %}
     </div>
-
-    <label for="sidebar-checkbox" class="sidebar-toggle" aria-label="Toggle menu"></label>
 
     <script src="{{ site.baseurl }}/public/js/site.js"></script>
     <script src="{{ site.baseurl }}/public/js/simple-lightbox.min.js"></script>

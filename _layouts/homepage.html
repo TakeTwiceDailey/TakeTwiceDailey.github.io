@@ -5,20 +5,10 @@
 
   <body class="theme-base-0d" style="position: relative">
 
-    {% include sidebar.html %}
-
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
 
-      <!-- <div class="masthead" style="background-color: inherit; border: none">
-        <div class="container" style="background-color: inherit; border: none">
-          <h2 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
-          </h2>
-        </div>
-      </div> -->
+      {% include header.html %}
+
       <div id="hex-strap" data-target="home-container" data-row-height="74.59" class="hex-group fade-in" style="animation-delay: 2.5s"></div>
 
       <div id="faces">
@@ -54,10 +44,9 @@
       </div>
 
       <br>
+      {% include footer.html %}
     </div>
     <br>
-
-    <label for="sidebar-checkbox" class="sidebar-toggle" aria-label="Toggle menu"></label>
 
     <script src="{{ site.baseurl }}/public/js/site.js"></script>
 

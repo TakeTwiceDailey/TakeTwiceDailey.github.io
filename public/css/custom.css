@@ -673,3 +673,112 @@ mjx-container[display="true"] {
   fill: currentColor;
   vertical-align: middle;
 }
+
+/* Curriculum Vitae page */
+.cv-entry {
+  margin-bottom: 1rem;
+}
+.cv-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 1rem;
+  margin-bottom: 0.4rem;
+}
+.cv-date {
+  white-space: nowrap;
+  margin-left: auto;
+}
+.cv-publications li {
+  margin-bottom: 0.75rem;
+}
+
+/* Site header with the main menu */
+.site-header {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+  padding: 1rem 2rem;
+  margin-bottom: 3rem;
+  border-bottom: 2px solid #cccccc;
+}
+.site-title {
+  font-family: var(--heading-font), serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--white);
+  text-shadow: 4px 4px 1px rgba(0,0,0,0.9);
+}
+.site-title:hover,
+.site-title:focus {
+  color: var(--white);
+  text-decoration: none;
+}
+.site-title small {
+  font-size: 62%;
+  font-weight: normal;
+  color: #c0c0c0;
+}
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+.site-nav a {
+  font-family: var(--heading-font), serif;
+  color: var(--main-font-color);
+  padding: 0.3rem 0.7rem;
+  border-radius: 4px;
+  border-bottom: 2px solid transparent;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--white);
+  background-color: rgba(255,255,255,0.08);
+  text-decoration: none;
+}
+.site-nav a.active {
+  color: var(--white);
+  border-bottom-color: var(--white);
+}
+@media (max-width: 700px) {
+  .site-header {
+    flex-direction: column;
+    padding: 0.75rem 1rem;
+    margin-bottom: 2rem;
+  }
+  .site-title small {
+    display: none;
+  }
+  .site-nav {
+    justify-content: center;
+  }
+  .site-nav a {
+    padding: 0.3rem 0.5rem;
+  }
+}
+
+/* Site footer with contact links */
+.site-footer {
+  position: relative;
+  z-index: 2;
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
+  font-size: 85%;
+  color: rgba(255,255,255,0.6);
+}
+.site-footer .social-icon {
+  color: var(--main-font-color);
+}
+.site-footer .social-icon:hover,
+.site-footer .social-icon:focus {
+  color: var(--white);
+}
+.site-footer p {
+  margin-bottom: 0;
+}

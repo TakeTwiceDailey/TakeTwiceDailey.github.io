@@ -1,21 +1,5 @@
 // Shared scripts for every page.
 
-// Close the sidebar when clicking anywhere outside it.
-(function () {
-  var toggle = document.querySelector('.sidebar-toggle');
-  var sidebar = document.querySelector('#sidebar');
-  var checkbox = document.querySelector('#sidebar-checkbox');
-  if (!toggle || !sidebar || !checkbox) return;
-
-  document.addEventListener('click', function (e) {
-    var target = e.target;
-    if (!checkbox.checked ||
-        sidebar.contains(target) ||
-        target === checkbox || target === toggle) return;
-    checkbox.checked = false;
-  }, false);
-})();
-
 // Fill the decorative hexagon strip so it is as tall as the content box.
 // The strip names its content box in data-target and its row height in data-row-height.
 (function () {

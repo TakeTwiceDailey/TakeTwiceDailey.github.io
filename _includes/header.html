@@ -1,0 +1,24 @@
+{% comment %} Site header with the main menu, shown on every page. {% endcomment %}
+{% if page.layout == "post" or page.url contains "/blog" or page.url contains "/tags" %}
+  {% assign current = "blog" %}
+{% elsif page.url contains "/research" %}
+  {% assign current = "research" %}
+{% elsif page.url contains "/cv" %}
+  {% assign current = "cv" %}
+{% elsif page.url contains "/photography" %}
+  {% assign current = "photography" %}
+{% elsif page.url == "/" %}
+  {% assign current = "home" %}
+{% else %}
+  {% assign current = "" %}
+{% endif %}
+<header class="site-header">
+  <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }} <small>{{ site.tagline }}</small></a>
+  <nav class="site-nav" aria-label="Main menu">
+    <a href="{{ site.baseurl }}/"{% if current == "home" %} class="active" aria-current="page"{% endif %}>Home</a>
+    <a href="{{ site.baseurl }}/cv/"{% if current == "cv" %} class="active" aria-current="page"{% endif %}>CV</a>
+    <a href="{{ site.baseurl }}/research/"{% if current == "research" %} class="active" aria-current="page"{% endif %}>Research</a>
+    <a href="{{ site.baseurl }}/photography/"{% if current == "photography" %} class="active" aria-current="page"{% endif %}>Photography</a>
+    <a href="{{ site.baseurl }}/blog/"{% if current == "blog" %} class="active" aria-current="page"{% endif %}>Blog</a>
+  </nav>
+</header>

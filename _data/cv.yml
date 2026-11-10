@@ -1,0 +1,139 @@
+# Content for the Curriculum Vitae page (cv.html).
+# This is a cut-down version of the full PDF CV in /CV/.
+# Edit the lists below; the page layout is handled by cv.html.
+# Math can be written with \( ... \).
+
+pdf: /CV/Curriculum_Vitae_January_2025.pdf
+
+employment:
+  - title: Postdoctoral Researcher
+    place: Friedrich Schiller University Jena, Institute for Theoretical Physics
+    dates: February 2025 - Present
+    advisor: "Supervisor: Dr. Bernd Brügmann"
+
+education:
+  - title: Doctor of Philosophy in Physics
+    place: University of Waterloo, Perimeter Institute
+    dates: August 2020 - December 2024
+    advisor: "Advisors: Dr. Niayesh Afshordi, Dr. Erik Schnetter"
+    thesis: On the initial boundary value problem in numerical relativity
+
+  - title: Master of Science in Physics
+    place: University of Nevada, Reno
+    dates: August 2017 - December 2019
+    advisor: "Advisor: Dr. Andrei Derevianko"
+    gpa: 3.845/4.00
+    thesis: Probing exotic fields with networks of atomic clocks
+
+  - title: Bachelor of Science in Physics
+    place: University of Nevada, Reno
+    dates: August 2014 - May 2017
+    advisor: "Advisor: Dr. Andrei Derevianko"
+    gpa: 3.827/4.00
+    note: "Minors: Astronomy and Mathematics"
+
+# Newest first.
+publications:
+  - authors: C. Dailey, E. Schnetter, N. Afshordi
+    title: Formulating the complete initial boundary value problem in numerical relativity to model black hole echoes
+    journal: Classical and Quantum Gravity
+    details: "42(2):025002"
+    year: 2024
+    link: https://iopscience.iop.org/article/10.1088/1361-6382/ad9701
+
+  - authors: Y. Li, R. Liu, C. Dailey, N. Afshordi
+    title: Detecting cosmological scalar fields using orbital networks of quantum sensors
+    journal: Physical Review D
+    details: "110:043028"
+    year: 2024
+    link: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.110.043028
+
+  - authors: C. Dailey, N. Afshordi, E. Schnetter
+    title: Reflecting boundary conditions in numerical relativity as a model for black hole echoes
+    journal: Classical and Quantum Gravity
+    details: "40(19):195007"
+    year: 2023
+    link: https://iopscience.iop.org/article/10.1088/1361-6382/acde2f
+
+  - authors: S. Afach, B. C. Buchler, D. Budker, C. Dailey, A. Derevianko, <em>et al.</em>
+    title: Search for topological defect dark matter with a global network of optical magnetometers
+    journal: Nature Physics
+    details: "17(12):1396–1401"
+    year: 2021
+    link: https://www.nature.com/articles/s41567-021-01393-y
+
+  - authors: C. Dailey, C. Bradley, D. F. Jackson Kimball, <em>et al.</em>
+    title: Quantum sensor networks as exotic field telescopes for multi-messenger astronomy
+    journal: Nature Astronomy
+    details: "5(2):150–158"
+    year: 2021
+    link: https://www.nature.com/articles/s41550-020-01242-7
+
+  - authors: C. Dailey
+    title: Probing exotic fields with networks of atomic clocks
+    journal: Master's thesis, University of Nevada, Reno
+    year: 2019
+    link: http://hdl.handle.net/11714/6029
+
+  - authors: S. Heck, A. Gatton, K. A. Larsen, W. Iskandar, <em>et al.</em>
+    title: Symmetry breaking in the body-fixed electron emission pattern due to electron-retroaction in the photodissociation of \(\mathrm{H}_2^+\) and \(\mathrm{D}_2^+\) close to threshold
+    journal: Physical Review Research
+    details: "1:033140"
+    year: 2019
+    link: https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.1.033140
+
+  - authors: E. Savalle, B. M. Roberts, F. Frank, P. Pottie, <em>et al.</em>
+    title: Novel approaches to dark-matter detection using space-time separated clocks
+    journal: arXiv:1902.07192
+    year: 2019
+    link: https://arxiv.org/abs/1902.07192
+
+  - authors: B. M. Roberts, G. Blewitt, C. Dailey, A. Derevianko
+    title: Search for transient ultralight dark matter signatures with networks of precision measurement devices using a Bayesian statistics method
+    journal: Physical Review D
+    details: "97:083009"
+    year: 2018
+    link: https://journals.aps.org/prd/abstract/10.1103/PhysRevD.97.083009
+
+  - authors: B. M. Roberts, G. Blewitt, C. Dailey, <em>et al.</em>
+    title: Search for domain wall dark matter with atomic clocks on board global positioning system satellites
+    journal: Nature Communications
+    details: "8:1195"
+    year: 2017
+    link: https://www.nature.com/articles/s41467-017-01440-4
+
+awards:
+  - name: Canadian Association of Physicists Inaugural Problem Competition winner
+    dates: "2020"
+  - name: UNR College of Science Dean’s List
+    dates: 2015, 2016, 2017, 2018
+  - name: Nevada Undergraduate Research Award
+    dates: "2016"
+  - name: Eagle Scout
+    dates: "2014"
+  - name: UNR Physics Exam Award
+    dates: "2013"
+
+scholarships:
+  - name: PI Residency Grad Scholarship
+    dates: 2022 - 2024
+  - name: McDonald HQP Pooled Resources Scholarship
+    dates: 2022 - 2024
+  - name: International Doctoral Student Award
+    dates: 2020 - 2023
+  - name: Marie Curie Graduate Award
+    dates: 2020 - 2021
+  - name: Governor Guinn Millennium Scholarship
+    dates: 2014 - 2017
+  - name: ASUN Academic Scholarship
+    dates: 2015 - 2016
+  - name: TMCC/UNR Thompson Scholarship
+    dates: 2014 - 2015
+
+skills:
+  - label: Computer Languages
+    text: Mathematica, Julia, C++, Python, HTML
+  - label: Software Tools
+    text: \(\mathrm{\LaTeX}\), Bash, Adobe Lightroom, MS Office, Visual Studio
+  - label: Subject Proficiencies
+    text: Special and general relativity, fundamental interactions, Bayesian statistics

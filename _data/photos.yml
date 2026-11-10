@@ -1,0 +1,199 @@
+# Photos shown on the Photography page, in display order.
+# To add a photo, run:  scripts/add-photo.sh path/to/photo.jpg "Caption"
+# That makes the web-sized copy and thumbnail and adds an entry here.
+#
+# photo:     full-size file in /photos/
+# thumbnail: small file in /photos/thumbnails/
+# width/height: thumbnail size in pixels (lets the page reserve space while it loads)
+
+- photo: A7R05931L.jpg
+  thumbnail: A7R05931.jpg
+  width: 600
+  height: 400
+  caption: "Crystal clear water of Lake Tahoe, Nevada."
+
+- photo: A7R00940p.jpg
+  thumbnail: A7R00940.jpg
+  width: 400
+  height: 600
+  caption: "Part of an engagement shoot for good friends of mine."
+
+- photo: A7R01512L.jpg
+  thumbnail: A7R01512.jpg
+  width: 600
+  height: 480
+  caption: "Gothic style cathedral in Wiesbaden, Germany."
+
+- photo: A7R09668p.jpg
+  thumbnail: A7R09668.jpg
+  width: 400
+  height: 600
+  caption: "The Mainzer Dom cathedral, Mainz, Germany."
+
+- photo: A7R04905p.jpg
+  thumbnail: A7R04905.jpg
+  width: 400
+  height: 600
+  caption: "Tiger swallowtail butterfly near Lake Tahoe."
+
+- photo: A7R05961p.jpg
+  thumbnail: A7R05961.jpg
+  width: 400
+  height: 600
+  caption: "Pines and waters of Lake Tahoe."
+
+- photo: A7R04753p.jpg
+  thumbnail: A7R04753.jpg
+  width: 400
+  height: 600
+  caption: "Crescent moon through clouds at sunset."
+
+- photo: A7R04792L.jpg
+  thumbnail: A7R04792.jpg
+  width: 600
+  height: 400
+  caption: "The Eagle nebula."
+
+- photo: A7R06481p.jpg
+  thumbnail: A7R06481.jpg
+  width: 400
+  height: 600
+  caption: "Sunset over Bodega Bay, California."
+
+- photo: A7R04388L.jpg
+  thumbnail: A7R04388.jpg
+  width: 600
+  height: 400
+  caption: "Snowy Egret on the beach in Saint Augustine, Florida."
+
+- photo: A7R05092p.jpg
+  thumbnail: A7R05092.jpg
+  width: 400
+  height: 600
+  caption: "Red-winged Blackbird, Nevada."
+
+- photo: A7R04447L.jpg
+  thumbnail: A7R04447.jpg
+  width: 600
+  height: 400
+  caption: "Shell gradient, Florida beach."
+
+- photo: A7R05245p.jpg
+  thumbnail: A7R05245.jpg
+  width: 400
+  height: 500
+  caption: "Swan in Manzanita Lake, University of Nevada, Reno."
+
+- photo: A7R05247p.jpg
+  thumbnail: A7R05247.jpg
+  width: 400
+  height: 600
+  caption: "Swan in Manzanita Lake, University of Nevada, Reno."
+
+- photo: A7R04466L.jpg
+  thumbnail: A7R04466.jpg
+  width: 600
+  height: 400
+  caption: "Brown anole lizard, Florida"
+
+- photo: A7R05775p.jpg
+  thumbnail: A7R05775.jpg
+  width: 400
+  height: 600
+  caption: "Yellow lily, gardens at the University of Nevada, Reno."
+
+- photo: A7R06594L.jpg
+  thumbnail: A7R06594.jpg
+  width: 600
+  height: 400
+  caption: "The Rainbow bridge, Donner, California."
+
+- photo: A7R04928p.jpg
+  thumbnail: A7R04928.jpg
+  width: 400
+  height: 600
+  caption: "Twelve-spotted skimmer dragonfly, Tahoe area."
+
+- photo: A7R06074p.jpg
+  thumbnail: A7R06074.jpg
+  width: 400
+  height: 600
+  caption: "Flame skimmer dragonfly, Fresno, California."
+
+- photo: A7R06250p.jpg
+  thumbnail: A7R06250.jpg
+  width: 400
+  height: 600
+  caption: "Red berries, University of Nevada, Reno."
+
+- photo: A7R06365L.jpg
+  thumbnail: A7R06365.jpg
+  width: 600
+  height: 400
+  caption: "Black tailed deer, Point Reyes National Seashore, California."
+
+- photo: A7R06252p.jpg
+  thumbnail: A7R06252.jpg
+  width: 400
+  height: 600
+  caption: "Sequoia pines and a weirdo, Sequoia National Park."
+
+- photo: A7R06393L.jpg
+  thumbnail: A7R06393.jpg
+  width: 600
+  height: 400
+  caption: "Elephant seals, Point Reyes National Seashore, California."
+
+- photo: A7R04960p.jpg
+  thumbnail: A7R04960.jpg
+  width: 400
+  height: 600
+  caption: "Fun in the water, Truckee river, Reno"
+
+- photo: A7R08655p.jpg
+  thumbnail: A7R08655.jpg
+  width: 400
+  height: 600
+  caption: "Milky Way, San Pedro de Atacama, Chile."
+
+- photo: A7R07234p.jpg
+  thumbnail: A7R07234.jpg
+  width: 400
+  height: 600
+  caption: "Waterfalls, Pine Flat Lake, California."
+
+- photo: A7R08303p.jpg
+  thumbnail: A7R08303.jpg
+  width: 480
+  height: 600
+  caption: "Total solar eclipse, La Serena, Chile."
+
+- photo: A7R08485L.jpg
+  thumbnail: A7R08485.jpg
+  width: 600
+  height: 400
+  caption: "Valley of the Moon, Atacama Desert, Chile."
+
+- photo: A7R08488p.jpg
+  thumbnail: A7R08488.jpg
+  width: 400
+  height: 600
+  caption: "Salt flats, Atacama Desert, Chile."
+
+- photo: A7R07193p.jpg
+  thumbnail: A7R07193.jpg
+  width: 400
+  height: 600
+  caption: "Memorial for Sandy, Sanger, California"
+
+- photo: A7R08658L.jpg
+  thumbnail: A7R08658.jpg
+  width: 600
+  height: 400
+  caption: "Milky Way, San Pedro de Atacama, Chile."
+
+- photo: A7R09617p.jpg
+  thumbnail: A7R09617.jpg
+  width: 400
+  height: 600
+  caption: "Tiny frog, Camp Fleischmann, California"

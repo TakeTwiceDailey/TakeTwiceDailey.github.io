@@ -162,9 +162,6 @@ It works with kramdown just fine, and uses the well-known $$\mathrm{\LaTeX}$$ ma
 To use it, as is recommended on their website, you include the following in the head of your HTML:
 
 ``` html
-<script
-src="https://polyfill.io/v3/polyfill.min.js?features=es6">
-</script>
 <script id="MathJax-script" async
 src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
@@ -176,12 +173,8 @@ This will ensure that your website will always use the latest version of MathJax
 In this blog, I decided to use a constant version, so that I don't have to deal with future versions changing the format as I like it, so I used the following instead:
 
 ``` html
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js">
 </script>
 ```
 {: style="font-size: 93%;"}
