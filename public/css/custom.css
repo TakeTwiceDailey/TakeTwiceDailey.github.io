@@ -414,6 +414,7 @@ content: '\00203c';
 }
 
 #faces{
+  position: relative; /* side faces are positioned relative to this box */
   height:470px;
 }
 
