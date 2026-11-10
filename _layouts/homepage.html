@@ -19,20 +19,20 @@
           </h2>
         </div>
       </div> -->
-      <div id="hex-strap" class="hex-group fade-in" style="animation-delay: 2.5s"></div>
+      <div id="hex-strap" data-target="home-container" data-row-height="74.59" class="hex-group fade-in" style="animation-delay: 2.5s"></div>
 
       <div id="faces">
 
         <div class="face center">
-          <img src="/icons/my_face/01ConnerFaceBWTrans1000.png">
+          <img src="/icons/my_face/01ConnerFaceBWTrans1000.webp" alt="Illustrated portrait of Conner Dailey">
         </div>
 
         <div id="id-1" class="center">
-          <img src="/icons/my_face/ConnerFaceSunset.png">
+          <img src="/icons/my_face/ConnerFaceSunset.webp" alt="" aria-hidden="true">
         </div>
 
         <div id="id-2" class="center">
-          <img src="/icons/my_face/ConnerFaceSpace.png">
+          <img src="/icons/my_face/ConnerFaceSpace.webp" alt="" aria-hidden="true">
         </div>
 
       </div>
@@ -57,50 +57,9 @@
     </div>
     <br>
 
-    <script>
-      var hexHeight = 1.7*43.87862;
-      var clientHeight = document.getElementById('home-container').clientHeight;
-      var node = document.getElementById('hex-strap');
+    <label for="sidebar-checkbox" class="sidebar-toggle" aria-label="Toggle menu"></label>
 
+    <script src="{{ site.baseurl }}/public/js/site.js"></script>
 
-      var i;
-      for(i = 0; i < (clientHeight/hexHeight); i++){
-        if(i%2 < 1){
-          var limit = 3;
-        } else{
-          var limit = 2;
-        }
-        var j;
-        for(j = 0; j < limit; j++){
-          var newNode = document.createElement('div');
-          newNode.setAttribute('class','hex');
-          node.appendChild(newNode);
-        }
-        var br = document.createElement('br');
-        node.appendChild(br);
-      }
-
-    </script>
-
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
-    <script>
-
-      (function(document) {
-        var toggle = document.querySelector('.sidebar-toggle');
-        var sidebar = document.querySelector('#sidebar');
-        var checkbox = document.querySelector('#sidebar-checkbox');
-
-        document.addEventListener('click', function(e) {
-          var target = e.target;
-
-          if(!checkbox.checked ||
-             sidebar.contains(target) ||
-             (target === checkbox || target === toggle)) return;
-
-          checkbox.checked = false;
-        }, false);
-      })(document);
-    </script>
   </body>
 </html>

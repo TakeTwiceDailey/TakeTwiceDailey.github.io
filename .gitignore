@@ -40,3 +40,13 @@ validation-report.json
 # Folders to ignore
 node_modules
 bower_components
+
+# Jekyll and Sass build caches
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+
+# Local Ruby setup
+Gemfile.lock
+vendor
+.bundle

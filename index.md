@@ -11,7 +11,7 @@ title: Conner Dailey
 I am a postdoctoral researcher studying relativity. Some of my current interests include:
 
 
-<img align="right" src="icons/Conner Dailey web.jpg" width="35%" class="pad"/>
+<img align="right" src="/icons/conner-dailey.jpg" alt="Photo of Conner Dailey" width="35%" class="pad"/>
 * **Strong Gravity**
   * special and general relativity
   * numerical methods for solving Einstein's equations

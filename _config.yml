@@ -1,10 +1,10 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge # changed from `pygments` as github says so
-gems:
-  - jekyll-compass
-
-plugins: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
@@ -35,3 +35,28 @@ author:
 collections:
    research:
      output: true
+
+# Used by jekyll-seo-tag for link previews and search engine data
+lang: en_US
+social:
+  name: Conner Dailey
+  links:
+    - https://github.com/TakeTwiceDailey
+    - https://www.linkedin.com/in/taketwicedailey
+    - https://instagram.com/taketwicedailey
+    - https://orcid.org/0000-0003-2488-3461
+    - https://scholar.google.com/citations?user=mPNwR5sAAAAJ
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /icons/conner-dailey.jpg
+
+# Files that should not be published as part of the site
+exclude:
+  - README.md
+  - LICENSE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

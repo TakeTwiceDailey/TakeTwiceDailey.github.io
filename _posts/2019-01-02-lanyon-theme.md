@@ -2,7 +2,7 @@
 layout: post
 title: Lanyon Theme for GitHub Pages
 tags: Blogging
-shortinfo: Lanyon is a website theme using Jekyll. It works beautifully with GitHub pages, and it places content first by tucking away navigation in a hidden drawer. It's based on Poole, the Jekyll butler.
+description: Lanyon is a website theme using Jekyll. It works beautifully with GitHub pages, and it places content first by tucking away navigation in a hidden drawer. It's based on Poole, the Jekyll butler.
 ---
 
 Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler. Best of all, it works well with [GitHub pages](https://pages.github.com/), so you don't need to pay a subscription to host your website.

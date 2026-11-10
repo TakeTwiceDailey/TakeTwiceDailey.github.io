@@ -19,9 +19,8 @@
         </div>
       </div>
 
-      <div id="hex-strap" class="hex-group fade-in" style="top: 150px; animation-delay: 0.8s">
+      <div id="hex-strap" data-target="page-container" data-row-height="71.74" class="hex-group fade-in" style="top: 150px; animation-delay: 0.8s">
       </div>
-
 
       <div id="page-container" class="container content fade-in off-center">
         {{ content }}
@@ -32,51 +31,9 @@
       <br>
     </div>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    <label for="sidebar-checkbox" class="sidebar-toggle" aria-label="Toggle menu"></label>
 
-    <script>
-      var hexHeight = 1.635*43.87862;
-      var clientHeight = document.getElementById('page-container').clientHeight;
-      var node = document.getElementById('hex-strap');
+    <script src="{{ site.baseurl }}/public/js/site.js"></script>
 
-
-      var i;
-      for(i = 0; i < (clientHeight/hexHeight); i++){
-        if(i%2 < 1){
-          var limit = 3;
-        } else{
-          var limit = 2;
-        }
-        var j;
-        for(j = 0; j < limit; j++){
-          var newNode = document.createElement('div');
-          newNode.setAttribute('class','hex');
-          node.appendChild(newNode);
-        }
-        var br = document.createElement('br');
-        node.appendChild(br);
-      }
-
-    </script>
-
-
-    <script>
-
-      (function(document) {
-        var toggle = document.querySelector('.sidebar-toggle');
-        var sidebar = document.querySelector('#sidebar');
-        var checkbox = document.querySelector('#sidebar-checkbox');
-
-        document.addEventListener('click', function(e) {
-          var target = e.target;
-
-          if(!checkbox.checked ||
-             sidebar.contains(target) ||
-             (target === checkbox || target === toggle)) return;
-
-          checkbox.checked = false;
-        }, false);
-      })(document);
-    </script>
   </body>
 </html>

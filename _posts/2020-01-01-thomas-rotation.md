@@ -2,7 +2,7 @@
 layout: post
 title: Thomas Rotation
 tags: Physics Relativity
-shortinfo: I have found special relativity to be a very interesting subject. One thing I had a hard time with was replacing my non-relativistic intuition. On a quest to fully understand relativistic dynamics, I came across a concept known as Thomas (or Wigner) rotation. This subject is very math intensive, but I will try to make it as accessible as possible.
+description: I have found special relativity to be a very interesting subject. One thing I had a hard time with was replacing my non-relativistic intuition. On a quest to fully understand relativistic dynamics, I came across a concept known as Thomas (or Wigner) rotation. This subject is very math intensive, but I will try to make it as accessible as possible.
 mathjax: true
 ---
 

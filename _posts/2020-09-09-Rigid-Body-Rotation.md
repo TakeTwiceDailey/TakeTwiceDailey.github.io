@@ -2,7 +2,7 @@
 layout: post
 title: Rigid Body Rotation
 tags: Physics Math PDEs
-shortinfo: A neat and easy physics experiment is to try to rotate a tennis racket head-over-handle. If you do, it won't do it in a stable manner, it will flip along other directions too. You can also try this with your smartphone (carefully). There is always an unstable rotation axis for non-symmetric objects, and this is why.
+description: A neat and easy physics experiment is to try to rotate a tennis racket head-over-handle. If you do, it won't do it in a stable manner, it will flip along other directions too. You can also try this with your smartphone (carefully). There is always an unstable rotation axis for non-symmetric objects, and this is why.
 mathjax: true
 published: true
 ---
@@ -73,7 +73,7 @@ $$\frac{d\vec L}{dt}=\left(\frac{dL}{dt}\right)\hat r + \left(\frac{d\phi}{dt}\r
 I will pick out just $d\phi/dt$ and $d\theta/dt$ for the plot. To ensure there is an intermediate axis, it is assumed that $I_x<I_y<I_z$. This defines the $y$-axis as the intermediate axis.
 
 
-![2D](/research_figures/PhasePlot.png){:class="center" width="500px"}
+![2D phase diagram of rigid body rotation in the (phi, theta) plane](/research_figures/PhasePlot.png){:class="center" width="500px"}
 
 The above figure is a phase diagram for rotating rigid bodies. Black dots and lines represent fixed points called centers. When the system starts near these points, the vector $\vec L$ will "orbit" around these points indefinitely, which is known as precession in rotational dynamics. The open circles represent unstable fixed points, where solution curves are repelled from being near for too long. I used Wolfram Mathematica to make this plot, and took $I_x=1$, $I_y=1.5$, $I_z=2$.
 
@@ -83,7 +83,7 @@ $$\frac{d \vec \omega}{dt} =I^{-1}\frac{d \vec L}{dt}\,.$$
 
 This allows for the projection of the vector field onto the Poinsot ellipsoid, the surface that the angular velocity vector $\vec\omega$ is constrained to move on, demonstrated below.
 
-![3D](/research_figures/3DPhaseDiagram.png){:class="center" width="600px"}
+![3D phase diagram of rigid body rotation on the angular momentum sphere](/research_figures/3DPhaseDiagram.png){:class="center" width="600px"}
 
 This is now a phase diagram for rigid body rotation in three dimensional angular velocity space. Black dots represent the center fixed points, while white dots represent the unstable fixed points on the intermediate axis. Generated with Wolfram Mathematica, with $I_x=1$, $I_y=1.5$, $I_z=2$.
 

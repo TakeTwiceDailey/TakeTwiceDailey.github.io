@@ -1,40 +1,51 @@
 <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta charset="utf-8">
 
-  <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <!-- Enable responsiveness on mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>
-    {% if page.title == "Home" %}
-      {{ site.title }} &middot; {{ site.tagline }}
-    {% else %}
-      {{ page.title }} &middot; {{ site.title }}
-    {% endif %}
-  </title>
+  <!-- Page title, description, link previews and search engine data (jekyll-seo-tag) -->
+  {% seo %}
+
+  {% if page.collection == "research" %}
+  <!-- Google Scholar citation data -->
+  <meta name="citation_title" content="{{ page.title | escape }}">
+  {% assign citation_authors = page.authors | replace: '&', '' | split: ',' %}
+  {% for author in citation_authors %}
+  <meta name="citation_author" content="{{ author | strip | escape }}">
+  {% endfor %}
+  <meta name="citation_publication_date" content="{% if page.year %}{{ page.year }}{% else %}{{ page.date | date: '%Y' }}{% endif %}">
+  {% if page.journal %}
+  <meta name="citation_journal_title" content="{{ page.journal | escape }}">
+  {% endif %}
+  {% if page.institution %}
+  <meta name="citation_dissertation_institution" content="{{ page.institution | escape }}">
+  {% endif %}
+  {% if page.abstract %}
+  <meta name="citation_abstract" content="{{ page.abstract | strip_html | escape }}">
+  {% endif %}
+  {% endif %}
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/screen.css" type="text/css">
-  <link rel='stylesheet' href="{{ site.baseurl }}/public/css/simplelightbox.css" type='text/css'>
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/screen.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/poole.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/syntax.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/lanyon.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/custom.css">
   {% if page.layout == "portfolio" %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/simplelightbox.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/gallery.css">
   {% endif %}
 
-
-  <!-- fonts -->
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png">
-  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+  <link rel="apple-touch-icon" sizes="144x144" href="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png">
+  <link rel="icon" href="{{ site.baseurl }}/public/favicon.ico">
 
   <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-
-
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
 </head>

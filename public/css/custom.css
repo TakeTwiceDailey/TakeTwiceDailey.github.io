@@ -658,3 +658,18 @@ mjx-container[display="true"] {
   overflow-y: hidden;
   padding: 2px 0;
 }
+
+/* Sidebar contact icons (inline SVGs, replacing Font Awesome) */
+.social-icon {
+  display: inline-block;
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 2.5em;
+  text-align: center;
+}
+.social-icon svg {
+  width: 1.35em;
+  height: 1.35em;
+  fill: currentColor;
+  vertical-align: middle;
+}
