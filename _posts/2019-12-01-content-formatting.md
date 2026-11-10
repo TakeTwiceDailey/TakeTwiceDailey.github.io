@@ -9,7 +9,7 @@ mathjax: true
 ## The default HTML and Markdown syntax
 ---
 
-Compared to other computer languages I know, <abbr title="HyperText Markup Langage">HTML</abbr> is incredibly bloated. For example, the tags used in HTML, say the body tag `<body>` needs an ending tag `</body>` once you are done filling out the content, and all of the style changes or other specificities are crammed into the parent tag. This has the effect of making HTML documents look ridiculously messy.
+Compared to other computer languages I know, <abbr title="HyperText Markup Language">HTML</abbr> is incredibly bloated. For example, the tags used in HTML, say the body tag `<body>` needs an ending tag `</body>` once you are done filling out the content, and all of the style changes or other specificities are crammed into the parent tag. This has the effect of making HTML documents look ridiculously messy.
 
 This is why web development seems to have split into three separate entities, HTML/Markdown, <abbr title="Cascading Style Sheets">CSS</abbr>, and JavaScript. HTML serves as the main language with which your browser translates the content to display on your screen. CSS serves as a separate file that contains all information regarding the styling and formatting of content, so that the programmer does not need to cram all of the style code into HTML tags. Javascript is there to take care of any more complicated functionality you may require to code by hand. Some genius (John Gruber) invented Markdown as a more user-friendly alternative to the main content specifications in HTML, translating from a more intuitive layout to raw HTML. Here is how you use some of the basic functions:
 
@@ -28,7 +28,7 @@ Markdown was never meant to be an exhaustive list of syntax re-mapping for HTML,
 |---------------------------|---------------------------------|
 | some<sup>superscript</sup>| `some<sup>superscript</sup>`    |
 | some<sub>subscript</sub>  | `some<sub>subscript</sub>`      |
-| <abbr title="HyperText Markup Langage">HTML</abbr> |`<abbr title="HyperText Markup Langage">HTML</abbr>`|
+| <abbr title="HyperText Markup Language">HTML</abbr> |`<abbr title="HyperText Markup Language">HTML</abbr>`|
 | <ins>insert<ins>          |`<ins>insert</ins>`               |
 
 ## Other Markdown syntax

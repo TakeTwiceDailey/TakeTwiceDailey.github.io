@@ -649,3 +649,12 @@ content: '\00203c';
     display: none;
   }
 }
+
+/* Let wide display equations scroll sideways on small screens instead of being cut off */
+mjx-container[display="true"] {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 2px 0;
+}

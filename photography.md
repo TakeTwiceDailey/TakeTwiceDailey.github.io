@@ -7,7 +7,7 @@ mathjax: true
 # My Photography
 
 Take a look at some of my favorite photos here, click to view the full size images. Check out my Instagram feed for more
-<a href="https://instagram.com/{{ site.author.instagram }}" target="\_blank">
+<a href="https://instagram.com/{{ site.author.instagram }}" target="_blank">
   @taketwicedailey.
 </a>
 
