@@ -3,37 +3,49 @@
 # Edit the lists below; the page layout is handled by cv.html.
 # Math can be written with \( ... \).
 
-pdf: /CV/Curriculum_Vitae_January_2025.pdf
+pdf: /CV/Curriculum_Vitae_July_2026.pdf
 
 employment:
-  - title: Postdoctoral Researcher
+  - title: Postdoctoral Researcher and High Performance Computing Specialist
     place: Friedrich Schiller University Jena, Institute for Theoretical Physics
-    dates: February 2025 - Present
-    advisor: "Supervisor: Dr. Bernd Brügmann"
+    dates: March 2025 - Present
+    advisor: "Supervisor: Bernd Brügmann"
 
 education:
   - title: Doctor of Philosophy in Physics
     place: University of Waterloo, Perimeter Institute
     dates: August 2020 - December 2024
-    advisor: "Advisors: Dr. Niayesh Afshordi, Dr. Erik Schnetter"
+    advisor: "Advisors: Niayesh Afshordi, Erik Schnetter"
     thesis: On the initial boundary value problem in numerical relativity
 
   - title: Master of Science in Physics
     place: University of Nevada, Reno
     dates: August 2017 - December 2019
-    advisor: "Advisor: Dr. Andrei Derevianko"
+    advisor: "Advisor: Andrei Derevianko"
     gpa: 3.845/4.00
     thesis: Probing exotic fields with networks of atomic clocks
 
   - title: Bachelor of Science in Physics
     place: University of Nevada, Reno
     dates: August 2014 - May 2017
-    advisor: "Advisor: Dr. Andrei Derevianko"
+    advisor: "Advisor: Andrei Derevianko"
     gpa: 3.827/4.00
     note: "Minors: Astronomy and Mathematics"
 
 # Newest first.
 publications:
+  - authors: C. Dailey
+    title: "Upwind embedded boundary SBP operators: New high order numerical schemes for arbitrarily shaped domains with Cartesian grids"
+    journal: arXiv:2607.14403
+    year: 2026
+    link: https://arxiv.org/abs/2607.14403
+
+  - authors: C. Dailey
+    title: On the initial boundary value problem in numerical relativity
+    journal: Ph.D. thesis, University of Waterloo
+    year: 2025
+    link: https://hdl.handle.net/10012/21422
+
   - authors: C. Dailey, E. Schnetter, N. Afshordi
     title: Formulating the complete initial boundary value problem in numerical relativity to model black hole echoes
     journal: Classical and Quantum Gravity
